@@ -1,7 +1,11 @@
 import React from 'react';
 
 function GroupWebsiteComponent() {
-  return <div>GroupWebsiteComponent</div>;
+  return (
+    <>
+   
+    </>
+  )
 }
 
-export default GroupWebsiteComponent;
+export default GroupWebsiteComponent;    
