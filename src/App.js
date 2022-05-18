@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path="/" component={Home} title="BigAbout" />
+        <Route path="/" element={<Home />} />
       </Routes>
 
       <FooterSection></FooterSection>
