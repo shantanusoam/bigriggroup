@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 import {
   FooterContainer,
@@ -12,9 +12,9 @@ import {
   FotterContactNo,
   FotterContactName,
   SocialMediaActionsContainer,
-  footerMobileContainer,
+  FooterMobileContainer,
   FotterHName,
-} from "./FooterSectionElements";
+} from './FooterSectionElements';
 
 const FooterSection = ({ isOpen, toggle }) => {
   return (
@@ -37,7 +37,7 @@ const FooterSection = ({ isOpen, toggle }) => {
             </SocialMediaActions>
           </SocialMediaActionsContainer> */}
       </FooterLogo>
-      <footerMobileContainer>
+      <FooterMobileContainer>
         <FotterNav>
           <FotterContact>
             <FotterContactlist>
@@ -89,7 +89,7 @@ const FooterSection = ({ isOpen, toggle }) => {
                 <FotterNavH>Products</FotterNavH>
                 <FotterNavH>Contact</FotterNavH> */}
         </FotterNav>
-      </footerMobileContainer>
+      </FooterMobileContainer>
 
       {/* <FotterSocialMedia>
             <SocialMediaActions>
