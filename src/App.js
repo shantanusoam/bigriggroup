@@ -15,7 +15,7 @@ function App() {
       </Routes>
       
       <ServicesSection/>
-      {/* <FooterSection></FooterSection> */}
+      <FooterSection></FooterSection>
     </Router>
   );
 }
