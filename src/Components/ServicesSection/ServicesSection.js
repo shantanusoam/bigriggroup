@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"; 
 import { ServiceComponentdata } from "../../data.js";
 
 export default function ServicesSection() {
