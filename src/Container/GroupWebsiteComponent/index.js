@@ -7,6 +7,7 @@ import TrailersLeasing from '../../assets/Images/TrailersLeasing.png';
 import TrailersLeasingLogo from '../../assets/Images/TrailersLeasingLogo.png';
 import TrailersLeasingIcon from '../../assets/Images/TrailerLeasingIcon.svg';
 import BgImage from '../../assets/Images/GroupWebsitesBackground.png';
+
 function GroupWebsiteComponent() {
   return (
     <>
@@ -34,21 +35,35 @@ function GroupWebsiteComponent() {
             <div class="md:7/12 lg:w-6/12 items-start ml-28">
               <div class="flex flex-row items-center mt-12 -ml-32 pl-6">
                 <img src={TrailersLeasingIcon} width="100" class="pr-8"></img>
-                <h2 class="text-2xl text-gray-900 font-semibold md:text-4xl ">
+                {/* <a
+                  href="#"
+                  
+                >
+                  <span class="link link-underline link-underline-black text-black">
+                    Hover to See the Effect
+                  </span>
+                </a> */}
+                <div class="font-display max-w-sm text-2xl font-bold leading-tight">
+                  <h2 class="text-3xl text-Heading font-semibold md:text-5xl link link-underline link-underline-black pb-8">
+                    Trailers & Leasing
+                  </h2>
+                </div>
+                {/* <h1 className="text-center text-black  2xl:text-5xl text-4xl pb-0  2xl:mt-28 xl:mt-28 mt-8 md:pb-3">
                   Trailers & Leasing
-                </h2>
+                  <div className="w-40 h-2  hover:w-10 transition duration-700 ease-in-out delay-150"></div>
+                </h1> */}
               </div>
-              <div class="lg:w-3/4">
-                <h2 class="mt-6 text-1xl text-gray-900 font-medium md:text-2xl ">
+              <div class="lg:w-3/4 mt-12">
+                <h2 class="mt-6 text-2xl text-Heading font-semibold md:text-subheading ">
                   Trucks
                 </h2>
-                <p class="mt-2 text-gray-600">
+                <p class="mt-2 text-Description font-desc text-desc ">
                   As a Vanguard authorized dealer, we offer a variety of dry
                   vans and refrigerated trailers and flatsbed and chessie.
                 </p>
               </div>
               <div class="lg:w-3/4">
-                <h2 class="mt-6 text-1xl text-gray-900 font-medium md:text-2xl ">
+                <h2 class="mt-6 text-1xl text-gray-900 font-semibold md:text-2xl ">
                   Trailers
                 </h2>
                 <p class="mt-2 text-gray-600">
@@ -57,6 +72,11 @@ function GroupWebsiteComponent() {
                   Fuel Economy, Enhanced Safety Features And Lead The Way In
                   Technological Advancements And Driver Comfort.
                 </p>
+              </div>
+              <div class>
+                <button className="text-white bg-yellow p-4 font-semibold  mt-8 rounded-md w-6/12 text-2xl flex items-center justify-center">
+                  Inventory
+                </button>
               </div>
             </div>
           </div>
