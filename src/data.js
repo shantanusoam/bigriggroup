@@ -1,108 +1,105 @@
 export const ServiceComponent = [
   {
-    Heading: "Our Services",
+    Heading: 'Our Services',
     Description:
-      "Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products.  ",
-    CTA: { heading: "CONTACT US", link: "contactus" },
+      'Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products.  ',
+    CTA: { heading: 'CONTACT US', link: 'contactus' },
     services: [
       {
         id: 1,
-        Logo: "",
-        Heading: "Trailers & Leasing",
+        Logo: '',
+        Heading: 'Trailers & Leasing',
         Para1:
-          "As a Vanguard Authorized dealer, We offer a variety of dry vans and refrigerated trailers and flatsbed and chessie",
+          'As a Vanguard Authorized dealer, We offer a variety of dry vans and refrigerated trailers and flatsbed and chessie',
       },
       {
         id: 2,
-        Logo: "",
-        Heading: "Partz",
+        Logo: '',
+        Heading: 'Partz',
         Para1:
-          "Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort",
+          'Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort',
       },
       {
         id: 3,
-        Logo: "",
-        Heading: "Tires & Services",
+        Logo: '',
+        Heading: 'Tires & Services',
         Para1:
-          "Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort.",
+          'Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort.',
       },
     ],
   },
 ];
 
-export const GroupWebsiteComponent = {
+export const GroupWebsiteComponentdata = [
   {
-    imageurl: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/GroupWebsitesBackground.png",
-    Logourl: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/TrailersLeasingLogo.png",
-    icon: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/TrailerLeasingIcon.svg",
-    heading: "Trailers & Leasing",
+    id: '1',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/TrailersLeasing.png',
+    Logourl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/TrailersLeasingLogo.png',
+    icon: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/TrailerLeasingIcon.svg',
+    heading: 'Trailers & Leasing',
     desc: [
       {
         head: `Trucks`,
-        desc: `As a Vanguard authorized dealer, we offer a variety of dry
+        desc1: `As a Vanguard authorized dealer, we offer a variety of dry
         vans and refrigerated trailers and flatsbed and chessie.`,
       },
       {
         head: `Trailers`,
-        desc: `Designed To Reduce Your Cost Of Ownership, Our Trucks Improved
+        desc1: `Designed To Reduce Your Cost Of Ownership, Our Trucks Improved
         Fuel Economy, Enhanced Safety Features And Lead The Way In
         Technological Advancements And Driver Comfort.`,
-      }
+      },
     ],
     cta: {
-      heading: "Inventory",
-      link: "Inventory",
-    }
+      heading: 'Inventory',
+      link: 'Inventory',
+    },
   },
   {
-    imageurl: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/GroupWebsitesBackground.png",
-    Logourl: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/TrailersLeasingLogo.png",
-    icon: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/TrailerLeasingIcon.svg",
-    heading: "Trailers & Leasing",
+    id: '2',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/Partz.png',
+    Logourl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigpartzlogo.png',
+    icon: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/partz.svg',
+    heading: 'Partz ',
     desc: [
       {
-        head: `Trucks`,
-        desc: `As a Vanguard authorized dealer, we offer a variety of dry
-        vans and refrigerated trailers and flatsbed and chessie.`,
+        head: `Heavy Duty Parts`,
+        desc1: `“New and independent” Heavy Duty Truck and Trader Parts Distributor. Creating a nationwide distribution chain by strategically placing Heavy Duty Parts Distribution Centers around the country to supply our customers needs.`,
+        desc2: `Our “Culturally Diverse” Parts Professionals around the country are able to assist and provide outstanding customer service and break through any language barrier.`,
       },
-      {
-        head: `Trailers`,
-        desc: `Designed To Reduce Your Cost Of Ownership, Our Trucks Improved
-        Fuel Economy, Enhanced Safety Features And Lead The Way In
-        Technological Advancements And Driver Comfort.`,
-      }
     ],
     cta: {
-      heading: "Inventory",
-      link: "Inventory",
-    }
-    comingsoon: true,
-  },
-  {
-    imageurl: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/GroupWebsitesBackground.png",
-    Logourl: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/TrailersLeasingLogo.png",
-    icon: "https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/TrailerLeasingIcon.svg",
-    heading: "Trailers & Leasing",
-    desc: [
-      {
-        head: `Trucks`,
-        desc: `As a Vanguard authorized dealer, we offer a variety of dry
-        vans and refrigerated trailers and flatsbed and chessie.`,
-      },
-      {
-        head: `Trailers`,
-        desc: `Designed To Reduce Your Cost Of Ownership, Our Trucks Improved
-        Fuel Economy, Enhanced Safety Features And Lead The Way In
-        Technological Advancements And Driver Comfort.`,
-      }
-    ],
-    cta: {
-      heading: "Inventory",
-      link: "Inventory",
+      heading: 'Inventory',
+      link: 'Inventory',
     },
     comingsoon: true,
-
   },
-
-
-}
+  {
+    id: '3',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtire.png',
+    Logourl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtirelogo.png',
+    icon: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtires.svg',
+    heading: 'Tires & Services',
+    desc: [
+      {
+        head: `Commercial Tires`,
+        desc1: `Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products. `,
+      },
+      {
+        head: `24/7  Road service`,
+        desc1: `Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products. `,
+      },
+    ],
+    cta: {
+      heading: 'Inventory',
+      link: 'Inventory',
+    },
+    comingsoon: true,
+  },
+];
