@@ -20,7 +20,7 @@ function GroupWebsiteComponent() {
               }
             >
               <motion.div
-                whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                whileInView={{ x: [-50, 0], opacity: [0, 1] }}
                 transition={{ duration: 1 }}
                 className="app__header-info"
               >
