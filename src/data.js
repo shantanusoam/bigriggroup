@@ -1,26 +1,26 @@
 export const ServiceComponentdata = [
   {
-    Heading: "Our Services",
-    Desc: "Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products.  ",
-    CTA: { heading: "CONTACT US", link: "contactus" },
+    Heading: 'Our Services',
+    Desc: 'Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products.  ',
+    CTA: { heading: 'CONTACT US', link: 'contactus' },
     services: [
       {
         id: 1,
-        Logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/truck1white.svg",
-        Heading: "Trailers & Leasing",
-        desc: "As a Vanguard Authorized dealer, We offer a variety of dry vans and refrigerated trailers and flatsbed and chessie",
+        Logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/truck1white.svg',
+        Heading: 'Trailers & Leasing',
+        desc: 'As a Vanguard Authorized dealer, We offer a variety of dry vans and refrigerated trailers and flatsbed and chessie',
       },
       {
         id: 2,
-        Logo: "http://127.0.0.1:5500/src/assets/Images/white2.svg",
-        Heading: "Partz",
-        desc: "Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort",
+        Logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/white2.svg',
+        Heading: 'Partz',
+        desc: 'Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort',
       },
       {
         id: 3,
-        Logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/white3.svg", 
-        Heading: "Tires & Services",
-        desc: "Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort.",
+        Logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/white3.svg',
+        Heading: 'Tires & Services',
+        desc: 'Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort.',
       },
     ],
   },
@@ -99,5 +99,3 @@ export const GroupWebsiteComponentdata = [
     comingsoon: true,
   },
 ];
-
-
