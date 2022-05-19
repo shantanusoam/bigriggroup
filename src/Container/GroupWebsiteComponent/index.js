@@ -28,7 +28,7 @@ function GroupWebsiteComponent() {
                 </div>
               ) : null}
 
-              <div className="md:7/12 lg:w-6/12 items-start ml-28">
+              <div className="md:7/12 lg:w-6/12 items-start ml-28 mt-12">
                 <div className="flex flex-row items-center mt-12 -ml-32 pl-6">
                   <img src={data.icon} width="100" className="pr-8"></img>
 
@@ -46,18 +46,23 @@ function GroupWebsiteComponent() {
                     <p className="mt-2 text-Description font-desc text-desc ">
                       {data.desc1}
                     </p>
+                    {data.desc2 ? (
+                      <p className="mt-12 text-Description font-desc text-desc ">
+                        {data.desc1}
+                      </p>
+                    ) : null}
                   </div>
                 ))}
                 {data.comingsoon ? (
                   <section className="centered-container">
                     <a className="link link--arrowed mt-6" href="#">
                       <div className="flex flex-row align-center justify-center">
-                        <h2 className="text-2xl text-Lightblue font-semibold md:text-subheading ">
+                        <h2 className="text-2xl text-Lightblue font-semibold md:text-subheading text-center pr-4">
                           Coming
                         </h2>
 
                         <svg
-                          className="arrow-icon"
+                          className="arrow-icon mt-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
                           height="32"
@@ -95,7 +100,7 @@ function GroupWebsiteComponent() {
               </div>
 
               {data.id % 2 === 0 ? (
-                <div className="md:5/12 lg:w-5/12">
+                <div className="md:5/12 lg:w-5/12 md:-ml-36">
                   <div className="relative">
                     <img
                       className={'w-full'}
