@@ -21,6 +21,12 @@ module.exports = {
       "Lightblue": "#006BC3",
       "white": "#F1F1F1",
     },
+
+    fontSize:{
+      'heading':'36px',
+      'sub-heading':'20px',
+      'desc':'18px'
+    }
   },
 };
   

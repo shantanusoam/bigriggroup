@@ -5,7 +5,7 @@ export default function ServicesSection() {
     <>
       <div id="maincontainer" className="bg-Lightblue" >
         <div id="firstmain">
-          <h1>Our Services</h1>
+          <h1 className="text-heading">Our Services</h1>
           <p>
             Kal Tires has 9 distribution centers, 4 service centers and
             nationwide 24/7 emergency road service. Exclusive with major tire
