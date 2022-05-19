@@ -1,5 +1,5 @@
 import React from "react";
-import './Fleight.css' 
+import './data.js' 
 
 export default function ServicesSection() {
   return (
@@ -8,9 +8,9 @@ export default function ServicesSection() {
         id="maincontainer"
         className="bg-Lightblue flex flex-col justify-between md:flex-row"
       >
-        <div id="firstmain" className="mt-40  xl:ml-60 ml-10 ">
+        <div id="firstmain" className="mt-48  xl:ml-60 ml-10 ">
           <div>
-            <h1 className="text-heading text-white font-heading ">
+            <h1 className="text-heading text-white font-heading "> 
               Our Services
             </h1>
             <p className="text-desc font-desc text-white w-2/3  ">
@@ -32,7 +32,7 @@ export default function ServicesSection() {
             <div className="mr-12 mt-16">
               <img
                 className="mr-10"
-                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/truck1white.svg"
+                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/truck1white.svg"  
                 alt=""
               />
             </div>
@@ -47,7 +47,7 @@ export default function ServicesSection() {
               </p>
             </div>
           </div>
-          <div id="innermain" className="flex justify-between mr-60 mt-6">
+          <div id="innermain" className="flex justify-between mr-60 mt-16">
             <div className="mr-12 mt-16">
               <img
                 className="mr-10"
@@ -61,12 +61,13 @@ export default function ServicesSection() {
                 Partz
               </h1>
               <p className="text-desc font-desc text-white w-96 mt-4">
-                As a Vanguard authorized dealer, we offer a variety of dry vans
-                and refrigerated trailers and flatsbed and chessie.
+                Designed To Reduce Your Cost Of Ownership, Our Trucks Improved
+                Fuel Economy, Enhanced Safety Features And Lead The Way In
+                Technological Advancements And Driver Comfort.
               </p>
             </div>
           </div>
-          <div id="innermain" className="flex justify-between mr-60 mt-6">
+          <div id="innermain" className="flex justify-between mr-60 mt-16">
             <div className="mr-12 mt-16">
               <img
                 className="mr-10   "
@@ -79,7 +80,7 @@ export default function ServicesSection() {
               <h1 className="text-white text-subheading font-sub-heading">
                 Tires & Services
               </h1>
-              <p className="text-desc font-desc text-white w-96 mt-4">
+              <p className="text-desc font-desc text-white w-96 mt-4 mb-16">
                 As a Vanguard authorized dealer, we offer a variety of dry vans
                 and refrigerated trailers and flatsbed and chessie.
               </p>
