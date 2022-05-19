@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
-
+import './simplefunction.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FooterSection from './Components/FooterSection';
@@ -15,7 +15,7 @@ function App() {
       </Routes>
 
       <ServicesSection />
-      <FooterSection></FooterSection>  
+      <FooterSection></FooterSection>
     </Router>
   );
 }
