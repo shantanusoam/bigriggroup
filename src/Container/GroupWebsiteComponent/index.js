@@ -11,22 +11,33 @@ function GroupWebsiteComponent() {
       >
         {GroupWebsiteComponentdata.map((data) => (
           <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6 my-11">
-            <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-start lg:gap-12">
-              {data.id % 2 !== 0 ? (
-                <div className="md:5/12 lg:w-5/12">
-                  <div className="relative">
-                    <img
-                      className={'w-full'}
-                      src={data.imageurl}
-                      alt="image"
-                      loading="lazy"
-                    />
-                    <div className="cursor-pointer absolute top-0 right-0  hover:shadow-outline drop-shadow-lg bg-white">
-                      <img src={data.Logourl} width="200" />
-                    </div>
+            <div
+              className={
+                data.id % 2 !== 0
+                  ? 'space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-start lg:gap-12'
+                  : 'space-y-6 md:space-y-0 md:flex md:flex-row-reverse flex-col-reverse md:justify-around  md:gap-6 lg:items-start lg:gap-12 '
+              }
+            >
+              <div
+                className="md:5/12 lg:w-5/12"
+                className={
+                  data.id % 2 !== 0
+                    ? 'md:5/12 lg:w-5/12"'
+                    : 'md:5/12 lg:w-5/12" md:-ml-32 pr-32'
+                }
+              >
+                <div className={data.id % 2 !== 0 ? 'relative' : 'relative'}>
+                  <img
+                    className={'w-full'}
+                    src={data.imageurl}
+                    alt="image"
+                    loading="lazy"
+                  />
+                  <div className="cursor-pointer absolute top-0 right-0  hover:shadow-outline drop-shadow-lg bg-white">
+                    <img src={data.Logourl} width="200" />
                   </div>
                 </div>
-              ) : null}
+              </div>
 
               <div className="md:7/12 lg:w-6/12 items-start ml-28 mt-12">
                 <div className="flex flex-row items-center mt-12 -ml-32 pl-6">
@@ -98,9 +109,8 @@ function GroupWebsiteComponent() {
                   </div>
                 )}
               </div>
-
-              {data.id % 2 === 0 ? (
-                <div className="md:5/12 lg:w-5/12 md:-ml-36">
+              {/* {data.id % 2 === 0 ? (
+                <div className="md:5/12 lg:w-5/12 ">
                   <div className="relative">
                     <img
                       className={'w-full'}
@@ -115,7 +125,7 @@ function GroupWebsiteComponent() {
                     </div>
                   </div>
                 </div>
-              ) : null}
+              ) : null} */}
             </div>
           </div>
         ))}
