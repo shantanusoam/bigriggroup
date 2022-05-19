@@ -19,20 +19,19 @@ function GroupWebsiteComponent() {
                   : 'space-y-6 md:space-y-0 md:flex md:flex-row-reverse flex-col-reverse md:justify-around  md:gap-6 lg:items-start lg:gap-12 '
               }
             >
-              <div
-                className="md:5/12 lg:w-5/12"
-                className={
-                  data.id % 2 !== 0
-                    ? 'md:5/12 lg:w-5/12"'
-                    : 'md:5/12 lg:w-5/12" md:-ml-32 pr-32'
-                }
+              <motion.div
+                whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                transition={{ duration: 1 }}
+                className="app__header-info"
               >
-                <motion.div
-                  whileInView={{ x: [-100, 0], opacity: [0, 1] }}
-                  transition={{ duration: 1 }}
-                  className="app__header-info"
+                <div
+                  className={
+                    data.id % 2 !== 0
+                      ? 'md:5/12 lg:w-5/12"'
+                      : 'md:5/12 lg:w-5/12" md:-ml-32 md:pr-32'
+                  }
                 >
-                  <div className={data.id % 2 !== 0 ? 'relative' : 'relative'}>
+                  <div className="relative">
                     <img
                       className={'w-full'}
                       src={data.imageurl}
@@ -43,12 +42,20 @@ function GroupWebsiteComponent() {
                       <img src={data.Logourl} width="200" />
                     </div>
                   </div>
-                </motion.div>
-              </div>
+                </div>
+              </motion.div>
 
               <div className="md:7/12 lg:w-6/12 items-start ml-28 mt-12">
                 <div className="flex flex-row items-center mt-12 -ml-32 pl-6">
-                  <img src={data.icon} width="100" className="pr-8"></img>
+                  <motion.img
+                    whileInView={{ scale: [0.5, 1] }}
+                    transition={{ duration: 0.2, ease: 'easeInOut' }}
+                    alt="profile_circle"
+                    //  className="overlay_circle"
+                    src={data.icon}
+                    width="100"
+                    className="pr-8"
+                  ></motion.img>
 
                   <div className="font-display max-w-sm text-2xl font-bold leading-tight">
                     <h2 className="text-3xl text-Heading font-semibold md:text-5xl link link-underline link-underline-black pb-8">
@@ -76,7 +83,7 @@ function GroupWebsiteComponent() {
                     <a className="link link--arrowed mt-6" href="#">
                       <div className="flex flex-row align-center justify-center">
                         <h2 className="text-2xl text-Lightblue font-semibold md:text-subheading text-center pr-4">
-                          Coming
+                          Coming soon
                         </h2>
 
                         <svg
