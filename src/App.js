@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FooterSection from './Components/FooterSection';
-import servicesSection from "./Components/ServicesSection/ServicesSection";
+import servicesSection from './Components/ServicesSection/ServicesSection';
 import ServicesSection from './Components/ServicesSection/ServicesSection';
 
 function App() {
@@ -13,9 +13,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
-      
-      <ServicesSection/>
-      {/* <FooterSection></FooterSection> */}
+
+      <ServicesSection />
+      <FooterSection></FooterSection>
     </Router>
   );
 }

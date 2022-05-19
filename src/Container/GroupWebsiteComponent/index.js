@@ -34,7 +34,7 @@ function GroupWebsiteComponent() {
                   Trailers & Leasing
                 </h2>
               </div>
-              <div>
+              <div class="lg:w-3/4">
                 <h2 class="mt-6 text-1xl text-gray-900 font-medium md:text-2xl ">
                   Trucks
                 </h2>
@@ -43,7 +43,7 @@ function GroupWebsiteComponent() {
                   vans and refrigerated trailers and flatsbed and chessie.
                 </p>
               </div>
-              <div>
+              <div class="lg:w-3/4">
                 <h2 class="mt-6 text-1xl text-gray-900 font-medium md:text-2xl ">
                   Trailers
                 </h2>
@@ -72,4 +72,4 @@ function GroupWebsiteComponent() {
   );
 }
 
-export default GroupWebsiteComponent;    
+export default GroupWebsiteComponent;
