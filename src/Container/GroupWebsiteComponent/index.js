@@ -1,5 +1,6 @@
 import React from 'react';
 import arrow from '../../assets/Images/arrow.svg';
+import { motion } from 'framer-motion';
 import BgImage from '../../assets/Images/GroupWebsitesBackground.png';
 import { GroupWebsiteComponentdata } from '../../data.js';
 function GroupWebsiteComponent() {
@@ -26,17 +27,23 @@ function GroupWebsiteComponent() {
                     : 'md:5/12 lg:w-5/12" md:-ml-32 pr-32'
                 }
               >
-                <div className={data.id % 2 !== 0 ? 'relative' : 'relative'}>
-                  <img
-                    className={'w-full'}
-                    src={data.imageurl}
-                    alt="image"
-                    loading="lazy"
-                  />
-                  <div className="cursor-pointer absolute top-0 right-0  hover:shadow-outline drop-shadow-lg bg-white">
-                    <img src={data.Logourl} width="200" />
+                <motion.div
+                  whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                  transition={{ duration: 1 }}
+                  className="app__header-info"
+                >
+                  <div className={data.id % 2 !== 0 ? 'relative' : 'relative'}>
+                    <img
+                      className={'w-full'}
+                      src={data.imageurl}
+                      alt="image"
+                      loading="lazy"
+                    />
+                    <div className="cursor-pointer absolute top-0 right-0  hover:shadow-outline drop-shadow-lg bg-white">
+                      <img src={data.Logourl} width="200" />
+                    </div>
                   </div>
-                </div>
+                </motion.div>
               </div>
 
               <div className="md:7/12 lg:w-6/12 items-start ml-28 mt-12">
