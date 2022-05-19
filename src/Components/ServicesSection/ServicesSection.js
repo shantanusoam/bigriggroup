@@ -1,17 +1,17 @@
-import React from "react";
+import React from 'react';
 
 export default function ServicesSection() {
   return (
     <>
-      <div id="maincontainer" className="bg-Lightblue" >
+      <div id="maincontainer" className="bg-Lightblue">
         <div id="firstmain">
-          <h1 className="text-heading text-white font-heading">Our Services</h1>
-          <p className="text-desc text-white font-desc w-80">
+          <h1 class="text-heading">Our Services</h1>
+          <p>
             Kal Tires has 9 distribution centers, 4 service centers and
             nationwide 24/7 emergency road service. Exclusive with major tire
             manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama,
             Double Coin, Pirelli and Hankook. We offer national account billing
-            for Goodyear, Cooper, Michelin, Yokohama and Hankook products.{" "} 
+            for Goodyear, Cooper, Michelin, Yokohama and Hankook products.{' '}
           </p>
           <button className="">CONTACT US</button>
         </div>

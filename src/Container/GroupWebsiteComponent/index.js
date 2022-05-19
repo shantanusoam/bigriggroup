@@ -6,10 +6,14 @@ import {
 import TrailersLeasing from '../../assets/Images/TrailersLeasing.png';
 import TrailersLeasingLogo from '../../assets/Images/TrailersLeasingLogo.png';
 import TrailersLeasingIcon from '../../assets/Images/TrailerLeasingIcon.svg';
+import BgImage from '../../assets/Images/GroupWebsitesBackground.png';
 function GroupWebsiteComponent() {
   return (
     <>
-      <div class="py-16 bg-white">
+      <div
+        class="py-16 bg-white "
+        style={{ backgroundImage: `url(${BgImage})` }}
+      >
         <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
           <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-start lg:gap-12">
             <div class="md:5/12 lg:w-5/12">
@@ -34,7 +38,7 @@ function GroupWebsiteComponent() {
                   Trailers & Leasing
                 </h2>
               </div>
-              <div>
+              <div class="lg:w-3/4">
                 <h2 class="mt-6 text-1xl text-gray-900 font-medium md:text-2xl ">
                   Trucks
                 </h2>
@@ -43,7 +47,7 @@ function GroupWebsiteComponent() {
                   vans and refrigerated trailers and flatsbed and chessie.
                 </p>
               </div>
-              <div>
+              <div class="lg:w-3/4">
                 <h2 class="mt-6 text-1xl text-gray-900 font-medium md:text-2xl ">
                   Trailers
                 </h2>
@@ -72,4 +76,4 @@ function GroupWebsiteComponent() {
   );
 }
 
-export default GroupWebsiteComponent;    
+export default GroupWebsiteComponent;
