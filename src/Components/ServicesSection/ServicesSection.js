@@ -13,7 +13,7 @@ export default function ServicesSection() {
             Double Coin, Pirelli and Hankook. We offer national account billing
             for Goodyear, Cooper, Michelin, Yokohama and Hankook products.{' '}
           </p>
-          <button>CONTACT US</button>
+          <button className="">CONTACT US</button>
         </div>
 
         <div id="Secondmain">
