@@ -15,9 +15,9 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-        heading: '36px',
-        subheading: '20px',
-        desc: '18px',
+        heading: '2.25rem',
+        subheading: '1.25rem',
+        desc: '1.1rem',
       },
       fontWeight: {
         heading: '600',
