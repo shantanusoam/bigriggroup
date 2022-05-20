@@ -26,7 +26,7 @@ export default function Roadservice() {
         </div>
 
         <img
-          className="md:-my-10"
+          className="md:-my-10" 
           src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/2017-freightliner-cascadia-accessories_0%201.svg"
           alt="truck"
         />
