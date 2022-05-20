@@ -100,9 +100,59 @@ export const GroupWebsiteComponentdata = [
   },
 ];
 
-const export BrandCompnentBrands = [
+export const BrandCompnentBrands = [
   {
     id: '1',
-    imageurl: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/goodyear.png',
-  }
-]
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Freightliner-logo.png',
+    heading: 'Freightliner',
+  },
+  {
+    id: '2',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Kenworth-logo.png',
+    heading: 'Kenworth',
+  },
+  {
+    id: '3',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Peterbilt-logo.png ',
+    heading: 'Peterbilt',
+  },
+  {
+    id: '4',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Vanguard-logo.png',
+    heading: 'Vanguard',
+  },
+  {
+    id: '5',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Wix_Filters-logo.png',
+    heading: 'Wix Filters',
+  },
+  {
+    id: '6',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/bendix-logo.png',
+    heading: 'Bendix',
+  },
+  {
+    id: '7',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Volvo-logo.png',
+    heading: 'Volvo',
+  },
+  {
+    id: '8',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/fleetguard-logo.png',
+    heading: 'Fleetguard',
+  },
+  {
+    id: '9',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/havco-logo.png',
+    heading: 'Havco',
+  },
+];
