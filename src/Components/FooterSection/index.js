@@ -1,5 +1,5 @@
 import React from 'react';
-
+// import logo from '../../images/logo.png';
 import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 import {
@@ -12,7 +12,7 @@ import {
   FotterContactNo,
   FotterContactName,
   SocialMediaActionsContainer,
-  FooterMobileContainer,
+  footerMobileContainer,
   FotterHName,
 } from './FooterSectionElements';
 
@@ -20,6 +20,16 @@ const FooterSection = ({ isOpen, toggle }) => {
   return (
     <FooterContainer id="Footertag">
       <FooterLogo>
+        <div className="mt-10">
+          {/* <div>
+            <img src={logo} alt="" />
+          </div> */}
+          <div>
+            <h1 className="pt-10 font-bold text-xl   text-white">
+              © KALWAY Inc, 2022 All rights reserved.
+            </h1>
+          </div>
+        </div>
         <FotterHName>Get in touch with us for your service</FotterHName>
 
         {/* <SocialMediaActionsContainer>
@@ -37,19 +47,19 @@ const FooterSection = ({ isOpen, toggle }) => {
             </SocialMediaActions>
           </SocialMediaActionsContainer> */}
       </FooterLogo>
-      <FooterMobileContainer>
+      <footerMobileContainer>
         <FotterNav>
           <FotterContact>
             <FotterContactlist>
               <FotterContactName> Help line Number</FotterContactName>
-              <FotterContactNo>(604) 864 3100</FotterContactNo>
+              <FotterContactNo>1-800-303-0076</FotterContactNo>
               {/* //todo */}
             </FotterContactlist>
           </FotterContact>
           <FotterContact>
             <FotterContactlist>
               <FotterContactName>Email</FotterContactName>
-              <FotterContactNo>trailers@bigrigcanada.com</FotterContactNo>
+              <FotterContactNo>info@KALWAY.com</FotterContactNo>
               {/* //todo */}
             </FotterContactlist>
           </FotterContact>
@@ -57,27 +67,20 @@ const FooterSection = ({ isOpen, toggle }) => {
           {/* <hr align="left" width="100%"></hr> */}
           <FotterContact>
             <FotterContactlist>
-              <FotterContactName>Canada</FotterContactName>
+              <FotterContactName>Address</FotterContactName>
               <FotterContactNo>
-                1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada
+                10156 Live Oak Ave, Fontana, CA 92335
               </FotterContactNo>
             </FotterContactlist>
           </FotterContact>
-          <FotterContact>
-            <FotterContactlist>
-              <FotterContactName>United State</FotterContactName>
-              <FotterContactNo>
-                California, Texas, Indiana, New jersey and North Caroline
-              </FotterContactNo>
-            </FotterContactlist>
-          </FotterContact>
+
           {/* <hr align="left" width="100%"></hr> */}
           <FotterContact>
             <FotterContactlist>
               <FotterContactName>We are open</FotterContactName>
-              <FotterContactNo>
-                Monday to Friday , 8:00 AM to 5:00 PM
-              </FotterContactNo>
+              <FotterContactNo>Monday - Friday 24Hrs</FotterContactNo>
+
+              <FotterContactNo>Saturday & Sunday 7AM -5PM</FotterContactNo>
             </FotterContactlist>
           </FotterContact>
           {/* <SocialMediaActions>
@@ -89,7 +92,7 @@ const FooterSection = ({ isOpen, toggle }) => {
                 <FotterNavH>Products</FotterNavH>
                 <FotterNavH>Contact</FotterNavH> */}
         </FotterNav>
-      </FooterMobileContainer>
+      </footerMobileContainer>
 
       {/* <FotterSocialMedia>
             <SocialMediaActions>

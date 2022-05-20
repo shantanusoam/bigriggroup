@@ -35,7 +35,12 @@ module.exports = {
         desc: 'Poppins',
       },
       colors: {
-        yellow: '#FFAB53',
+        yellow: {
+          bg: '#FFAB53',
+          text: '#fff',
+          shadow: '#CE9D6BC2',
+          shadowhover: '#FFAF5C',
+        },
         Heading: '#414141',
         Description: '#5E5B5B',
         Darkblue: '#22334C',
