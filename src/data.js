@@ -161,43 +161,43 @@ export const BigPArtzBrands = [
   {
     id: '1',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Freightliner-logo.png',
-    heading: 'Freightliner',
+      'https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/BigRigpartzSponsers/Armor-logo.png',
+    heading: 'Armor-logo',
   },
   {
     id: '2',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Kenworth-logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/bendix-logo.png ',
     heading: 'Kenworth',
   },
   {
     id: '3',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Peterbilt-logo.png ',
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/fleetguard-log.png',
     heading: 'Peterbilt',
   },
   {
     id: '4',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Vanguard-logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/new-holland-logo.png',
     heading: 'Vanguard',
   },
   {
     id: '5',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Wix_Filters-logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/sampa-logo.png',
     heading: 'Wix Filters',
   },
   {
     id: '6',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/bendix-logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/speed-demon-logo.png',
     heading: 'Bendix',
   },
   {
     id: '7',
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/Volvo-logo.png',
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/timken-logo.png',
     heading: 'Volvo',
   },
 ];
