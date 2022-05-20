@@ -2,19 +2,19 @@ import styled from 'styled-components';
 import { mobile, laptop } from '../../responsive';
 export const FooterContainer = styled.div`
   background: radial-gradient(
-    circle at 100% 110%,
-    #3a99e8,
-    #3393de,
-    #2d8ed3,
-    #2788c9,
-    #2282be,
-    #1d7cb4,
-    #1877a9,
-    #14719f,
-    #106b94,
-    #0c658a,
-    #095e7f,
-    #065875
+    circle at 120% 120%,
+    #2c9bf5,
+    #2397f6,
+    #1a93f6,
+    #108ff7,
+    #078cf7,
+    #0687f0,
+    #0582e9,
+    #047ee1,
+    #0379da,
+    #0274d2,
+    #0170cb,
+    #006bc3
   );
   display: flex;
   flex-direction: row;

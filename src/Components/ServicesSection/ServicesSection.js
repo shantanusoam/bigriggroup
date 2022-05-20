@@ -1,10 +1,10 @@
-import React from "react"; 
-import { ServiceComponentdata } from "../../data.js";
+import React from 'react';
+import { ServiceComponentdata } from '../../data.js';
 
 export default function ServicesSection() {
   var dataservice = ServiceComponentdata[0];
-  console.log(dataservice);  
-  return ( 
+  console.log(dataservice);
+  return (
     <>
       <div
         id="maincontainer"
@@ -18,13 +18,13 @@ export default function ServicesSection() {
             <p className="text-desc font-desc text-white w-2/3  ">
               {dataservice.Desc}
             </p>
-            <button className="text-white bg-yellow rounded p-4 w-44 mt-8">
-              {dataservice.CTA.heading}  
+            <button className="text-white bg-yellow-bg rounded p-4 w-44 mt-8">
+              {dataservice.CTA.heading}
             </button>
           </div>
         </div>
- 
-        <div id="Secondmain" className=" mt-24 pb-8 xl:ml-0 ml-10 w-1/2"> 
+
+        <div id="Secondmain" className=" mt-24 pb-8 xl:ml-0 ml-10 w-1/2">
           {dataservice.services.map((service) => (
             <div
               id="innermain"
@@ -45,10 +45,8 @@ export default function ServicesSection() {
               </div>
             </div>
           ))}
-         
         </div>
       </div>
     </>
   );
 }
-

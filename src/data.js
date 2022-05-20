@@ -100,3 +100,9 @@ export const GroupWebsiteComponentdata = [
   },
 ];
 
+const export BrandCompnentBrands = [
+  {
+    id: '1',
+    imageurl: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/goodyear.png',
+  }
+]
