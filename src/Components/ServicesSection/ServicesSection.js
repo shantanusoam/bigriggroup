@@ -19,8 +19,7 @@ export default function ServicesSection() {
               {dataservice.Desc}
             </p>
             <button className="text-white bg-yellow rounded p-4 w-44 mt-8">
-              {dataservice.CTA.heading} 
-            
+              {dataservice.CTA.heading}  
             </button>
           </div>
         </div>
