@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FooterSection from './Components/FooterSection';
 import Navbar from './Components/Navbar';
-
+import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent';
 function App() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -16,7 +16,7 @@ function App() {
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/parts" element={<CommmingSoonComponentindex />} />
+        <Route path="/parts" element={<CommmingSoonComponentindex></CommmingSoonComponentindex>} />
       </Routes>
 
       <FooterSection></FooterSection>

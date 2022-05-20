@@ -4,6 +4,7 @@ import GroupWebsitesSection from '../../Components/GroupWebsitesSection/GroupWeb
 import HeroSection from '../../Components/HeaderHome';
 import Roadservice from '../../Components/RoadServiceComponent/Roadservice';
 import ServicesSection from '../../Components/ServicesSection/ServicesSection';
+import Coming from '../../Components/ComingSuncomponent/Coming';
 function Home() {
   return (
     <>
@@ -12,6 +13,7 @@ function Home() {
       <Roadservice />
       <BrandComponent></BrandComponent>
       <ServicesSection />
+      <Coming/> 
     </>
   );
 }
