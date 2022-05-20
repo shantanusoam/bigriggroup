@@ -6,7 +6,10 @@ export const CommmingSoonComponentindex = () => {
       <div>
         <div className="flex flex-col align-center justify-center">
           <div className="flex flex-row align-center justify-center">
-            <img></img>
+            <img
+              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtirelogo.png"
+              className="w-96"
+            ></img>
           </div>
           <div className="flex flex-row align-center justify-center text-5xl text-Heading font-bold md:text-5xl pb-8">
             Coming soon
