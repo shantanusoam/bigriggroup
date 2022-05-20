@@ -4,11 +4,16 @@ import './simplefunction.scss';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FooterSection from './Components/FooterSection';
-import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent';
+import Navbar from './Components/Navbar';
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <Router>
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/parts" element={<CommmingSoonComponentindex />} />
