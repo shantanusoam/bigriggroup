@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll, Link } from "react-scroll";
+import { animateScroll as scroll, Link } from "react-scroll"; 
 
 import {
   Nav,
-  NavMenu,
+  NavMenu, 
   NavBtn,
   NavLogo,
   MobileIcon,
@@ -13,8 +13,8 @@ import {
   NavLinks,
 } from "./NavbarElements";
 
-const   Navbar = ({ toggle }) => {
-  const [scrollNav, setScrollNav] = useState(false); 
+const   Navbar = ({ toggle }) => { 
+  const [scrollNav, setScrollNav] = useState(false);     
   const changeNav = () => {
     if (window.scrollY >= 100) {
       setScrollNav(true);
@@ -23,41 +23,39 @@ const   Navbar = ({ toggle }) => {
     }
   };
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    window.addEventListener("scroll", changeNav); 
   }, []);
   const toggleHome = () => {
-    scroll.scrollToTop();
+        scroll.scrollToTop();  
+
   };
   function disabeled() {
     console.log(Boolean(window.localStorage.getItem("product")));
-    return window.localStorage.getItem("product");
-  }
+    return window.localStorage.getItem("product"); 
+  } 
   return (
     <>
       <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
         <Nav scrollNav={scrollNav}>
           <NavLogo to="/" onClick={toggleHome}>
-            <div>
-              <img
-                className="w-56 h-44"
-                src="http://127.0.0.1:5500/src/assets/Images/navlogo.svg"
-                alt="logo"
-                width="80%"
-              />
-            </div>
+            <img
+              className="w-56 h-44"
+              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg" 
+              alt="logo"
+              width="80%"
+            />
           </NavLogo>
 
-          {/* <Bars onClick={toggle}/> */}
           <NavMenu>
             <NavItem>
               <NavLinks to="/" onClick={toggleHome}>
-                <a to="/">HOME</a>
+                HOME
               </NavLinks>
             </NavItem>
 
             <NavItem>
               <NavLinks to="/" onClick={toggleHome}>
-                <a to="/">TRAILER & LEASING</a>
+                TRAILER & LEASING
               </NavLinks>
             </NavItem>
 
@@ -77,26 +75,26 @@ const   Navbar = ({ toggle }) => {
                 </NavLinks>
               ) : (
                 <NavLinks to="/products" onClick={toggleHome}>
-                  <a to="/products">TIRES & SERVICES</a>
+                  TIRES & SERVICES
                 </NavLinks>
               )}
             </NavItem>
 
             <NavItem>
               <NavLinks to="/Contact" onClick={toggleHome}>
-                <a to="/Contact">PARTZ</a>
+                PARTZ
               </NavLinks>
             </NavItem>
 
             <NavItem>
               <NavLinks to="/Contact" onClick={toggleHome}>
-                <a to="/Contact">CONTACT</a>
+                CONTACT
               </NavLinks>
             </NavItem>
 
             <NavItem>
               <NavLinks to="/Contact" onClick={toggleHome}>
-                <a to="/Contact">NEWS & EVENTS</a>
+                NEWS & EVENTS
               </NavLinks>
             </NavItem>
 
@@ -115,4 +113,6 @@ const   Navbar = ({ toggle }) => {
   );
 };
 
-export default Navbar;
+export default Navbar; 
+
+

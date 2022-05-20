@@ -3,7 +3,6 @@ import Video from "./media/mp4.mp4";
 
 import {
   HeroContainer,
-  PCENTER,
   HeroP,
   HeroContent,
   HeroBg,
@@ -38,14 +37,10 @@ const Gradients = styled.div`
 
 
 
-const HeroSection = () => {
-
-
-
- 
+const HeroSection = () => {  
   return (
     <HeroContainer id="Home">
-      <Gradients></Gradients>
+      <Gradients></Gradients> 
       <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
@@ -66,6 +61,7 @@ const HeroSection = () => {
           been empowering business growth for over 15 years. Our centralized
           marketplace connects you to the people, technology, data and capacity
         </PCENTER> */}
+        
         <button className="btn block lg:hidden">
           <span className="btn-text">Contact us</span>
         </button>
