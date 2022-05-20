@@ -18,7 +18,7 @@ export default function Roadservice() {
               products.
             </p>
             <div>
-              <button className="text-white bg-yellow p-4 font-semibold   mt-8 rounded-md w-1/5 text-2xl flex items-center justify-center">
+              <button className="text-white bg-yellow-bg p-4 font-semibold   mt-8 rounded-md w-1/5 text-2xl flex items-center justify-center">
                 Inventory
               </button>
             </div>

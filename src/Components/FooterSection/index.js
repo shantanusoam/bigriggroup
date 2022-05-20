@@ -26,7 +26,7 @@ const FooterSection = ({ isOpen, toggle }) => {
           </div> */}
           <div>
             <h1 className="pt-10 font-bold text-xl   text-white">
-              © KALWAY Inc, 2022 All rights reserved.
+              © BigRig Group Inc, 2022 All rights reserved.
             </h1>
           </div>
         </div>
@@ -51,36 +51,39 @@ const FooterSection = ({ isOpen, toggle }) => {
         <FotterNav>
           <FotterContact>
             <FotterContactlist>
-              <FotterContactName> Help line Number</FotterContactName>
-              <FotterContactNo>1-800-303-0076</FotterContactNo>
+              <FotterContactName>Address</FotterContactName>
+              <FotterContactNo>
+                1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada
+              </FotterContactNo>
+              <FotterContactNo>
+                9115 52 St SE, Calgary, AB T2C 2R4, Canada
+              </FotterContactNo>
+            </FotterContactlist>
+          </FotterContact>
+          <FotterContact>
+            <FotterContactlist>
+              <FotterContactName>Help line Number</FotterContactName>
+              <FotterContactNo>(604) 864 3100</FotterContactNo>
               {/* //todo */}
             </FotterContactlist>
           </FotterContact>
           <FotterContact>
             <FotterContactlist>
               <FotterContactName>Email</FotterContactName>
-              <FotterContactNo>info@KALWAY.com</FotterContactNo>
+              <FotterContactNo>trailers@bigrigcanada.com</FotterContactNo>
               {/* //todo */}
             </FotterContactlist>
           </FotterContact>
 
           {/* <hr align="left" width="100%"></hr> */}
-          <FotterContact>
-            <FotterContactlist>
-              <FotterContactName>Address</FotterContactName>
-              <FotterContactNo>
-                10156 Live Oak Ave, Fontana, CA 92335
-              </FotterContactNo>
-            </FotterContactlist>
-          </FotterContact>
 
           {/* <hr align="left" width="100%"></hr> */}
           <FotterContact>
             <FotterContactlist>
               <FotterContactName>We are open</FotterContactName>
-              <FotterContactNo>Monday - Friday 24Hrs</FotterContactNo>
-
-              <FotterContactNo>Saturday & Sunday 7AM -5PM</FotterContactNo>
+              <FotterContactNo>
+                Monday to Friday, 8:00 AM to 5:00 PM
+              </FotterContactNo>
             </FotterContactlist>
           </FotterContact>
           {/* <SocialMediaActions>
