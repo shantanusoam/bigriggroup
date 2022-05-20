@@ -20,7 +20,7 @@ function GroupWebsiteComponent() {
               }
             >
               <motion.div
-                whileInView={{ x: [-100, 0], opacity: [0, 1] }}
+                whileInView={{ x: [-50, 0], opacity: [0, 1] }}
                 transition={{ duration: 1 }}
                 className="app__header-info"
               >
@@ -117,7 +117,7 @@ function GroupWebsiteComponent() {
                   </section>
                 ) : (
                   <div>
-                    <button className="text-white bg-yellow p-4 font-semibold  mt-8 rounded-md w-6/12 text-2xl flex items-center justify-center">
+                    <button className="text-white bg-yellow-bg p-4 font-semibold  mt-8 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover w-6/12 text-2xl flex items-center justify-center">
                       Inventory
                     </button>
                   </div>

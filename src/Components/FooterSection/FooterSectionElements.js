@@ -1,10 +1,21 @@
-import { FaBars } from 'react-icons/fa';
-import { Link as LinkR } from 'react-router-dom';
-import { Link as LinkS } from 'react-scroll';
 import styled from 'styled-components';
 import { mobile, laptop } from '../../responsive';
 export const FooterContainer = styled.div`
-  background: #2f7dbd;
+  background: radial-gradient(
+    circle at 100% 110%,
+    #3a99e8,
+    #3393de,
+    #2d8ed3,
+    #2788c9,
+    #2282be,
+    #1d7cb4,
+    #1877a9,
+    #14719f,
+    #106b94,
+    #0c658a,
+    #095e7f,
+    #065875
+  );
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -38,23 +49,28 @@ export const SocialMediaActionsContainer = styled.div`
     align-items: flex-start;
   }
 `;
-export const FooterMobileContainer = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  width: 100%;
-  justify-content: center;
-  @media screen and (max-width: 768px) {
-    flex-wrap: wrap;
-    align-items: flex-start;
-  }
-`;
+// export const FooterMobileContainer = styled.div`
+//   display: flex;
+//   flex-wrap: wrap;
+//   flex-direction: row;
+//   align-items: center;
+//   width: 100%;
+//   justify-content: center;
+//   @media screen and (max-width: 768px) {
+//     flex-wrap: wrap;
+//     align-items: flex-start;
+//   }
+// `;
 export const FooterLogo = styled.div`
   padding-top: 20px;
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  ${mobile({
+    transition: '0.8s all ease',
+    display: 'none',
+  })}
 `;
 export const FotterNav = styled.div`
   display: flex;
@@ -62,15 +78,14 @@ export const FotterNav = styled.div`
   flex-direction: column;
   align-items: center;
   @media screen and (max-width: 768px) {
-    flex: 0 0 200px;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
   }
-  ${mobile({ flex: '0 0 200px', 'flex-direction': 'column' })}
-  ${laptop({ padding: '1000px' })}
 `;
 export const FotterNavH = styled.div`
   z-index: 2;
-  font-family: Poppins;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -93,11 +108,8 @@ export const FotterContact = styled.div`
   width: 35rem;
   padding: 0px 0px 0px 0px;
   flex-direction: column;
-  align-items: center;
-  @media screen and (max-width: 768px) {
-    flex: 0 0 200px;
-    flex-direction: column;
-  }
+  align-items: start;
+  justify-content: center;
 `;
 export const FotterContactlist = styled.div`
   padding: 10px;
@@ -107,6 +119,11 @@ export const FotterContactlist = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  @media screen and (max-width: 768px) {
+    align-items: center;
+    padding: 0px;
+    width: 100%;
+  }
 `;
 export const FotterContactName = styled.div`
   padding: 0px 0px 0px 0px;
@@ -115,7 +132,7 @@ export const FotterContactName = styled.div`
   align-items: flex-start;
   z-index: 10;
   justify-content: center;
-  font-family: Poppins;
+  font-family: sans-serif;
   font-weight: bold;
 
   font-style: normal;
@@ -131,7 +148,7 @@ export const FotterContactName = styled.div`
   line-height: 15px;
 
   color: #fff;
-  ${mobile({ 'font-size': '20px', padding: '10px 0px 0px 0px' })}
+  ${mobile({ 'font-size': '20px' })}
   ${laptop({
     'font-size': '10px',
     padding: '10px 0px 0px 0px',
@@ -143,18 +160,17 @@ export const FotterContactName = styled.div`
 } */
 `;
 export const FotterHName = styled.div`
-  padding: 20px 0px 20px 80px;
+  padding: 20px 0px 20px 34px;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: 68.21%;
   justify-content: center;
   z-index: 10;
-  font-family: Poppins;
-  font-weight: bold;
+  font-family: sans-serif;
 
   font-size: 40px;
-  line-height: 70px;
+  line-height: 40px;
 
   color: #ffff;
 
@@ -171,7 +187,7 @@ export const FotterContactNo = styled.div`
   justify-content: center;
   z-index: 10;
 
-  font-family: Poppins;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
 
@@ -188,16 +204,18 @@ export const FotterContactNo = styled.div`
   color: #fff;
 
   @media screen and (max-width: 768px) {
+    padding: 0px 0px 0px 0px;
     font-size: 20px;
   }
   @media screen and (max-width: 480px) {
+    padding: 0px 0px 0px 0px;
     font-size: 17px;
   }
 `;
 
 export const FotterContactN = styled.div`
   z-index: 10;
-  font-family: Poppins;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -233,9 +251,9 @@ export const SocialMediaActions = styled.div`
   cursor: pointer;
   color: #fff;
   &.active {
-    color: #101010;
+    color: #01e600;
   }
   &:hover {
-    color: #101010;
+    color: #01e600;
   }
 `;
