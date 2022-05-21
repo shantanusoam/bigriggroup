@@ -15,13 +15,13 @@ function App() {
     <Router>
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/parts" element={<CommmingSoonComponentindex></CommmingSoonComponentindex>} />
+        <Route path="/" element={<Home />} />  
+        <Route path="/partz" element={<CommmingSoonComponentindex></CommmingSoonComponentindex>} />
       </Routes>
 
-      <FooterSection></FooterSection>
+      <FooterSection></FooterSection> 
     </Router>
   );
 }
 
-export default App;
+export default App; 
