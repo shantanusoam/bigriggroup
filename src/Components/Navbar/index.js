@@ -38,7 +38,7 @@ const Navbar = ({ toggle }) => {
         <Nav scrollNav={scrollNav}>
           <NavLogo to="/" onClick={toggleHome}>
             <img
-              className="w-56 h-44"
+              className="2xl:w-56 w-44  2xl:h-44 h-32 "
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
               alt="logo"
               width="80%"
@@ -47,10 +47,10 @@ const Navbar = ({ toggle }) => {
 
           <NavMenu>
             <NavItem>
-              <NavLinks 
+              <NavLinks
                 to="/"
-                onClick={toggleHome} 
-                className="lg:text-navsmall text-navsmallne "
+                onClick={toggleHome}
+                className="2xl:text-desc text-navsmall"
               >
                 HOME
               </NavLinks>
@@ -60,7 +60,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/"
                 onClick={toggleHome}
-                className="lg:text-navsmall text-navsmallne "
+                className="2xl:text-desc text-navsmall"
               >
                 TRAILER & LEASING
               </NavLinks>
@@ -68,7 +68,7 @@ const Navbar = ({ toggle }) => {
 
             <NavItem>
               {disabeled() === "true" ? (
-                <NavLinks className="lg:text-navsmall text-navsmallne ">
+                <NavLinks className="2xl:text-desc text-navsmall">
                   <Link
                     to="Products"
                     smooth={true}
@@ -82,9 +82,9 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               ) : (
                 <NavLinks
-                  to="/products"
+                  to="/tires"
                   onClick={toggleHome}
-                  className="lg:text-navsmall text-navsmallne  "
+                  className="2xl:text-desc text-navsmall"
                 >
                   TIRES & SERVICES
                 </NavLinks>
@@ -95,7 +95,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/partz"
                 onClick={toggleHome}
-                className="lg:text-navsmall text-navsmallne "
+                className="2xl:text-desc text-navsmall"
               >
                 PARTZ
               </NavLinks>
@@ -105,7 +105,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/Contact"
                 onClick={toggleHome}
-                className="lg:text-navsmall text-navsmallne "
+                className="2xl:text-desc text-navsmall"
               >
                 CONTACT
               </NavLinks>
@@ -115,7 +115,7 @@ const Navbar = ({ toggle }) => {
               <NavLinks
                 to="/Contact"
                 onClick={toggleHome}
-                className="lg:text-navsmall text-navsmallne "
+                className="2xl:text-desc text-navsmall "
               >
                 NEWS & EVENTS
               </NavLinks>
@@ -126,7 +126,7 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
           </NavMenu>
           <NavBtn>
-            <button className="text-white bg-yellow-bg w-80 h-16  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover text-2xl flex items-center justify-center ">
+            <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 w-52 2xl:h-16 h-12 2xl:text-2xl text-xl ">
               (604) 864 3100
             </button>
           </NavBtn>
