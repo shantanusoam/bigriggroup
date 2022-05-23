@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
     <>
       <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo to="/bigriggroup" onClick={toggleHome}>
             <img
               className="2xl:w-56 w-44  2xl:h-44 h-32 "
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
@@ -48,7 +48,7 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to="/"
+                to="/bigriggroup"
                 onClick={toggleHome}
                 className="2xl:text-desc text-navsmall"
               >
