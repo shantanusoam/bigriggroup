@@ -1,20 +1,20 @@
-import React, { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll, Link } from "react-scroll"; 
+import React, { useEffect, useState } from 'react';
+import { FaBars } from 'react-icons/fa';
+import { IconContext } from 'react-icons/lib';
+import { animateScroll as scroll, Link } from 'react-scroll';
 
 import {
   Nav,
-  NavMenu, 
+  NavMenu,
   NavBtn,
   NavLogo,
   MobileIcon,
   NavItem,
   NavLinks,
-} from "./NavbarElements";
+} from './NavbarElements';
 
-const   Navbar = ({ toggle }) => { 
-  const [scrollNav, setScrollNav] = useState(false);     
+const Navbar = ({ toggle }) => {
+  const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
     if (window.scrollY >= 100) {
       setScrollNav(true);
@@ -23,24 +23,23 @@ const   Navbar = ({ toggle }) => {
     }
   };
   useEffect(() => {
-    window.addEventListener("scroll", changeNav); 
+    window.addEventListener('scroll', changeNav);
   }, []);
   const toggleHome = () => {
-        scroll.scrollToTop();  
-
+    scroll.scrollToTop();
   };
   function disabeled() {
-    console.log(Boolean(window.localStorage.getItem("product")));
-    return window.localStorage.getItem("product"); 
-  } 
+    console.log(Boolean(window.localStorage.getItem('product')));
+    return window.localStorage.getItem('product');
+  }
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>  
+      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <NavLogo to="/" onClick={toggleHome}>
             <img
               className="w-56 h-44"
-              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg" 
+              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
               alt="logo"
               width="80%"
             />
@@ -60,7 +59,7 @@ const   Navbar = ({ toggle }) => {
             </NavItem>
 
             <NavItem>
-              {disabeled() === "true" ? (
+              {disabeled() === 'true' ? (
                 <NavLinks>
                   <Link
                     to="Products"
@@ -113,6 +112,4 @@ const   Navbar = ({ toggle }) => {
   );
 };
 
-export default Navbar; 
-
-
+export default Navbar;
