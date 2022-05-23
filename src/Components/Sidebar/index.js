@@ -13,7 +13,7 @@ import {
 import { animateScroll as scroll, Link } from "react-scroll";
 const Sidebar = ({ isOpen, toggle }) => {
   function disabel() {
-    const path = window.location.pathname;  
+    const path = window.location.pathname;   
     console.log(path === "/");
     if (path === "/") {
       return true;
