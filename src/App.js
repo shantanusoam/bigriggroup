@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import FooterSection from './Components/FooterSection';
 import Navbar from './Components/Navbar';
 import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,10 +14,11 @@ function App() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
-  var data1, data2;
+
 
   return (
     <Router>
+      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar> 
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />

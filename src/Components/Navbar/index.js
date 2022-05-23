@@ -41,7 +41,7 @@ const Navbar = ({ toggle }) => {
               className="2xl:w-56 w-44  2xl:h-44 h-32 "
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
               alt="logo"
-              width="80%"
+              width="80%"  
             />
           </NavLogo>
 
@@ -126,7 +126,7 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
           </NavMenu>
           <NavBtn>
-            <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 w-52 2xl:h-16 h-12 2xl:text-2xl text-xl ">
+            <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
               (604) 864 3100
             </button>
           </NavBtn>
