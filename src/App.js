@@ -33,7 +33,6 @@ function App() {
             <CommmingSoonComponentindex data="tires"></CommmingSoonComponentindex>
           }
         />
-        {/* <Route path="/bigriggroup" element={<Redirect></Redirect>} /> */}
       </Routes>
 
       <FooterSection></FooterSection>
