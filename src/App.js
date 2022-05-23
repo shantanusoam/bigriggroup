@@ -20,7 +20,7 @@ function App() {
     <Router>
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/bigriggroup" element={<Home />} />
         <Route
           path="/partz"
           element={
@@ -33,7 +33,7 @@ function App() {
             <CommmingSoonComponentindex data="tires"></CommmingSoonComponentindex>
           }
         />
-        <Route path="/bigriggroup" element={<Redirect></Redirect>} />
+        {/* <Route path="/bigriggroup" element={<Redirect></Redirect>} /> */}
       </Routes>
 
       <FooterSection></FooterSection>
