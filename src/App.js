@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FooterSection from './Components/FooterSection';
 import Navbar from './Components/Navbar';
+import Redirect from './redirect';
 import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent';
 import Sidebar from './Components/Sidebar';
 
@@ -21,7 +22,7 @@ function App() {
       <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar> 
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/bigriggroup" element={<Home />} />
         <Route
           path="/partz"
           element={

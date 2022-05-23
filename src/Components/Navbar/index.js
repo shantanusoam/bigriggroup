@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { FaBars } from "react-icons/fa";
-import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll, Link } from "react-scroll";
+import React, { useEffect, useState } from 'react';
+import { FaBars } from 'react-icons/fa';
+import { IconContext } from 'react-icons/lib';
+import { animateScroll as scroll, Link } from 'react-scroll';
 
 import {
   Nav,
@@ -11,7 +11,7 @@ import {
   MobileIcon,
   NavItem,
   NavLinks,
-} from "./NavbarElements";
+} from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -23,20 +23,20 @@ const Navbar = ({ toggle }) => {
     }
   };
   useEffect(() => {
-    window.addEventListener("scroll", changeNav);
+    window.addEventListener('scroll', changeNav);
   }, []);
   const toggleHome = () => {
     scroll.scrollToTop();
   };
   function disabeled() {
-    console.log(Boolean(window.localStorage.getItem("product")));
-    return window.localStorage.getItem("product");
+    console.log(Boolean(window.localStorage.getItem('product')));
+    return window.localStorage.getItem('product');
   }
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
+      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
-          <NavLogo to="/" onClick={toggleHome}>
+          <NavLogo to="/bigriggroup" onClick={toggleHome}>
             <img
               className="2xl:w-56 w-44  2xl:h-44 h-32 "
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
@@ -48,7 +48,7 @@ const Navbar = ({ toggle }) => {
           <NavMenu>
             <NavItem>
               <NavLinks
-                to="/"
+                to="/bigriggroup"
                 onClick={toggleHome}
                 className="2xl:text-desc text-navsmall"
               >
@@ -58,7 +58,7 @@ const Navbar = ({ toggle }) => {
 
             <NavItem>
               <NavLinks
-                to="/"
+                to="/bigriggroup"
                 onClick={toggleHome}
                 className="2xl:text-desc text-navsmall"
               >
@@ -67,7 +67,7 @@ const Navbar = ({ toggle }) => {
             </NavItem>
 
             <NavItem>
-              {disabeled() === "true" ? (
+              {disabeled() === 'true' ? (
                 <NavLinks className="2xl:text-desc text-navsmall">
                   <Link
                     to="Products"
