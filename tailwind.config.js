@@ -18,6 +18,8 @@ module.exports = {
         heading: '2.25rem',
         subheading: '1.25rem',
         desc: '1.1rem',
+        navsmall:"14px",
+        navsmallne:"10px;"
       },
       fontWeight: {
         heading: '600',

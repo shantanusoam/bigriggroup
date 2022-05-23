@@ -1,7 +1,7 @@
-import React, { useEffect, useState } from 'react';
-import { FaBars } from 'react-icons/fa';
-import { IconContext } from 'react-icons/lib';
-import { animateScroll as scroll, Link } from 'react-scroll';
+import React, { useEffect, useState } from "react";
+import { FaBars } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
+import { animateScroll as scroll, Link } from "react-scroll";
 
 import {
   Nav,
@@ -11,7 +11,7 @@ import {
   MobileIcon,
   NavItem,
   NavLinks,
-} from './NavbarElements';
+} from "./NavbarElements";
 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
@@ -23,22 +23,22 @@ const Navbar = ({ toggle }) => {
     }
   };
   useEffect(() => {
-    window.addEventListener('scroll', changeNav);
+    window.addEventListener("scroll", changeNav);
   }, []);
   const toggleHome = () => {
     scroll.scrollToTop();
   };
   function disabeled() {
-    console.log(Boolean(window.localStorage.getItem('product')));
-    return window.localStorage.getItem('product');
+    console.log(Boolean(window.localStorage.getItem("product")));
+    return window.localStorage.getItem("product");
   }
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
+      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
         <Nav scrollNav={scrollNav}>
           <NavLogo to="/" onClick={toggleHome}>
             <img
-              className="w-56 h-44"
+              className="2xl:w-56 w-44  2xl:h-44 h-32 "
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
               alt="logo"
               width="80%"
@@ -47,20 +47,28 @@ const Navbar = ({ toggle }) => {
 
           <NavMenu>
             <NavItem>
-              <NavLinks to="/" onClick={toggleHome}>
+              <NavLinks
+                to="/"
+                onClick={toggleHome}
+                className="2xl:text-desc text-navsmall"
+              >
                 HOME
               </NavLinks>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/" onClick={toggleHome}>
+              <NavLinks
+                to="/"
+                onClick={toggleHome}
+                className="2xl:text-desc text-navsmall"
+              >
                 TRAILER & LEASING
               </NavLinks>
             </NavItem>
 
             <NavItem>
-              {disabeled() === 'true' ? (
-                <NavLinks>
+              {disabeled() === "true" ? (
+                <NavLinks className="2xl:text-desc text-navsmall">
                   <Link
                     to="Products"
                     smooth={true}
@@ -73,26 +81,42 @@ const Navbar = ({ toggle }) => {
                   </Link>
                 </NavLinks>
               ) : (
-                <NavLinks to="/tires" onClick={toggleHome}>
+                <NavLinks
+                  to="/tires"
+                  onClick={toggleHome}
+                  className="2xl:text-desc text-navsmall"
+                >
                   TIRES & SERVICES
                 </NavLinks>
               )}
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/partz" onClick={toggleHome}>
+              <NavLinks
+                to="/partz"
+                onClick={toggleHome}
+                className="2xl:text-desc text-navsmall"
+              >
                 PARTZ
               </NavLinks>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/Contact" onClick={toggleHome}>
+              <NavLinks
+                to="/Contact"
+                onClick={toggleHome}
+                className="2xl:text-desc text-navsmall"
+              >
                 CONTACT
               </NavLinks>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/Contact" onClick={toggleHome}>
+              <NavLinks
+                to="/Contact"
+                onClick={toggleHome}
+                className="2xl:text-desc text-navsmall "
+              >
                 NEWS & EVENTS
               </NavLinks>
             </NavItem>
@@ -102,7 +126,7 @@ const Navbar = ({ toggle }) => {
             </MobileIcon>
           </NavMenu>
           <NavBtn>
-            <button className="text-white bg-yellow-bg w-80 h-16  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover text-2xl flex items-center justify-center ">
+            <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 w-52 2xl:h-16 h-12 2xl:text-2xl text-xl ">
               (604) 864 3100
             </button>
           </NavBtn>
