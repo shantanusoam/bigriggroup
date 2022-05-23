@@ -9,7 +9,7 @@ export const CommmingSoonComponentindex = () => {
             <img
     
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigpartzlogo.png"
-              className="w-96"
+              className='w-3/4'
             ></img>
           </div>
           <div className="flex flex-row align-center justify-center text-5xl text-Heading font-bold md:text-5xl pb-8">
@@ -28,7 +28,7 @@ export const CommmingSoonComponentindex = () => {
                 <img
                   src={brand.imageurl}
                   alt={brand.heading}
-                  className="mx-6 my-2 align-center w-auto"
+                  className=" align-center w-1/2"
                 />
               </div>
             ))}

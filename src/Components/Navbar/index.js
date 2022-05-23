@@ -81,7 +81,7 @@ const   Navbar = ({ toggle }) => {
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/Contact" onClick={toggleHome}>
+              <NavLinks to="/partz" onClick={toggleHome}> 
                 PARTZ
               </NavLinks>
             </NavItem>
