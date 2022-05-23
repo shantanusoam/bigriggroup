@@ -1,16 +1,22 @@
 import React from 'react';
-import { BigPArtzBrands } from '../../data.js';
-export const CommmingSoonComponentindex = () => {
+import { BigPArtzBrands, BigTireBrands } from '../../data.js';
+export const CommmingSoonComponentindex = (data) => {
+  if (data.data === 'partz') {
+    var data1 = BigPArtzBrands;
+  }
+  if (data.data === 'tires') {
+    var data1 = BigTireBrands;
+  }
+  console.log(data1);
   return (
     <>
       <div className="mt-28">
         <div className="flex flex-col align-center justify-center">
-          <div className="flex flex-row align-center justify-center">
-            <img
-              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigpartzlogo.png"
-              className="w-2/6"
-            ></img>
-          </div>
+          {data1.map((item) => (
+            <div className="flex flex-row align-center justify-center">
+              <img src={item.logo} className="w-2/6"></img>
+            </div>
+          ))}
           <div className="flex flex-row align-center justify-center text-5xl text-Heading font-bold md:text-5xl pb-8">
             Coming soon!
           </div>
@@ -20,7 +26,7 @@ export const CommmingSoonComponentindex = () => {
             available 24/7 to help keep you moving.
           </div>
           <div className="flex flex-wrap mx-20 my-16 align-center justify-center">
-            {BigPArtzBrands.map((brand) => (
+            {data1[0].Brands.map((brand) => (
               <div
                 className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-fit mb-4 mt-12 flex align-center justify-center "
                 key={brand.id}

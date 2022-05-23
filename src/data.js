@@ -158,76 +158,89 @@ export const BrandCompnentBrands = [
 ];
 
 export const BigPArtzBrands = [
+  {
+    id: '0',
+    logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigpartzlogo.png',
+    name: 'Kalpartz',
 
-  {
-    id: "1",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/firstlogo.svg",
-    heading: "Armor-logo",
-  },
-  {
-    id: "2",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/new-holland-logo.png",
-    heading: "Kenworth",
-  },
-  {
-    id: "3",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/thirdlogo.svg",
-    heading: "Peterbilt",
-  },
-  {
-    id: "4",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fourthlogo.svg",
-    heading: "Vanguard",
-  },
-  {
-    id: "5",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fifthlogo.svg",
-    heading: "Wix Filters",
-  },
-  {
-    id: "6",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/sixthlogo.svg",
-    heading: "Bendix",
-  },
-  {
-    id: "7",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/seventhlogo.svg", 
-    heading: "Volvo",
+    Brands: [
+      {
+        id: '1',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/firstlogo.svg',
+        heading: 'Armor-logo',
+      },
+      {
+        id: '2',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/new-holland-logo.png',
+        heading: 'Kenworth',
+      },
+      {
+        id: '3',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/thirdlogo.svg',
+        heading: 'Peterbilt',
+      },
+      {
+        id: '4',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fourthlogo.svg',
+        heading: 'Vanguard',
+      },
+      {
+        id: '5',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fifthlogo.svg',
+        heading: 'Wix Filters',
+      },
+      {
+        id: '6',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/sixthlogo.svg',
+        heading: 'Bendix',
+      },
+      {
+        id: '7',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/seventhlogo.svg',
+        heading: 'Volvo',
+      },
+    ],
   },
 ];
 
 export const BigTireBrands = [
   {
-    id: "1",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png",
-    heading: "BKT-logo",
-  },
-  {
-    id: "2",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/CT_Horiz-Logo.png",
-    heading: "CT_Horiz",
-  },
-  {
-    id: "3",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/Prometeon-logo.png",
-    heading: "Prometeon",
-  },
-  {
-    id: "4",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/TBCB-Logo.png",
-    heading: "TBCB",
-  },
-  
-];
+    id: '0',
+    logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtirelogo.png',
+    name: 'Kaltire',
 
+    Brands: [
+      {
+        id: '1',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png',
+        heading: 'BKT-logo',
+      },
+      {
+        id: '2',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/CT_Horiz-Logo.png',
+        heading: 'CT_Horiz',
+      },
+      {
+        id: '3',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/Prometeon-logo.png',
+        heading: 'Prometeon',
+      },
+      {
+        id: '4',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/TBCB-Logo.png',
+        heading: 'TBCB',
+      },
+    ],
+  },
+];
