@@ -135,8 +135,8 @@ export const NavMenu = styled.ul`
 export const NavItem = styled.li`
   display: block;
   height: 80px;
-
   padding: 0 1rem;
+  padding-right:0.5rem;
   color: #000;
   // &:hover {
   //   animation: pulse 1s ease-in-out;
@@ -161,9 +161,12 @@ export const NavLinks = styled(LinkR)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 0 1rem; 
   height: 100%;
   cursor: pointer;
+  // font-size:18px;
+  
+  
   &.active {
     color: #101010;
   }

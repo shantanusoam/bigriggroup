@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons/lib";
-import { animateScroll as scroll, Link } from "react-scroll"; 
+import { animateScroll as scroll, Link } from "react-scroll";
 
 import {
   Nav,
-  NavMenu, 
+  NavMenu,
   NavBtn,
   NavLogo,
   MobileIcon,
@@ -13,8 +13,8 @@ import {
   NavLinks,
 } from "./NavbarElements";
 
-const   Navbar = ({ toggle }) => { 
-  const [scrollNav, setScrollNav] = useState(false);     
+const Navbar = ({ toggle }) => {
+  const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
     if (window.scrollY >= 100) {
       setScrollNav(true);
@@ -23,24 +23,23 @@ const   Navbar = ({ toggle }) => {
     }
   };
   useEffect(() => {
-    window.addEventListener("scroll", changeNav); 
+    window.addEventListener("scroll", changeNav);
   }, []);
   const toggleHome = () => {
-        scroll.scrollToTop();  
-
+    scroll.scrollToTop();
   };
   function disabeled() {
     console.log(Boolean(window.localStorage.getItem("product")));
-    return window.localStorage.getItem("product"); 
-  } 
+    return window.localStorage.getItem("product");
+  }
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>  
+      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
         <Nav scrollNav={scrollNav}>
           <NavLogo to="/" onClick={toggleHome}>
             <img
               className="w-56 h-44"
-              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg" 
+              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
               alt="logo"
               width="80%"
             />
@@ -48,20 +47,28 @@ const   Navbar = ({ toggle }) => {
 
           <NavMenu>
             <NavItem>
-              <NavLinks to="/" onClick={toggleHome}>
+              <NavLinks 
+                to="/"
+                onClick={toggleHome} 
+                className="lg:text-navsmall text-navsmallne "
+              >
                 HOME
               </NavLinks>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/" onClick={toggleHome}>
+              <NavLinks
+                to="/"
+                onClick={toggleHome}
+                className="lg:text-navsmall text-navsmallne "
+              >
                 TRAILER & LEASING
               </NavLinks>
             </NavItem>
 
             <NavItem>
               {disabeled() === "true" ? (
-                <NavLinks>
+                <NavLinks className="lg:text-navsmall text-navsmallne ">
                   <Link
                     to="Products"
                     smooth={true}
@@ -74,26 +81,42 @@ const   Navbar = ({ toggle }) => {
                   </Link>
                 </NavLinks>
               ) : (
-                <NavLinks to="/products" onClick={toggleHome}>
+                <NavLinks
+                  to="/products"
+                  onClick={toggleHome}
+                  className="lg:text-navsmall text-navsmallne  "
+                >
                   TIRES & SERVICES
                 </NavLinks>
               )}
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/partz" onClick={toggleHome}> 
+              <NavLinks
+                to="/partz"
+                onClick={toggleHome}
+                className="lg:text-navsmall text-navsmallne "
+              >
                 PARTZ
               </NavLinks>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/Contact" onClick={toggleHome}>
+              <NavLinks
+                to="/Contact"
+                onClick={toggleHome}
+                className="lg:text-navsmall text-navsmallne "
+              >
                 CONTACT
               </NavLinks>
             </NavItem>
 
             <NavItem>
-              <NavLinks to="/Contact" onClick={toggleHome}>
+              <NavLinks
+                to="/Contact"
+                onClick={toggleHome}
+                className="lg:text-navsmall text-navsmallne "
+              >
                 NEWS & EVENTS
               </NavLinks>
             </NavItem>
@@ -113,6 +136,4 @@ const   Navbar = ({ toggle }) => {
   );
 };
 
-export default Navbar; 
-
-
+export default Navbar;
