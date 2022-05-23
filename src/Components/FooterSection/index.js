@@ -12,7 +12,7 @@ import {
   FotterContactNo,
   FotterContactName,
   SocialMediaActionsContainer,
-  footerMobileContainer,
+  FooterMobileContainer,
   FotterHName,
 } from './FooterSectionElements';
 
@@ -47,55 +47,54 @@ const FooterSection = ({ isOpen, toggle }) => {
             </SocialMediaActions>
           </SocialMediaActionsContainer> */}
       </FooterLogo>
-      <footerMobileContainer>
-        <FotterNav>
-          <FotterContact>
-            <FotterContactlist>
-              <FotterContactName>Address</FotterContactName>
-              <FotterContactNo>
-                1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada
-              </FotterContactNo>
-              <FotterContactNo>
-                9115 52 St SE, Calgary, AB T2C 2R4, Canada
-              </FotterContactNo>
-            </FotterContactlist>
-          </FotterContact>
-          <FotterContact>
-            <FotterContactlist>
-              <FotterContactName>Help line Number</FotterContactName>
-              <FotterContactNo>(604) 864 3100</FotterContactNo>
-              {/* //todo */}
-            </FotterContactlist>
-          </FotterContact>
-          <FotterContact>
-            <FotterContactlist>
-              <FotterContactName>Email</FotterContactName>
-              <FotterContactNo>trailers@bigrigcanada.com</FotterContactNo>
-              {/* //todo */}
-            </FotterContactlist>
-          </FotterContact>
 
-          {/* <hr align="left" width="100%"></hr> */}
+      <FotterNav>
+        <FotterContact>
+          <FotterContactlist>
+            <FotterContactName>Address</FotterContactName>
+            <FotterContactNo>
+              1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada
+            </FotterContactNo>
+            <FotterContactNo>
+              9115 52 St SE, Calgary, AB T2C 2R4, Canada
+            </FotterContactNo>
+          </FotterContactlist>
+        </FotterContact>
+        <FotterContact>
+          <FotterContactlist>
+            <FotterContactName>Help line Number</FotterContactName>
+            <FotterContactNo>(604) 864 3100</FotterContactNo>
+            {/* //todo */}
+          </FotterContactlist>
+        </FotterContact>
+        <FotterContact>
+          <FotterContactlist>
+            <FotterContactName>Email</FotterContactName>
+            <FotterContactNo>trailers@bigrigcanada.com</FotterContactNo>
+            {/* //todo */}
+          </FotterContactlist>
+        </FotterContact>
 
-          {/* <hr align="left" width="100%"></hr> */}
-          <FotterContact>
-            <FotterContactlist>
-              <FotterContactName>We are open</FotterContactName>
-              <FotterContactNo>
-                Monday to Friday, 8:00 AM to 5:00 PM
-              </FotterContactNo>
-            </FotterContactlist>
-          </FotterContact>
-          {/* <SocialMediaActions>
+        {/* <hr align="left" width="100%"></hr> */}
+
+        {/* <hr align="left" width="100%"></hr> */}
+        <FotterContact>
+          <FotterContactlist>
+            <FotterContactName>We are open</FotterContactName>
+            <FotterContactNo>
+              Monday to Friday, 8:00 AM to 5:00 PM
+            </FotterContactNo>
+          </FotterContactlist>
+        </FotterContact>
+        {/* <SocialMediaActions>
             <FaFacebookF/>
             </SocialMediaActions> */}
-          {/* <FotterNavH>Email</FotterNavH> */}
-          {/* <FotterNavH>Company</FotterNavH>
+        {/* <FotterNavH>Email</FotterNavH> */}
+        {/* <FotterNavH>Company</FotterNavH>
                 <FotterNavH>Advantages</FotterNavH>
                 <FotterNavH>Products</FotterNavH>
                 <FotterNavH>Contact</FotterNavH> */}
-        </FotterNav>
-      </footerMobileContainer>
+      </FotterNav>
 
       {/* <FotterSocialMedia>
             <SocialMediaActions>
