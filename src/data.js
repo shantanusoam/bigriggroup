@@ -158,46 +158,92 @@ export const BrandCompnentBrands = [
 ];
 
 export const BigPArtzBrands = [
+
   {
-    id: '1',
+    id: "1",
     imageurl:
-      'https://github.com/shantanusoam/bigriggroup/blob/master/src/assets/Images/BigRigpartzSponsers/Armor-logo.png',
-    heading: 'Armor-logo',
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/firstlogo.svg",
+    heading: "Armor-logo",
   },
   {
-    id: '2',
+    id: "2",
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/bendix-logo.png ',
-    heading: 'Kenworth',
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/new-holland-logo.png",
+    heading: "Kenworth",
   },
   {
-    id: '3',
+    id: "3",
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/fleetguard-log.png',
-    heading: 'Peterbilt',
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/thirdlogo.svg",
+    heading: "Peterbilt",
   },
   {
-    id: '4',
+    id: "4",
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/new-holland-logo.png',
-    heading: 'Vanguard',
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fourthlogo.svg",
+    heading: "Vanguard",
   },
   {
-    id: '5',
+    id: "5",
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/sampa-logo.png',
-    heading: 'Wix Filters',
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fifthlogo.svg",
+    heading: "Wix Filters",
   },
   {
-    id: '6',
+    id: "6",
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/speed-demon-logo.png',
-    heading: 'Bendix',
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/sixthlogo.svg",
+    heading: "Bendix",
   },
   {
-    id: '7',
+    id: "7",
     imageurl:
-      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/timken-logo.png',
-    heading: 'Volvo',
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/seventhlogo.svg", 
+    heading: "Volvo",
+  },
+];
+
+export const BigTireBrands = [
+  {
+    id: "1",
+    imageurl:
+      "",
+    heading: "Armor-logo",
+  },
+  {
+    id: "2",
+    imageurl:
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/new-holland-logo.png",
+    heading: "Kenworth",
+  },
+  {
+    id: "3",
+    imageurl:
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/thirdlogo.svg",
+    heading: "Peterbilt",
+  },
+  {
+    id: "4",
+    imageurl:
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fourthlogo.svg",
+    heading: "Vanguard",
+  },
+  {
+    id: "5",
+    imageurl:
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fifthlogo.svg",
+    heading: "Wix Filters",
+  },
+  {
+    id: "6",
+    imageurl:
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/sixthlogo.svg",
+    heading: "Bendix",
+  },
+  {
+    id: "7",
+    imageurl:
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/seventhlogo.svg",
+    heading: "Volvo",
   },
 ];
