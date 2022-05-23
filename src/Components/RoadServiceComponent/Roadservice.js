@@ -3,7 +3,10 @@ import React from 'react';
 export default function Roadservice() {
   return (
     <>
-      <div id="maincontainer" className="flex flex-col-reverse md:flex-row">
+      <div
+        id="maincontainer"
+        className="flex flex-col-reverse md:flex-row md:mx-20 mx-0  lg:mx-16"
+      >
         <div id="firstmain" className="bg-Darkblue">
           <div id="firtmaininner" className="xl:ml-48 mb-10 mt-10 ">
             <h1 className="text-white text-heading font-heading">
@@ -18,16 +21,16 @@ export default function Roadservice() {
               products.
             </p>
             <div>
-              <button className="text-white bg-yellow-bg p-4 font-semibold   mt-8 rounded-md w-1/5 text-2xl flex items-center justify-center">
+              <button className="text-white bg-yellow-bg p-4 font-semibold   mt-8 rounded-md w-1/5 text-2xl flex items-center justify-center">  
                 Inventory
               </button>
             </div>
-          </div>
+          </div> 
         </div>
 
         <img
-          className="md:-my-10" 
-          src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/2017-freightliner-cascadia-accessories_0%201.svg"
+          className="md:-my-10 md:w-1/2 w-full"
+          src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/2017-freightliner-cascadia-accessories_0%201.svg" 
           alt="truck"
         />
       </div>

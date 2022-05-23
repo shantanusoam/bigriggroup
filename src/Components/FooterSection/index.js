@@ -25,12 +25,12 @@ const FooterSection = ({ isOpen, toggle }) => {
             <img src={logo} alt="" />
           </div> */}
           <div>
-            <h1 className="pt-10 font-bold text-xl   text-white">
+            <h1 className="pt-10 font-bold text-xl   text-white md:block hidden">
               © BigRig Group Inc, 2022 All rights reserved.
             </h1>
           </div>
         </div>
-        <FotterHName>Get in touch with us for your service</FotterHName>
+        <FotterHName className='md:block hidden'>Get in touch with us for your service</FotterHName> 
 
         {/* <SocialMediaActionsContainer>
         <SocialMediaActions>
