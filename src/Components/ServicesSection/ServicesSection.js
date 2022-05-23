@@ -3,7 +3,7 @@ import { ServiceComponentdata } from '../../data.js';
 
 export default function ServicesSection() {
   var dataservice = ServiceComponentdata[0];
-  console.log(dataservice);
+
   return (
     <>
       <div

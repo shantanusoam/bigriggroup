@@ -22,14 +22,13 @@ const Navbar = ({ toggle }) => {
       setScrollNav(false);
     }
   };
-  useEffect(() => {
-    window.addEventListener('scroll', changeNav);
-  }, []);
+  // useEffect(() => {
+  //   window.addEventListener('scroll', changeNav);
+  // }, []);
   const toggleHome = () => {
     scroll.scrollToTop();
   };
   function disabeled() {
-    console.log(Boolean(window.localStorage.getItem('product')));
     return window.localStorage.getItem('product');
   }
   return (
@@ -37,7 +36,7 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row">
-            <NavLogo to="/bigriggroup" onClick={toggleHome}>
+            <NavLogo to="/" onClick={toggleHome}>
               <img
                 className="2xl:w-56 w-44  2xl:h-44 h-32 "
                 src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
@@ -49,7 +48,7 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to="/bigriggroup"
+                  to="/"
                   onClick={toggleHome}
                   className="2xl:text-desc text-navsmall"
                 >
@@ -59,7 +58,7 @@ const Navbar = ({ toggle }) => {
 
               <NavItem>
                 <NavLinks
-                  to="/bigriggroup"
+                  to="/trailers"
                   onClick={toggleHome}
                   className="2xl:text-desc text-navsmall"
                 >
@@ -70,14 +69,7 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 {disabeled() === 'true' ? (
                   <NavLinks className="2xl:text-desc text-navsmall">
-                    <Link
-                      to="Products"
-                      smooth={true}
-                      duration={500}
-                      spy={true}
-                      exact={true}
-                      offset={-80}
-                    >
+                    <Link to="/Products" duration={500} offset={-80}>
                       Products
                     </Link>
                   </NavLinks>

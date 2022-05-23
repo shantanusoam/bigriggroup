@@ -11,7 +11,10 @@ function GroupWebsiteComponent() {
         style={{ backgroundImage: `url(${BgImage})` }}
       >
         {GroupWebsiteComponentdata.map((data) => (
-          <div className="container m-auto px-1 text-gray-600 md:px-2 lg:px-3 2xl:px-12 my-11">
+          <div
+            className="container m-auto px-1 text-gray-600 md:px-2 lg:px-3 2xl:px-12 my-11"
+            key={data.id}
+          >
             <div
               className={
                 data.id % 2 !== 0
@@ -64,7 +67,7 @@ function GroupWebsiteComponent() {
                   </div>
                 </div>
                 {data.desc.map((data) => (
-                  <div className="2xl:w-3/4 mt-12">
+                  <div className="2xl:w-3/4 mt-12" key={data.id}>
                     <h2 className="mt-6 text-2xl text-Heading font-semibold md:text-subheading ">
                       {data.head}
                     </h2>
@@ -86,7 +89,7 @@ function GroupWebsiteComponent() {
                           Coming soon
                         </h2>
 
-                        <svg
+                        {/* <svg
                           className="arrow-icon mt-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
@@ -111,7 +114,7 @@ function GroupWebsiteComponent() {
                               d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"
                             ></path>
                           </g>
-                        </svg>
+                        </svg> */}
                       </div>
                     </a>
                   </section>

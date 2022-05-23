@@ -37,11 +37,13 @@ export const GroupWebsiteComponentdata = [
     heading: 'Trailers & Leasing',
     desc: [
       {
+        id: 1,
         head: `Trucks`,
         desc1: `As a Vanguard authorized dealer, we offer a variety of dry
         vans and refrigerated trailers and flatsbed and chessie.`,
       },
       {
+        id: 2,
         head: `Trailers`,
         desc1: `Designed To Reduce Your Cost Of Ownership, Our Trucks Improved
         Fuel Economy, Enhanced Safety Features And Lead The Way In
@@ -63,6 +65,7 @@ export const GroupWebsiteComponentdata = [
     heading: 'Partz ',
     desc: [
       {
+        id: 1,
         head: `Heavy Duty Parts`,
         desc1: `“New and independent” Heavy Duty Truck and Trader Parts Distributor. Creating a nationwide distribution chain by strategically placing Heavy Duty Parts Distribution Centers around the country to supply our customers needs.`,
         desc2: `Our “Culturally Diverse” Parts Professionals around the country are able to assist and provide outstanding customer service and break through any language barrier.`,
@@ -84,10 +87,12 @@ export const GroupWebsiteComponentdata = [
     heading: 'Tires & Services',
     desc: [
       {
+        id: 1,
         head: `Commercial Tires`,
         desc1: `Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products. `,
       },
       {
+        id: 2,
         head: `24/7  Road service`,
         desc1: `Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products. `,
       },
