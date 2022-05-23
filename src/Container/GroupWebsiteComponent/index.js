@@ -11,7 +11,7 @@ function GroupWebsiteComponent() {
         style={{ backgroundImage: `url(${BgImage})` }}
       >
         {GroupWebsiteComponentdata.map((data) => (
-          <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6 my-11">
+          <div className="container m-auto px-1 text-gray-600 md:px-2 lg:px-3 2xl:px-12 my-11">
             <div
               className={
                 data.id % 2 !== 0
@@ -28,7 +28,7 @@ function GroupWebsiteComponent() {
                   className={
                     data.id % 2 !== 0
                       ? 'md:5/12 lg:w-5/12"'
-                      : 'md:5/12 lg:w-5/12" md:-ml-32 md:pr-32'
+                      : 'md:5/12 lg:w-5/12" 2xl:-ml-20 md:pr-32'
                   }
                 >
                   <div className="relative">
@@ -45,7 +45,7 @@ function GroupWebsiteComponent() {
                 </div>
               </motion.div>
 
-              <div className="md:7/12 lg:w-6/12 items-start ml-28 mt-12">
+              <div className="md:6/12 lg:w-6/12 items-start ml-28 mt-12">
                 <div className="flex flex-row items-center mt-12 -ml-32 pl-6">
                   <motion.img
                     whileInView={{ scale: [0.5, 1] }}
@@ -58,13 +58,13 @@ function GroupWebsiteComponent() {
                   ></motion.img>
 
                   <div className="font-display max-w-sm text-2xl font-bold leading-tight">
-                    <h2 className="text-3xl text-Heading font-semibold md:text-5xl link link-underline link-underline-black pb-8">
+                    <h2 className="xl:text-5xl text-Heading font-semibold md:text-2xl link link-underline link-underline-black pb-8">
                       {data.heading}
                     </h2>
                   </div>
                 </div>
                 {data.desc.map((data) => (
-                  <div className="lg:w-3/4 mt-12">
+                  <div className="2xl:w-3/4 mt-12">
                     <h2 className="mt-6 text-2xl text-Heading font-semibold md:text-subheading ">
                       {data.head}
                     </h2>
@@ -117,7 +117,7 @@ function GroupWebsiteComponent() {
                   </section>
                 ) : (
                   <div>
-                    <button className="text-white bg-yellow-bg p-4 font-semibold  mt-8 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover w-6/12 text-2xl flex items-center justify-center">
+                    <button className="text-white bg-yellow-bg  font-semibold  mt-8 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
                       Inventory
                     </button>
                   </div>

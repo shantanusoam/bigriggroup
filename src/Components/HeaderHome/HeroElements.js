@@ -1,5 +1,5 @@
-import Styled from "styled-components";
-import { Link as LinkR } from "react-router-dom";
+import Styled from 'styled-components';
+import { Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
 
 overflow: hidden;
@@ -50,6 +50,8 @@ right: 0;
 overflow: hidden;
 width: 100vw;
 height: 100vh;
+
+
 `;
 export const WWOCardContainer = Styled.div`
 display: flex;
@@ -102,6 +104,7 @@ height: 100%;
 object-fit: cover;
 
 background: #232a34;
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 @media screen and (max-width: 768px) {
     display: blick;
     
@@ -130,8 +133,8 @@ div{
     
     }
     @media screen and (min-width: 1024px) {
-    display: block;
-    align-items: right;
+
+  
     
     
     }
@@ -199,7 +202,7 @@ font-family: sans-serif;
 font-style: normal;
 font-weight: 600;
 font-size: 4rem;
-
+padding-bottom: 1rem;
 line-height: 89.69%;
 text-align:center;
 
@@ -210,7 +213,7 @@ border-bottom:4px solid;
     border-bottom-color: #FFAB53;
     display:block;
     margin:0 auto;
-    width:50%;
+ 
     padding-top:20px; 
 &:hover{
     
@@ -225,18 +228,18 @@ border-bottom:4px solid;
 
 @media screen and (max-width: 768px) {
     font-size: 54px;
-    width: 65%;
+    
     padding: 0px 0px 50px 0px;
     text-align: center; 
 }
-/* @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     font-size: 40px;
-    width: 36%;
+   
     text-align: center; 
-} */
+} 
 @media screen and (max-width: 375px) {
     font-size: 42px;
-    width: 80%;
+    
   
     text-align: center; 
 }
@@ -401,7 +404,7 @@ display: block;
 `;
 export const WWOCCButton = Styled(LinkR)`
 padding: 25px;
-display: block;
+
   display: flex;
     justify-content: center;
   background: #01e600;
@@ -430,7 +433,7 @@ display: block;
 }
 `;
 export const NavLinks = Styled(LinkR)`
-color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
+color: ${({ scrollNav }) => (scrollNav ? '#fff' : `#000`)};
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -453,15 +456,16 @@ export const Samosa = Styled.div`
 
 
 margin-bottom:10rem !important;
-margin-top:3%; 
-margin-bottom: 24px;
+
+margin-top: 2rem;
 font-family: sans-serif;
 font-style:300;
 font-weight: normal;
 font-size: 1.25rem;
-margin-left:20%;
-line-height:120%;
+
+
 text-align:center;
+align-items: center;
 
 
 z-index: 2;
@@ -469,14 +473,14 @@ color: #FFFFFF;
 
 @media screen and (max-width: 768px) {
     font-size: 54px;
-    width: 65%;
+
     padding: 0px 0px 50px 0px;
     text-align: center; 
 }
 
 @media screen and (max-width: 375px) {
     font-size: 42px;
-    width: 80%;
+
   
     text-align: center; 
 }

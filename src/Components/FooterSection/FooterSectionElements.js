@@ -175,9 +175,11 @@ export const FotterHName = styled.div`
   color: #ffff;
 
   @media screen and (max-width: 768px) {
+    display: none;
     font-size: 20px;
   }
   @media screen and (max-width: 480px) {
+    display: none;
     font-size: 16px;
   }
 `;
