@@ -21,7 +21,7 @@ const Sidebar = ({ isOpen, toggle }) => {
     return false;
   }
   return (
-    <SlidebarContainer isOpen={isOpen} onClick={toggle}>
+    <SlidebarContainer isOpen={isOpen} onClick={toggle} className="ml-48">
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>

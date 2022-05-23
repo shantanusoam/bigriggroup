@@ -5,8 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FooterSection from './Components/FooterSection';
 import Navbar from './Components/Navbar';
-import Redirect from './redirect';
-import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent';
+import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent'; 
 import Sidebar from './Components/Sidebar';
 
 function App() {
@@ -19,7 +18,7 @@ function App() {
 
   return (
     <Router>
-      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar> 
+      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>  
       <Navbar></Navbar>
       <Routes>
         <Route path="/bigriggroup" element={<Home />} />
