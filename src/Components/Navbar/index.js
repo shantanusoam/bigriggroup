@@ -34,7 +34,7 @@ const Navbar = ({ toggle }) => {
   }
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
+      <IconContext.Provider value={{ color: '#fff', size: '1em' }}> 
         <Nav scrollNav={scrollNav}>
           <NavLogo to="/bigriggroup" onClick={toggleHome}>
             <img
@@ -51,6 +51,7 @@ const Navbar = ({ toggle }) => {
                 to="/bigriggroup"
                 onClick={toggleHome}
                 className="2xl:text-desc text-navsmall"
+                exact
               >
                 HOME
               </NavLinks>
@@ -58,7 +59,7 @@ const Navbar = ({ toggle }) => {
 
             <NavItem>
               <NavLinks
-                to="/bigriggroup"
+                to="/trl"
                 onClick={toggleHome}
                 className="2xl:text-desc text-navsmall"
               >
@@ -113,7 +114,7 @@ const Navbar = ({ toggle }) => {
 
             <NavItem>
               <NavLinks
-                to="/Contact"
+                to="/news" 
                 onClick={toggleHome}
                 className="2xl:text-desc text-navsmall "
               >
@@ -137,3 +138,4 @@ const Navbar = ({ toggle }) => {
 };
 
 export default Navbar;
+

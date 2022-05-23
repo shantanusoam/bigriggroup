@@ -23,29 +23,14 @@ const FooterSection = ({ isOpen, toggle }) => {
         <div className="mt-10">
           {/* <div>
             <img src={logo} alt="" />
-          </div> */}
+          </div> */} 
           <div>
             <h1 className="pt-10 font-bold text-xl   text-white md:block hidden">
               © BigRig Group Inc, 2022 All rights reserved.
             </h1>
           </div>
         </div>
-        <FotterHName className='md:block hidden'>Get in touch with us for your service</FotterHName> 
-
-        {/* <SocialMediaActionsContainer>
-        <SocialMediaActions>
-             <FaFacebook/>
-            </SocialMediaActions>
-            <SocialMediaActions>
-             <FaTwitter/>
-            </SocialMediaActions>
-            <SocialMediaActions>
-             <FaInstagram/>
-            </SocialMediaActions>
-            <SocialMediaActions>
-             <FaLinkedin/>
-            </SocialMediaActions>
-          </SocialMediaActionsContainer> */}
+        <FotterHName className='md:block hidden'>Get in touch with us for your service</FotterHName>   
       </FooterLogo>
 
       <FotterNav>
@@ -74,10 +59,6 @@ const FooterSection = ({ isOpen, toggle }) => {
             {/* //todo */}
           </FotterContactlist>
         </FotterContact>
-
-        {/* <hr align="left" width="100%"></hr> */}
-
-        {/* <hr align="left" width="100%"></hr> */}
         <FotterContact>
           <FotterContactlist>
             <FotterContactName>We are open</FotterContactName>
@@ -86,30 +67,9 @@ const FooterSection = ({ isOpen, toggle }) => {
             </FotterContactNo>
           </FotterContactlist>
         </FotterContact>
-        {/* <SocialMediaActions>
-            <FaFacebookF/>
-            </SocialMediaActions> */}
-        {/* <FotterNavH>Email</FotterNavH> */}
-        {/* <FotterNavH>Company</FotterNavH>
-                <FotterNavH>Advantages</FotterNavH>
-                <FotterNavH>Products</FotterNavH>
-                <FotterNavH>Contact</FotterNavH> */}
       </FotterNav>
 
-      {/* <FotterSocialMedia>
-            <SocialMediaActions>
-            <FaFacebookF/>
-            </SocialMediaActions>
-            <SocialMediaActions>
-                <FaTwitter/>
-            </SocialMediaActions>
-            <SocialMediaActions>
-                <FaInstagram/>
-            </SocialMediaActions>
-          </FotterSocialMedia> */}
-      {/* <FotterContactN>
-        © Kal Tires Inc, 2021 All rights reserved.{" "}
-      </FotterContactN> */}
+    
     </FooterContainer>
   );
 };
