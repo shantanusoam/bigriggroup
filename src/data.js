@@ -207,43 +207,27 @@ export const BigTireBrands = [
   {
     id: "1",
     imageurl:
-      "",
-    heading: "Armor-logo",
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png",
+    heading: "BKT-logo",
   },
   {
     id: "2",
     imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigpartzSponsers/new-holland-logo.png",
-    heading: "Kenworth",
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/CT_Horiz-Logo.png",
+    heading: "CT_Horiz",
   },
   {
     id: "3",
     imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/thirdlogo.svg",
-    heading: "Peterbilt",
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/Prometeon-logo.png",
+    heading: "Prometeon",
   },
   {
     id: "4",
     imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fourthlogo.svg",
-    heading: "Vanguard",
+      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/TBCB-Logo.png",
+    heading: "TBCB",
   },
-  {
-    id: "5",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/fifthlogo.svg",
-    heading: "Wix Filters",
-  },
-  {
-    id: "6",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/sixthlogo.svg",
-    heading: "Bendix",
-  },
-  {
-    id: "7",
-    imageurl:
-      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/seventhlogo.svg",
-    heading: "Volvo",
-  },
+  
 ];
+
