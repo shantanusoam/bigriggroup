@@ -1,6 +1,15 @@
 import React from 'react'
+import { useState } from 'react';
 
 export default function contact() {
+const [name,setName] = useState('')
+const [email,setEmail] = useState('')
+// const [reason,setReason] = useState('')
+const [phone,setPhone] = useState('')
+const [message,setMessage] = useState('') 
+
+
+  
   return (
     <>
       <div id="maincontainer" className="h-screen">
@@ -11,19 +20,23 @@ export default function contact() {
           <form id="firstmain">
             <div className="ml-4">
               <h1 className="text-Heading text-heading font-bold">Contact</h1>
-              <p className="text-neautralform font-Poppins text-desc font-normal leading-7 mt-2">
+              <p className="text-neautralform font-Poppins text-desc font-normal leading-7 mt-2"> 
                 We are ready to work on a project of any complexity, <br />
                 whether it's commercial or residential.
               </p>
             </div>
             <div id="inameemail" className="mt-4">
               <input
+               value={name}
+               onChange={(e)=>setName(e.target.value)}
                 type="text"
                 placeholder="&nbsp; Your Name"
                 className="border-2 border-inputborder mx-4 my-2 w-72 h-11 rounded"
                 required
               />
               <input
+               value={email}
+                onChange={(e)=>setEmail(e.target.value)}
                 type="email"
                 placeholder="&nbsp; Email"
                 className="border-2 border-inputborder mx-4 my-2 w-72 h-11 rounded"
@@ -32,7 +45,7 @@ export default function contact() {
             </div>
 
             <div id="reasonphone">
-              <input
+              {/* <input
                 type="text"
                 list="cars"
                 placeholder=" &nbsp; Reason for contacting"
@@ -42,17 +55,21 @@ export default function contact() {
               <datalist id="cars">
                 <option>buy truck</option>
                 <option>buy trailers</option>
-              </datalist>
+              </datalist> */} 
 
               <input
+                value={phone}
+                onChange={(e)=>setPhone(e.target.value)}
                 type="phone"
                 placeholder=" &nbsp; Phone"
-                className="border-2 border-inputborder mx-4 w-72 h-11 rounded"
+                className="border-2 border-inputborder mx-4 w-72 h-11 rounded" 
               />
             </div>
 
             <div id="message">
               <textarea
+               value={message}
+               onChange={(e)=>setMessage(e.target.value)}
                 name=""
                 id=""
                 cols="80"
@@ -71,7 +88,7 @@ export default function contact() {
 
           <div id="secondmain">
             <img
-              src="http://127.0.0.1:5500/src/assets/Images/contacttruck.svg"
+              src="http://127.0.0.1:5500/src/assets/Images/contacttruck.svg" 
               alt=""
             />
           </div>

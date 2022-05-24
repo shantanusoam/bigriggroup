@@ -37,7 +37,7 @@ const Contactform = () => {
   };
 
   return (
-    <form class="w-full max-w-lg" onSubmit={(e) => this.formSubmit(e)}>
+    <form class="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
       <div class="flex flex-wrap -mx-3 mb-6">
         <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
           <label
