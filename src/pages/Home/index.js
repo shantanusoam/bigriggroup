@@ -4,6 +4,8 @@ import GroupWebsitesSection from '../../Components/GroupWebsitesSection/GroupWeb
 import HeroSection from '../../Components/HeaderHome';
 import Roadservice from '../../Components/RoadServiceComponent/Roadservice';
 import ServicesSection from '../../Components/ServicesSection/ServicesSection';
+import Contact from '../../Components/Contactsection/Contact';
+
 function Home() {
   return (
     <>
@@ -12,7 +14,8 @@ function Home() {
       <Roadservice />
       <BrandComponent></BrandComponent>
       <ServicesSection />
-     
+      <Contact/>
+      
     </>
   );
 }

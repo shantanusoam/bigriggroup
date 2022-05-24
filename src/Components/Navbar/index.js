@@ -51,7 +51,7 @@ const Navbar = ({ toggle }) => {
                 to="/bigriggroup"
                 onClick={toggleHome}
                 className="2xl:text-desc text-navsmall"
-                exact
+                exact 
               >
                 HOME
               </NavLinks>
