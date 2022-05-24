@@ -51,6 +51,9 @@ module.exports = {
         inputborder: "#E0E3EB",
         neautralform: "#292E3D",
       },
+      height:{
+        ' aboutusheight':'60vh'
+      }
     },
   },
 };
