@@ -5,23 +5,22 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import FooterSection from './Components/FooterSection';
 import Navbar from './Components/Navbar';
-import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent'; 
+import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent';
 import Sidebar from './Components/Sidebar';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false); 
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
   };
 
-
   return (
     <Router>
-      <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>  
-      <Navbar></Navbar>
+      {/* <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>  
+      <Navbar></Navbar> */}
       <Routes>
-        <Route path="/bigriggroup" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route
           path="/partz"
           element={
@@ -36,10 +35,9 @@ function App() {
         />
       </Routes>
 
-      <FooterSection></FooterSection>
+      {/* <FooterSection></FooterSection> */}
     </Router>
   );
 }
 
 export default App;
-

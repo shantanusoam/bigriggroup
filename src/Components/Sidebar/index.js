@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import {
   CloseIcon,
   Icon,
@@ -9,13 +9,13 @@ import {
   SidebarLinkR,
   SideBtnWrap,
   SidebarRoute,
-} from "./SlidebarElement";
-import { animateScroll as scroll, Link } from "react-scroll";
+} from './SlidebarElement';
+import { animateScroll as scroll, Link } from 'react-scroll';
 const Sidebar = ({ isOpen, toggle }) => {
   function disabel() {
-    const path = window.location.pathname;   
-    console.log(path === "/");
-    if (path === "/") {
+    const path = window.location.pathname;
+
+    if (path === '/') {
       return true;
     }
     return false;
@@ -28,7 +28,7 @@ const Sidebar = ({ isOpen, toggle }) => {
       <SidebarWrapper>
         <SidebarMenu>
           <SidebarLinkR to="/">
-            <a to="/" onClick={toggle}> 
+            <a to="/" onClick={toggle}>
               Home
             </a>
           </SidebarLinkR>
@@ -48,16 +48,9 @@ const Sidebar = ({ isOpen, toggle }) => {
         </SidebarMenu>
         <SideBtnWrap>
           <SidebarRoute to="/Contact">
-            <addEventListener
-              to="/Contact"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact={true}
-              offset={-80}
-            >
+            {/* <addEventListener to="/Contact" duration={500} offset={-80}>
               Contact
-            </addEventListener>  
+            </addEventListener> */}
           </SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
@@ -65,4 +58,4 @@ const Sidebar = ({ isOpen, toggle }) => {
   );
 };
 
-export default Sidebar; 
+export default Sidebar;

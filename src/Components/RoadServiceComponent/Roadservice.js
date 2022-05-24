@@ -5,14 +5,14 @@ export default function Roadservice() {
     <>
       <div
         id="maincontainer"
-        className="flex flex-col-reverse md:flex-row md:mx-20 mx-0  lg:mx-16"
+        className="flex flex-col-reverse lg:flex-row  md:mx-20 mx-0  lg:mx-16"
       >
         <div id="firstmain" className="bg-Darkblue">
-          <div id="firtmaininner" className="xl:ml-48 mb-10 mt-10 ">
-            <h1 className="text-white text-heading font-heading">
+          <div id="firtmaininner" className="xl:ml-48 lg:ml-10 mb-10 mt-10 ">
+            <h1 className="text-white text-heading font-heading ">
               24/7 Road Service
             </h1>
-            <p className="text-white text-desc font-desc 2xl:w-1/2 w-full">
+            <p className="text-white text-desc font-desc 2xl:w-1/2 w-full ">
               Kal Tires has 9 distribution centers, 4 service centers and
               nationwide 24/7 emergency road service. Exclusive with major tire
               manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama,
@@ -21,16 +21,16 @@ export default function Roadservice() {
               products.
             </p>
             <div>
-              <button className="text-white bg-yellow-bg p-4 font-semibold   mt-8 rounded-md w-1/5 text-2xl flex items-center justify-center">  
+              <button className="text-white bg-yellow-bg  font-semibold  mt-8 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
                 Inventory
               </button>
             </div>
-          </div> 
+          </div>
         </div>
 
         <img
-          className="md:-my-10 md:w-1/2 w-full"
-          src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/2017-freightliner-cascadia-accessories_0%201.svg" 
+          className="md:-my-10  w-full 2xl:w-full lg:w-full "
+          src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/2017-freightliner-cascadia-accessories_0%201.svg"
           alt="truck"
         />
       </div>

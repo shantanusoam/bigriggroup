@@ -1,10 +1,10 @@
-import { FaBars } from "react-icons/fa";
-import { NavLink as LinkR } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
-import styled from "styled-components";
+import { FaBars } from 'react-icons/fa';
+import { NavLink as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
+import styled from 'styled-components';
 
 export const Nav = styled.nav`
-  background-color: ${({ scrollNav }) => (scrollNav ? "#fff" : "#ffffffad")};
+  background-color: ${({ scrollNav }) => (scrollNav ? '#fff' : '#ffffffad')};
 
   height: 100px;
   //  margin-top:-80px
@@ -49,7 +49,7 @@ export const NavLogo = styled(LinkR)`
   color: #000;
   justify-self: flex-start;
   cursor: pointer;
-  padding: 25px;
+
   justify-content: start;
   font-size: 1.5\rem;
   display: flex;
@@ -58,22 +58,19 @@ export const NavLogo = styled(LinkR)`
   font-weight: bold;
   text-decoration: none;
   @media screen and (max-width: 480px) {
-    padding: 5px;
   }
   @media screen and (max-width: 768px) {
-    padding: 5px;
   }
   img {
-    height: "92px";
+    height: '92px';
     @media screen and (max-width: 480px) {
-      height: "42px";
+      height: '42px';
       justify-content: center;
       align-items: center;
     }
     @media screen and (max-width: 768px) {
-      height: "20px";
-      width: "10px";
-      padding: 5px;
+      height: '20px';
+      width: '10px';
     }
   }
   &.active {
@@ -136,7 +133,7 @@ export const NavItem = styled.li`
   display: block;
   height: 80px;
   padding: 0 1rem;
-  padding-right:0.5rem;
+
   color: #000;
   // &:hover {
   //   animation: pulse 1s ease-in-out;
@@ -157,22 +154,21 @@ export const NavItem = styled.li`
   // }
 `;
 export const NavLinks = styled(LinkR)`
-  color: ${({ scrollNav }) => (scrollNav ? "#fff" : `#000`)};
+  color: ${({ scrollNav }) => (scrollNav ? '#fff' : `#000`)};
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0 1rem; 
+
   height: 100%;
   cursor: pointer;
   // font-size:18px;
-  
-  
+
   &.active {
     color: #101010;
   }
   &:hover {
     font-weight: 600;
-    border-bottom: 2px solid #ffab53 !important;   
+    border-bottom: 2px solid #ffab53 !important;
   }
   &.active {
     border-bottom: 2px solid #ffab53 !important;

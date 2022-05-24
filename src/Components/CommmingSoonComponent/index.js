@@ -7,13 +7,16 @@ export const CommmingSoonComponentindex = (data) => {
   if (data.data === 'tires') {
     var data1 = BigTireBrands;
   }
-  console.log(data1);
+
   return (
     <>
       <div className="mt-28">
         <div className="flex flex-col align-center justify-center">
           {data1.map((item) => (
-            <div className="flex flex-row align-center justify-center">
+            <div
+              className="flex flex-row align-center justify-center"
+              key={item.id}
+            >
               <img src={item.logo} className="w-2/6"></img>
             </div>
           ))}
