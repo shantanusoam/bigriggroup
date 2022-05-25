@@ -1,5 +1,5 @@
 import React from 'react';
-import arrow from '../../assets/Images/arrow.svg';
+import arrow from '../../assets/Images/arrow.svg'; 
 import { motion } from 'framer-motion';
 import BgImage from '../../assets/Images/GroupWebsitesBackground.png';
 import { GroupWebsiteComponentdata } from '../../data.js';
@@ -89,7 +89,7 @@ function GroupWebsiteComponent() {
                           Coming soon
                         </h2>
 
-                        {/* <svg
+                        <svg
                           className="arrow-icon mt-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="32"
@@ -114,7 +114,7 @@ function GroupWebsiteComponent() {
                               d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"
                             ></path>
                           </g>
-                        </svg> */}
+                        </svg>
                       </div>
                     </a>
                   </section>
@@ -126,23 +126,7 @@ function GroupWebsiteComponent() {
                   </div>
                 )}
               </div>
-              {/* {data.id % 2 === 0 ? (
-                <div className="md:5/12 lg:w-5/12 ">
-                  <div className="relative">
-                    <img
-                      className={'w-full'}
-                      src={data.imageurl}
-                      alt="image"
-                      loading="lazy"
-                      width=""
-                      height=""
-                    />
-                    <div className="cursor-pointer absolute top-0 right-0  hover:shadow-outline drop-shadow-lg bg-white">
-                      <img src={data.Logourl} width="200" />
-                    </div>
-                  </div>
-                </div>
-              ) : null} */}
+         
             </div>
           </div>
         ))}
