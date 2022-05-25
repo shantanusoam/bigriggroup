@@ -1,6 +1,6 @@
 export const ServiceComponentdata = [
   {
-    Heading: 'Our Services',
+    Heading: 'Our Services', 
     Desc: 'Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products.  ',
     CTA: { heading: 'CONTACT US', link: 'contactus' },
     services: [
@@ -249,3 +249,29 @@ export const BigTireBrands = [
     ],
   },
 ];
+
+
+export const AboutusSec =[
+  {
+   id:"0",
+   headingmain:'About Us',
+   desc:'"New and independent" Heavy Duty Truck and Trader Parts Distributor. Creating a nationwide distribution chain by strategically placing Heavy Duty Parts Distribution Centers around the country to supply our customer needs',
+   descOne:'One-stop-shop for all your trucking needs. We are an authorized dealer for Vanguard trailres servicing in British Columbia, Canada. We are an established retailer of pre-owned trucks and trailers as well',
+   aboutimg : [
+    {
+    id: "1",
+    logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigtrailerlogo.svg",
+    heading: "trailer",
+  },
+  {
+    id: "2",
+    logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigpartzlogo.svg",
+    heading: "partz",
+  },
+  {
+    id: "3",
+    logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigtireslog.svg", 
+  }
+]
+}   
+]   
