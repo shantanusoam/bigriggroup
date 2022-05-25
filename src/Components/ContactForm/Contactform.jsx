@@ -1,5 +1,5 @@
 // import React from "react";
-// import axios from "axios";  
+// import axios from "axios";
 // const Contactform = () => {
 //   const [name, setName] = useState("");
 //   const [email, setEmail] = useState("");
@@ -7,7 +7,7 @@
 //   const [success, setSuccess] = useState(false);
 //   const [error, setError] = useState(false);
 //   const [errorMessage, setErrorMessage] = useState("");
-//   const [buttonText, setButtonText] = useState("Send");   
+//   const [buttonText, setButtonText] = useState("Send");
 //   const resetForm = (e) => {
 //     setName("");
 //     setEmail("");
@@ -132,4 +132,3 @@
 // };
 
 // export default Contactform;
-
