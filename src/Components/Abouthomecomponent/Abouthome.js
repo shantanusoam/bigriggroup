@@ -6,7 +6,7 @@ export default function Abouthome() {
   return (
     <>
       <div id="abouthomeimg" style={{
-        backgroundImage: "url(" + "http://127.0.0.1:5500/src/assets/Images/abouthomeimage.svg" + ")",
+        backgroundImage: "url(" + "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/abouthomeimage.svg" + ")", 
         backgroundPosition:'center',
         backgroundSize:'cover',
         backgroundRepeat:'no-repeat', 
