@@ -1,5 +1,5 @@
 import React from 'react';
-import Contactform from '../../Components/Contactform/Contactform';
+// import Contactform from '../../Components/Contactform';
 
 export const ContactFormContainer = () => {
   return (
@@ -14,7 +14,7 @@ export const ContactFormContainer = () => {
           </p>
         </div>
 
-        <Contactform></Contactform>
+        {/* <Contactform></Contactform> */}
       </div>
 
       <div className="flex ">
