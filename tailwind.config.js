@@ -47,7 +47,7 @@ module.exports = {
         Description: "#5E5B5B",
         Darkblue: "#22334C",
         Lightblue: "#006BC3",
-        white: "#F1F1F1",
+        whitenew: "#F1F1F1",
         inputborder: "#E0E3EB",
         neautralform: "#292E3D",
         businessbackground: "#F2F2F2", 
