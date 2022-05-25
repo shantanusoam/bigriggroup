@@ -17,10 +17,9 @@ function Home() {
       <BrandComponent></BrandComponent>
       <ServicesSection />
       <ContactFormContainer></ContactFormContainer>
-      {/* <Contact/> */}
+      {/* <Contact /> */}
       {/* <ContactFormContainer></ContactFormContainer> */}
     </>
   );
 }
 export default Home;
-
