@@ -7,6 +7,7 @@ import FooterSection from './Components/FooterSection';
 import Navbar from './Components/Navbar';
 import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent';
 import Sidebar from './Components/Sidebar';
+import Footer from './Components/Footernewcomp/Footer'; 
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -34,8 +35,8 @@ function App() {
           }
         />
       </Routes>
-
-      <FooterSection></FooterSection>
+      <Footer/>
+      {/* <FooterSection></FooterSection> */}
     </Router>
   );
 }

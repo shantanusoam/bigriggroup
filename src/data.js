@@ -252,25 +252,25 @@ export const BigTireBrands = [
 
 export const AboutusSec = [
   {
-    id: '0',
-    headingmain: 'About Us',
-    desc: '"New and independent" Heavy Duty Truck and Trader Parts Distributor. Creating a nationwide distribution chain by strategically placing Heavy Duty Parts Distribution Centers around the country to supply our customer needs',
-    descOne:
-      'One-stop-shop for all your trucking needs. We are an authorized dealer for Vanguard trailres servicing in British Columbia, Canada. We are an established retailer of pre-owned trucks and trailers as well',
+    id: "0",
+    headingmain: "About Us",
+    desc: '"Big Rig Trailers & Leasing is a large and continually growing trucking company that starts in California as Kal Freight Inc, with over 800 trucks and 2,000 trailers and has over 800 employees. As a dynamic modern transportation company with a strategic corporate location based in Ontario, California.',
+    // descOne:
+    //   'One-stop-shop for all your trucking needs. We are an authorized dealer for Vanguard trailres servicing in British Columbia, Canada. We are an established retailer of pre-owned trucks and trailers as well',
     aboutimg: [
       {
-        id: '1',
-        logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigtrailerlogo.svg',
-        heading: 'trailer',
+        id: "1",
+        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigtrailerlogo.svg",
+        heading: "trailer",
       },
       {
-        id: '2',
-        logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigpartzlogo.svg',
-        heading: 'partz',
+        id: "2",
+        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigpartzlogo.svg",
+        heading: "partz",
       },
       {
-        id: '3',
-        logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigtireslog.svg',
+        id: "3",
+        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigtireslog.svg",
       },
     ],
   },
