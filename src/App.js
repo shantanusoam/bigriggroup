@@ -35,7 +35,7 @@ function App() {
         />
       </Routes>
 
-      {/* <FooterSection></FooterSection> */}
+      <FooterSection></FooterSection>
     </Router>
   );
 }
