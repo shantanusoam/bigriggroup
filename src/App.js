@@ -17,8 +17,8 @@ function App() {
 
   return (
     <Router>
-      {/* <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>  
-      <Navbar></Navbar> */}
+      {/* <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar> */}
+      <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
@@ -35,7 +35,7 @@ function App() {
         />
       </Routes>
 
-      {/* <FooterSection></FooterSection> */}
+      <FooterSection></FooterSection>
     </Router>
   );
 }

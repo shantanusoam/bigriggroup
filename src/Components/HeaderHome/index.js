@@ -33,9 +33,9 @@ const HeroSection = () => {
   return (
     <HeroContainer id="Home">
       <Gradients></Gradients>
-      {/* <HeroBg>
+      <HeroBg>
         <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
-      </HeroBg> */}
+      </HeroBg>
       <HeroContent>
         <ContainerMain>
           <HeroP>BIG RIG GROUP</HeroP>
