@@ -47,7 +47,7 @@ module.exports = {
         Description: '#5E5B5B',
         Darkblue: '#22334C',
         Lightblue: '#006BC3',
-        white: '#F1F1F1',
+        white: '#fff',
         inputborder: '#E0E3EB',
         neautralform: '#292E3D',
       },
