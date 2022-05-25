@@ -20,6 +20,7 @@ module.exports = {
         desc: "1.5rem",
         navsmall: "14px",
         navsmallne: "10px;",
+        descnew:"19px"
       },
       fontWeight: {
         heading: "600",
@@ -52,9 +53,14 @@ module.exports = {
         neautralform: "#292E3D",
         businessbackground: "#F2F2F2", 
       },
-      height: {
-        " aboutusheight": "60vh",
+      spacing: {
+        '30rem':'33rem',
+        '10rem':'10rem'
       },
+      width:{
+        '50wv':'50wv'
+      }
     },
   },
 };
+
