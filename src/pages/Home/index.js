@@ -17,8 +17,8 @@ function Home() {
       <Abouthome /> 
       <GroupWebsitesSection />
       <Roadservice />
-      <BrandComponent></BrandComponent>
-      <ServicesSection />
+      {/* <BrandComponent></BrandComponent> */}
+      {/* <ServicesSection /> */}
       <ContactFormContainer></ContactFormContainer>
       <Slideshow></Slideshow>
       {/* <Contact /> */}
