@@ -1,6 +1,6 @@
 import React from "react";
-import businesstrailernew from "../../assets/Images/businesstrailernew.png";
-import businesstruck from "../../assets/Images/businesstruck.png";
+// import businesstrailernew from "../../assets/Images/businesstrailernew.png";
+// import businesstruck from "../../assets/Images/businesstruck.png";
 // import businesstrailernew from "../../assets/Images/businesstrailernew";  
 import { Businessdata } from "../../data";
 var mydata = Businessdata[0]
@@ -14,7 +14,7 @@ export default function Business() {
             id="firstmain"
             className="flex justify-center items-center font-semibold"
           >
-            <h1 className="text-5xl text-Heading">{mydata.heading}</h1>
+            <h1 className="text-5xl text-Heading">{mydata.heading}</h1> 
           </div>
 
           <div id="secondmain" className="flex flex-row">
@@ -22,7 +22,7 @@ export default function Business() {
               <div id="secondmaintwo">
                 <div
                   id="backgroundd"
-                  className=""
+                  className="h-65vh mx-4 mt-8"
                   style={{
                     backgroundImage:
                       "url(" +
@@ -31,6 +31,7 @@ export default function Business() {
                     backgroundPosition: "center",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
+                 
                   }}
                 >
                   <div id="box" className="ml-12">
