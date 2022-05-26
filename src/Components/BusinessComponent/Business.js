@@ -12,7 +12,7 @@ export default function Business() {
         <div id="innermain" className="p-36 bg-white drop-shadow-2xl"> 
           <div
             id="firstmain"
-            className="flex justify-center items-center font-semibold"
+            className="flex justify-center items-center font-semibold" 
           >
             <h1 className="text-5xl text-Heading">{mydata.heading}</h1>  
           </div>
