@@ -7,7 +7,7 @@ import FooterSection from './Components/FooterSection';
 import Navbar from './Components/Navbar';
 import { CommmingSoonComponentindex } from './Components/CommmingSoonComponent';
 import Sidebar from './Components/Sidebar';
-import Footer from './Components/Footernewcomp/Footer'; 
+import Footer from './Components/Footernewcomp/Footer';
 import BottomBar from './Components/Bottombar';
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
       <Navbar></Navbar>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/bigriggroup" element={<Home />} />
         <Route
           path="/partz"
           element={
@@ -36,9 +36,9 @@ function App() {
           }
         />
       </Routes>
-      <Footer/>
+      <Footer />
       {/* <FooterSection></FooterSection> */}
-      <BottomBar/>
+      <BottomBar />
     </Router>
   );
 }
