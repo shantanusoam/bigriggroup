@@ -10,7 +10,7 @@ import Abouthome from '../../Components/Abouthomecomponent/Abouthome';
 import { Slideshow } from '../../Components/Slider/slideshow';
 // import OurBusinessVerticles from '../../Container/OurBusinessVerticles';
 import { MapConatiner } from '../../Container/MapContainer';
-
+import './Home.scss';
 import Business from '../../Components/BusinessComponent/Business';
 function Home() {
   return (
