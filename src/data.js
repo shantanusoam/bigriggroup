@@ -282,7 +282,7 @@ export const Businessdata = [
     thebox: [
       {
         id: "1",
-        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstrailernew.png",
+        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstrailernew.png", 
         heading: "GET ON THE ROAD WITH POWERFUL ENGINE",
         desc: "Contact Us for the best trucks and trailers",
         logotwo:
