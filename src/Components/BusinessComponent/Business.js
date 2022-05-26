@@ -14,7 +14,7 @@ export default function Business() {
             id="firstmain"
             className="flex justify-center items-center font-semibold"
           >
-            <h1 className="text-5xl text-Heading">{mydata.heading}</h1> 
+            <h1 className="text-5xl text-Heading">{mydata.heading}</h1>  
           </div>
 
           <div id="secondmain" className="flex flex-row"> 
