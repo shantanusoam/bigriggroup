@@ -10,7 +10,7 @@ export default function Business() {
           <div id="firstmain" className="flex justify-center items-center font-semibold"> 
             <h1 className="text-5xl text-Heading">Our Business Verticals</h1>
           </div>
-
+          
           <div id="secondmain">
             <div id="secondmaintwo">
               <div
