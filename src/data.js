@@ -284,30 +284,30 @@ export const Businessdata = [
     thebox: [
       {
         id: "1",
-        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstrailernew.png", 
+        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstrailernew.png",
         heading: "GET ON THE ROAD WITH POWERFUL ENGINE",
-        desc:"Contact Us for the best trucks and trailers",
-        logotwo:"https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstruck.png",
-        btn:"Trailer & Leasing"
-        
+        desc: "Contact Us for the best trucks and trailers",
+        logotwo:
+          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstruck.png",
+        btn: "Trailer & Leasing",
       },
       {
         id: "2",
-        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstrailernew.png", 
-        heading: "GET ON THE ROAD WITH POWERFUL ENGINE",
-        desc:"Contact Us for the best trucks and trailers",
-        logotwo:"https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstruck.png",
-        btn:"Trailer & Leasing"
-        
+        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesspartz.png",
+        heading: "LAST LONG WITH THE BEST PARTS ON THE MARKET",
+        desc: "We have the best brands to get your truck on the road",
+        logotwo:
+          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstools.png",
+        btn: "Parts",
       },
       {
         id: "1",
-        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstrailernew.png", 
+        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstrailernew.png",
         heading: "GET ON THE ROAD WITH POWERFUL ENGINE",
-        desc:"Contact Us for the best trucks and trailers",
-        logotwo:"https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstruck.png",
-        btn:"Trailer & Leasing"
-        
+        desc: "Contact Us for the best trucks and trailers",
+        logotwo:
+          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstruck.png",
+        btn: "Trailer & Leasing",
       },
     ],
   },
