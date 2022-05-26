@@ -20,7 +20,8 @@ module.exports = {
         desc: "1.5rem",
         navsmall: "14px",
         navsmallne: "10px;",
-        descnew:"19px"
+        descnew:"19px",
+        footerheading:"34px"
       },
       fontWeight: {
         heading: "600",
