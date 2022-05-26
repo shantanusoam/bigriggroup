@@ -8,21 +8,21 @@ import { ContactFormContainer } from '../../Container/ContactFormContainer';
 import Contact from '../../Components/Contactsection/Contact';
 import Abouthome from '../../Components/Abouthomecomponent/Abouthome';
 import { Slideshow } from '../../Components/Slider/slideshow';
-import OurBusinessVerticles from '../../Container/OurBusinessVerticles';
+// import OurBusinessVerticles from '../../Container/OurBusinessVerticles';
 import { MapConatiner } from '../../Container/MapContainer';
-import './Home.scss';
-// import Business from '../../Components/BusinessComponent/Business';
+
+import Business from '../../Components/BusinessComponent/Business';
 function Home() {
   return (
     <>
       <HeroSection></HeroSection>
-      {/* <Business/> */}
-      <OurBusinessVerticles></OurBusinessVerticles>
+      <Business />
+      {/* <OurBusinessVerticles></OurBusinessVerticles> */}
       <Abouthome />
       <GroupWebsitesSection />
       <Roadservice />
-      <BrandComponent></BrandComponent>
-      <ServicesSection />
+      {/* <BrandComponent></BrandComponent> */}
+      {/* <ServicesSection /> */}
       <ContactFormContainer></ContactFormContainer>
       <Slideshow></Slideshow>
       <MapConatiner></MapConatiner>

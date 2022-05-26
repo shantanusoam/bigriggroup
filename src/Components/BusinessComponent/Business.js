@@ -1,46 +1,78 @@
-// import React from 'react'
-// import businesstrailernew from "../../assets/Images/businesstrailernew.png"
-// export default function Business() {
-//   return (
-//     <>
-//       <div id="maincontainer">
-//         <div id="innermain" className='p-36 bg-businessbackground'> 
-//           <div id="firstmain">
-//             <h1>Our Business Verticals</h1>
-//           </div>
+import React from "react";
+// import businesstrailernew from "../../assets/Images/businesstrailernew.png";
+// import businesstruck from "../../assets/Images/businesstruck.png";
+// import businesstrailernew from "../../assets/Images/businesstrailernew";   
+import { Businessdata } from "../../data";
+var mydata = Businessdata[0]
 
-//           <div id="secondmain">
-//             <div id="secondmaintwo">
-//               <div id="backgroundd" className='h-96 w-96' style={{
-//                   backgroundImage:"url("+"https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businessback.svg"+ ")", 
-//                   backgroundPosition:'center',
-//                   backgroundSize:'cover',
-//                   backgroundRepeat:'no-repeat' 
-//               }}>
-//                 <div id="box">
-//                   <div>
-//                     <img src={businesstrailernew} alt="logo" />
-//                   </div>
-//                   <div>
-//                     <h1 className=''>GET ON THE ROAD WITH POWERFUL ENGINE</h1>
-//                   </div>
-//                   <div>
-//                     <p>Contact Us for the best trucks and trailers</p>
-//                   </div>
+export default function Business() {
+  return (
+    <>
+      <div id="maincontainer" className="bg-businessbackground">
+        <div id="innermain" className="p-36 bg-white drop-shadow-2xl"> 
+          <div
+            id="firstmain"
+            className="flex justify-center items-center font-semibold"
+          >
+            <h1 className="text-5xl text-Heading">{mydata.heading}</h1> 
+          </div>
 
-//                   <div>
-//                       <img src="" alt="" />
-//                   </div>
-                  
-//                   <div id="btn">
-//                       <button>Trailers & Leasing </button> 
-//                   </div>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//     </> 
-//   );
-// }
+          <div id="secondmain" className="flex flex-row"> 
+            {mydata.thebox.map((element) => (
+              <div id="secondmaintwo">
+                <div
+                  id="backgroundd"
+                  className="h-65vh  mx-2 mt-8"
+                  style={{
+                    backgroundImage:
+                      "url(" +
+                      "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businessback.svg" +
+                      ")",
+                    backgroundPosition: "center",
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    
+                  }}
+                >
+                  <div id="box" className="ml-12">
+                    <div>
+                      <img
+                        src={element.logo} 
+                        alt="logo"
+                        className="w-56 h-20"
+                      />
+                    </div>
+                    <div>
+                      <h1 className="text-Heading text-5xl font-sub-heading font-semibold w-4/5 leading-44px pt-6">
+                        {element.heading}
+                      </h1>
+                    </div>
+                    <div>
+                      <p className="text-2xl pt-12 font-normal w-64">
+                        {element.desc}
+                      </p>
+                    </div>
+
+                    <div id="imagemain" className="flex justify-between">
+                      <div></div>
+                      <div>
+                        <img src={element.logotwo} alt="" />
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div id="btn">
+                  <button className="bg-Lightblue w-50rem h-14 ml-4">
+                    {element.btn} 
+                  </button>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </>
+  );
+}
+

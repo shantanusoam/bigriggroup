@@ -59,9 +59,21 @@ module.exports = {
         '10rem':'10rem'
       },
       width:{
-        '50wv':'50wv'
+        '50wv':'50wv',
+        '70vh':'70vh',
+        '30rem':'30%', 
+        '25rem':'25%',
+        '50rem':'30rem',
+        '35wv':'35wv'
+      },
+      height:{
+        '40rem':'40rem',
+        '65vh' : '67vh',
+      },
+      lineHeight:{
+        '44px':'44px'
       }
     },
-  },
+  }, 
 };
 

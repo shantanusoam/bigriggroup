@@ -64,7 +64,7 @@ const BottomBar = ({ toggle }) => {
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/About" onClick={toggleHome}>
+            <NavLinks to="/About" onClick={toggleHome}> 
               <a to="/About">Contact</a> 
             </NavLinks>
           </NavItem>
@@ -105,8 +105,8 @@ const BottomBar = ({ toggle }) => {
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <h3 className="text-left text-gray-200 font-bold text-1xl">
-            @ Copyright Big Rig Trailer and Leasing
+          <h3 className="text-left text-gray-200 font-bold text-1xl"> 
+            @ Copyright Big Rig Group   
           </h3>
         </NavBtn>
         {/* <MobileIcon onClick={toggle}>
@@ -117,4 +117,4 @@ const BottomBar = ({ toggle }) => {
   );
 };
 
-export default BottomBar;
+export default BottomBar; 
