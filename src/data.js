@@ -287,7 +287,7 @@ export const Businessdata = [
         desc: "Contact Us for the best trucks and trailers",
         logotwo:
           "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstruck.png",
-        btn: "Trailer & Leasing",
+        btn: "Trailer & Leasing", 
       },
       {
         id: "2",
