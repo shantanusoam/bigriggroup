@@ -15,13 +15,13 @@ import { BrandCompnentBrands } from '../../../data';
 const delay = 1500;
 
 export function Slideshow() {
-  const [index, setIndex] = React.useState(0);
+  const [index, setIndex] = React.useState(0); 
   const timeoutRef = React.useRef(null);
   const [hoverRef, isHovered] = useHover();
   function resetTimeout() {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
-    }
+    } 
   }
 
   React.useEffect(() => {
@@ -43,31 +43,39 @@ export function Slideshow() {
   }, [index, isHovered]);
 
   return (
-    <div
-      className=" slideshow     snap-x flex space-x-5 overflow-x-auto"
-      ref={hoverRef}
-    >
+    <>
       <div
-        className="slideshowSlider transition ease-in-out delay-150"
-        style={{
-          transform: `translate3d(${-index * 33.33333333333333333}%, 0, 0)`,
-        }}
+        id="heading"
+        className="text-36px font-semibold text-Heading flex justify-center items-center pb-16"
       >
-        {BrandCompnentBrands.map((brand, index) => (
-          <div
-            className="slide  w-4/12 bg-fit bg-no-repeat bg-center grayscale hover:grayscale-0 hover:scale-150 transition-all flex items-center content-center justify-center "
-            key={index}
-            // style={{ backgroundImage: `url(${brand.imageurl})` }}
-          >
-            <img
-              src={brand.imageurl}
-              className="self-center slide justify-self-center justify-items-center"
-            ></img>
-          </div>
-        ))}
+        <h1>Our Brands</h1>
       </div>
 
-      {/* <div className="slideshowDots">
+      <div
+        className=" slideshow     snap-x flex space-x-5 overflow-x-auto"
+        ref={hoverRef}
+      >
+        <div
+          className="slideshowSlider transition ease-in-out delay-150"
+          style={{
+            transform: `translate3d(${-index * 33.33333333333333333}%, 0, 0)`,
+          }}
+        >
+          {BrandCompnentBrands.map((brand, index) => (
+            <div
+              className="slide  w-4/12 bg-fit bg-no-repeat bg-center grayscale hover:grayscale-0 hover:scale- transition-all flex items-center content-center justify-center "
+              key={index}
+              // style={{ backgroundImage: `url(${brand.imageurl})` }}
+            >
+              <img 
+                src={brand.imageurl}
+                className="self-center slide justify-self-center justify-items-center"
+              ></img>
+            </div>
+          ))}
+        </div>
+
+        {/* <div className="slideshowDots">
         {colors.map((_, idx) => (
           <div
             key={idx / 3}
@@ -78,7 +86,8 @@ export function Slideshow() {
           ></div>
         ))}
       </div> */}
-    </div>
+      </div>
+    </>
   );
 }
 

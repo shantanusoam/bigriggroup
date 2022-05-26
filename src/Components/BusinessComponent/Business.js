@@ -1,7 +1,7 @@
 import React from "react";
 // import businesstrailernew from "../../assets/Images/businesstrailernew.png";
 // import businesstruck from "../../assets/Images/businesstruck.png";
-// import businesstrailernew from "../../assets/Images/businesstrailernew";   
+// import businesstrailernew from "../../assets/Images/businesstrailernew";     
 import { Businessdata } from "../../data";
 var mydata = Businessdata[0]
 

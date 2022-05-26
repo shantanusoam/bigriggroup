@@ -201,20 +201,21 @@ margin-bottom: 24px;
 font-family: sans-serif;
 font-style: normal;
 font-weight: 600;
-font-size: 4rem;
+font-size: 3.5rem;
 padding-bottom: 1rem;
 line-height: 89.69%;
 text-align:center;
+margin-top:20%;
 
 
 z-index: 2;
 color: #FFFFFF;
-border-bottom:4px solid;
-    border-bottom-color: #FFAB53;
-    display:block;
-    margin:0 auto;
+// border-bottom:4px solid;
+//     border-bottom-color: #FFAB53;
+//     display:block;
+//     margin:0 auto;
  
-    padding-top:20px; 
+//     padding-top:20px; 
 &:hover{
     
     // border-bottom:4px solid;
@@ -455,13 +456,13 @@ cursor: pointer;
 export const Samosa = Styled.div`
 
 
-margin-bottom:10rem !important;
-
-margin-top: 2rem;
+margin-bottom:25rem !important; 
+// margin-top: 2rem;
 font-family: sans-serif;
 font-style:300;
 font-weight: normal;
-font-size: 1.25rem;
+font-size: 1.5rem;
+width:62% !important;
 
 
 text-align:center;

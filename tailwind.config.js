@@ -21,7 +21,8 @@ module.exports = {
         navsmall: "14px",
         navsmallne: "10px;",
         descnew:"19px",
-        footerheading:"34px"
+        footerheading:"34px",
+        '36px':'36px'
       },
       fontWeight: {
         heading: "600",
@@ -64,7 +65,9 @@ module.exports = {
         '30rem':'30%', 
         '25rem':'25%',
         '50rem':'30rem',
-        '35wv':'35wv'
+        '35wv':'35wv',
+        '28%':'22%',
+        '40rem':'40rem'
       },
       height:{
         '40rem':'40rem',
@@ -72,6 +75,9 @@ module.exports = {
       },
       lineHeight:{
         '44px':'44px'
+      },
+      scale:{
+        '50':'1.15'
       }
     },
   }, 
