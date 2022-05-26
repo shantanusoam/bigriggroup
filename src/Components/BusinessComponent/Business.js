@@ -1,7 +1,7 @@
 import React from "react";
 // import businesstrailernew from "../../assets/Images/businesstrailernew.png";
 // import businesstruck from "../../assets/Images/businesstruck.png";
-// import businesstrailernew from "../../assets/Images/businesstrailernew";  
+// import businesstrailernew from "../../assets/Images/businesstrailernew";   
 import { Businessdata } from "../../data";
 var mydata = Businessdata[0]
 
@@ -17,12 +17,12 @@ export default function Business() {
             <h1 className="text-5xl text-Heading">{mydata.heading}</h1> 
           </div>
 
-          <div id="secondmain" className="flex flex-row">
+          <div id="secondmain" className="flex flex-row"> 
             {mydata.thebox.map((element) => (
               <div id="secondmaintwo">
                 <div
                   id="backgroundd"
-                  className="h-65vh mx-4 mt-8"
+                  className="h-65vh  mx-2 mt-8"
                   style={{
                     backgroundImage:
                       "url(" +
@@ -31,7 +31,7 @@ export default function Business() {
                     backgroundPosition: "center",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
-                 
+                    
                   }}
                 >
                   <div id="box" className="ml-12">
@@ -63,9 +63,9 @@ export default function Business() {
                   </div>
                 </div>
                 <div id="btn">
-                  {/* <button className="bg-Lightblue w-30rem h-14">
+                  <button className="bg-Lightblue w-50rem h-14 ml-4">
                     {element.btn} 
-                  </button> */}
+                  </button>
                 </div>
               </div>
             ))}

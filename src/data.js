@@ -296,7 +296,7 @@ export const Businessdata = [
         desc: "We have the best brands to get your truck on the road",
         logotwo:
           "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/busnesection/businesstools.png",
-        btn: "Parts",
+        btn: "Parts & services",
       },
       {
         id: "1",
