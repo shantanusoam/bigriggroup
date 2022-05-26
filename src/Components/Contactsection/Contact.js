@@ -12,8 +12,7 @@ export default function contact() {
           id="innermaincontainer"
           className="ml-48 mt-52 flex justify-between mr-72"
         >
-
-            <Formcomp/>
+          <Formcomp />
           {/* <form id="firstmain">
             <div className="ml-4">
               <h1 className="text-Heading text-heading font-bold">Contact</h1>
@@ -85,7 +84,7 @@ export default function contact() {
 
           <div id="secondmain">
             <img
-              src="http://127.0.0.1:5500/src/assets/Images/contacttruck.svg" 
+              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/redtruck.svg"
               alt=""
             />
           </div>
