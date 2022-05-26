@@ -10,7 +10,7 @@ export default function Formcomp() {
 
   return (
     <>
-      <div id="shadow" className='p-4 border-2 rounded-md drop-shadow-md'>
+      <div id="shadow" className='p-4 rounded-md shadow-lg'>
         <form id="firstmain" className="p-2">
           <div className="ml-4">
             <h1 className="text-Heading text-heading font-bold">Contact</h1>

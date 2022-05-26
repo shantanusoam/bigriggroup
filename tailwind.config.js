@@ -59,7 +59,16 @@ module.exports = {
         '10rem':'10rem'
       },
       width:{
-        '50wv':'50wv'
+        '50wv':'50wv',
+        '70vh':'70vh',
+        '30rem':'30%', 
+        
+      },
+      height:{
+        '40rem':'40rem',
+      },
+      lineHeight:{
+        '44px':'44px'
       }
     },
   },

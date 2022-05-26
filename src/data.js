@@ -275,3 +275,19 @@ export const AboutusSec = [
     ],
   },
 ];
+
+
+export const Businessdata = [
+  {
+    id: "0",
+    heading: "Our Business Verticals",
+    thebox: [
+      {
+        id: "1",
+        logo: "",
+        heading: "trailer",
+      },
+    ],
+  },
+];
+
