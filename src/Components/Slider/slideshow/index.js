@@ -1,16 +1,17 @@
 import React from 'react';
 import { useHover } from '../../../Hooks/Hover';
-const colors = [
-  '#0088FE',
-  '#00C49F',
-  '#FFBB28',
-  '#0088FE',
-  '#00C49F',
-  '#FFBB28',
-  '#0088FE',
-  '#00C49F',
-  '#FFBB28',
-];
+import { BrandCompnentBrands } from '../../../data';
+// const colors = [
+//   '#0088FE',
+//   '#00C49F',
+//   '#FFBB28',
+//   '#0088FE',
+//   '#00C49F',
+//   '#FFBB28',
+//   '#0088FE',
+//   '#00C49F',
+//   '#FFBB28',
+// ];
 const delay = 1500;
 
 export function Slideshow() {
@@ -30,7 +31,7 @@ export function Slideshow() {
       timeoutRef.current = setTimeout(
         () =>
           setIndex((prevIndex) =>
-            prevIndex === colors.length - 1 ? 0 : prevIndex + 1
+            prevIndex === BrandCompnentBrands.length - 1 ? 0 : prevIndex + 1
           ),
         delay
       );
@@ -42,17 +43,31 @@ export function Slideshow() {
   }, [index, isHovered]);
 
   return (
-    <div className="slideshow" ref={hoverRef}>
+    <div
+      className=" slideshow     snap-x flex space-x-5 overflow-x-auto"
+      ref={hoverRef}
+    >
       <div
-        className="slideshowSlider "
-        style={{ transform: `translate3d(${-index * 33.33}%, 0, 0)` }}
+        className="slideshowSlider transition ease-in-out delay-150"
+        style={{
+          transform: `translate3d(${-index * 33.33333333333333333}%, 0, 0)`,
+        }}
       >
-        {colors.map((backgroundColor, index) => (
-          <div className="slide" key={index} style={{ backgroundColor }}></div>
+        {BrandCompnentBrands.map((brand, index) => (
+          <div
+            className="slide  w-4/12 bg-fit bg-no-repeat bg-center grayscale hover:grayscale-0 hover:scale-150 transition-all flex items-center content-center justify-center "
+            key={index}
+            // style={{ backgroundImage: `url(${brand.imageurl})` }}
+          >
+            <img
+              src={brand.imageurl}
+              className="self-center slide justify-self-center justify-items-center"
+            ></img>
+          </div>
         ))}
       </div>
 
-      <div className="slideshowDots">
+      {/* <div className="slideshowDots">
         {colors.map((_, idx) => (
           <div
             key={idx / 3}
@@ -62,7 +77,7 @@ export function Slideshow() {
             }}
           ></div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
