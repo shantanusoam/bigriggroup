@@ -255,8 +255,6 @@ export const AboutusSec = [
     id: "0",
     headingmain: "About Us",
     desc: '"Big Rig Trailers & Leasing is a large and continually growing trucking company that starts in California as Kal Freight Inc, with over 800 trucks and 2,000 trailers and has over 800 employees. As a dynamic modern transportation company with a strategic corporate location based in Ontario, California.',
-    // descOne:
-    //   'One-stop-shop for all your trucking needs. We are an authorized dealer for Vanguard trailres servicing in British Columbia, Canada. We are an established retailer of pre-owned trucks and trailers as well',
     aboutimg: [
       {
         id: "1",
@@ -302,12 +300,12 @@ export const Businessdata = [
       },
       {
         id: "1",
-        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstrailernew.png",
-        heading: "GET ON THE ROAD WITH POWERFUL ENGINE",
+        logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstireservice.png",
+        heading: "LOOKING FOR TIRES IS NOT A PROBLEM NOW",
         desc: "Contact Us for the best trucks and trailers",
         logotwo:
-          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstruck.png",
-        btn: "Trailer & Leasing",
+          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/businesstires.png",        
+        btn: "Tires & Services", 
       },
     ],
   },

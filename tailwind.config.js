@@ -62,6 +62,7 @@ module.exports = {
         '50wv':'50wv',
         '70vh':'70vh',
         '30rem':'30%', 
+        '25rem':'25%'
         
       },
       height:{
