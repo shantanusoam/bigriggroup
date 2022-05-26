@@ -22,6 +22,7 @@ module.exports = {
         navsmallne: '10px;',
         descnew: '19px',
         footerheading: '34px',
+        '36px': '36px',
       },
       fontWeight: {
         heading: '600',
