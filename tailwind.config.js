@@ -15,16 +15,6 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
-<<<<<<< HEAD
-        heading: "3rem",
-        subheading: "2rem",
-        desc: "1.5rem",
-        navsmall: "14px",
-        navsmallne: "10px;",
-        descnew:"19px",
-        footerheading:"34px",
-        '36px':'36px'
-=======
         heading: '3rem',
         subheading: '2rem',
         desc: '1.5rem',
@@ -32,7 +22,6 @@ module.exports = {
         navsmallne: '10px;',
         descnew: '19px',
         footerheading: '34px',
->>>>>>> e9d23a84dac5f3b9df8373ac8278fe3980d82b5f
       },
       fontWeight: {
         heading: '600',
@@ -69,15 +58,14 @@ module.exports = {
         '30rem': '33rem',
         '10rem': '10rem',
       },
-      width:{
-        '50wv':'50wv',
-        '70vh':'70vh',
-        '30rem':'30%', 
-        '25rem':'25%',
-        '50rem':'30rem',
-        '35wv':'35wv',
-        '28%':'22%',
-        '40rem':'40rem'
+      width: {
+        '50wv': '50wv',
+        '70vh': '70vh',
+        '30rem': '30%',
+        '80rem': '80%',
+        '25rem': '25%',
+        '50rem': '30rem',
+        '35wv': '35wv',
       },
       height: {
         '40rem': '40rem',
@@ -86,12 +74,6 @@ module.exports = {
       lineHeight: {
         '44px': '44px',
       },
-      lineHeight:{
-        '44px':'44px'
-      },
-      scale:{
-        '50':'1.15'
-      }
     },
   },
 };
