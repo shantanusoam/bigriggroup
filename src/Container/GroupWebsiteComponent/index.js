@@ -24,7 +24,7 @@ function GroupWebsiteComponent() {
                 transition={{ duration: 1 }}
                 className="app__header-info flex-1"
               >
-                <div className={data.id % 2 !== 0 ? 'md:5/12 ' : 'md:5/12 '}> 
+                <div className={data.id % 2 !== 0 ? 'md:5/12 ' : 'md:5/12 '}>
                   <div className="relative">
                     <div
                       className={
@@ -62,7 +62,7 @@ function GroupWebsiteComponent() {
                   </div>
                   {data.desc.map((data) => (
                     <div className="2xl:w-3/4 mt-4" key={data.id}>
-                      <h2 className="mt-6 text-2xl text-Heading font-bold md:text-subheading "> 
+                      <h2 className="mt-6 text-2xl text-Heading font-bold md:text-subheading ">
                         {data.head}
                       </h2>
                       <p className="mt-2 text-Description font-desc text-descnew ">
@@ -126,8 +126,8 @@ function GroupWebsiteComponent() {
         ))}
       </div>
 
-      {/* <InformationComponent></InformationComponent> */} 
-    </> 
+      {/* <InformationComponent></InformationComponent> */}
+    </>
   );
 }
 

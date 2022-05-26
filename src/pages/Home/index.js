@@ -16,7 +16,7 @@ function Home() {
   return (
     <>
       <HeroSection></HeroSection>
-      <Business/>
+      <Business />
       {/* <OurBusinessVerticles></OurBusinessVerticles> */}
       <Abouthome />
       <GroupWebsitesSection />
