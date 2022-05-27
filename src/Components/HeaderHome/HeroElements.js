@@ -24,6 +24,7 @@ z-index: 1;
 
 `;
 export const ContainerMain = Styled.div`
+
 postion: relative;
 display: flex;
 flex-direction: column;
@@ -223,7 +224,7 @@ color: #FFFFFF;
 &:hover{
     
     // border-bottom:4px solid;
-    // border-bottom-color: #FFAB53;
+    border-bottom-color: #FFAB53;
     // display:block;
     // margin:0 auto;
     // width:50%;
