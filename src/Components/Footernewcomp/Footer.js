@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../Components/Navbar";
+import Navbar from "../../Components/Navbar"; 
 
 export default function Footer() {
   return (
@@ -11,9 +11,9 @@ export default function Footer() {
           height: "50vh",
         }}
       >
-        <div id="container" 
-        className="flex flex-row pt-16 lg:flex justify-between" 
-        
+        <div
+          id="container"
+          className="flex flex-row pt-16 lg:flex justify-between"
         >
           <div
             id="one"
@@ -59,16 +59,22 @@ export default function Footer() {
                   className="text-white mt-2"
                 />
               </div>
-              <div className="block ml-4">
+              <div className="ml-4">
                 <span className="block">Phone Number</span>
                 <span className="text-2xl font-bold">(604) 864 3100</span>
               </div>
             </div>
+
+            <div id="language" className="text-white flex mt-12 ml-36">
+              <div className="ml-4">
+                <span>
+                  English, ਪੰਜਾਬੀ, Español, Français, हिन्दी
+                </span>
+              </div>
+            </div>
           </div>
 
-          <div id="two"
-           className="flex-2 pr-4 w-2/12 lg:pl-0 pl-4" 
-           >
+          <div id="two" className="flex-2 pr-4 w-2/12 lg:pl-0 pl-4">
             <div className="text-white ">
               <h1 className="2xl:text-footerheading text-desc font-bold w-4/5  2xl:leading-10 leading-6">
                 Trailers & Leasing
@@ -101,9 +107,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <div id="three" 
-          className="flex-2 pr-4 w-2/12 " 
-          // className="flex-2 pr-4 lg:w-2/12 w-full" 
+          <div
+            id="three"
+            className="flex-2 pr-4 w-2/12 "
+            // className="flex-2 pr-4 lg:w-2/12 w-full"
           >
             <div className="text-white">
               <h1 className="2xl:text-footerheading text-desc font-bold  ">
