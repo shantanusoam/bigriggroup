@@ -167,7 +167,7 @@ export const NavLinks = styled(LinkR)`
     color: #101010;
   }
   &:hover {
-    font-weight: 600;
+    font-weight: 500;
     border-bottom: 2px solid #ffab53 !important;
   }
   &.active {

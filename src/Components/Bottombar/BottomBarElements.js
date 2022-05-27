@@ -119,7 +119,7 @@ export const NavLinks = styled(LinkR)`
   text-decoration: none;
   padding: 0 2rem;
   height: 100%;
-  font-size: 1.5rem;
+  // font-size: 1.5rem;
   cursor: pointer;
   &.active {
     color: #101010;

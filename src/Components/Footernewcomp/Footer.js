@@ -11,14 +11,17 @@ export default function Footer() {
           height: "50vh",
         }}
       >
-        <div id="container" className="flex flex-row pt-16"> 
+        <div id="container" 
+        className="flex flex-row pt-16 lg:flex justify-between" 
+        
+        >
           <div
             id="one"
-            className="flex-1 w-1/2"
+            className="flex-1 w-1/2 lg:block  hidden"
             style={{
               backgroundImage:
                 "url(" +
-                "http://127.0.0.1:5500/src/assets/Images/1606.m00.i125.n007.S.c12%201.svg" +
+                "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/backmapfooter.svg" +
                 ")",
               backgroundPosition: "center",
               backgroundSize: "contain",
@@ -34,7 +37,7 @@ export default function Footer() {
                 href="mailto:umarkhurshid3@gmail.com"
               />
             </div>
-            <div id="email" className="text-white flex ml-36">  
+            <div id="email" className="text-white flex ml-36">
               <div>
                 <img
                   src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/Vectoremail.svg"
@@ -61,25 +64,19 @@ export default function Footer() {
                 <span className="text-2xl font-bold">(604) 864 3100</span>
               </div>
             </div>
-            {/* <div id="phone" className="text-white">
-              <span>
-                <img src="" alt="" />
-              </span>
-              <span>Phone Number</span>
-              <span>(604) 864 3100</span>
-            </div> */} 
-
           </div>
 
-          <div id="two" className="flex-2 pr-4 w-2/12">
+          <div id="two"
+           className="flex-2 pr-4 w-2/12 lg:pl-0 pl-4" 
+           >
             <div className="text-white ">
-              <h1 className="text-footerheading  font-bold w-4/5 leading-10">
+              <h1 className="2xl:text-footerheading text-desc font-bold w-4/5  2xl:leading-10 leading-6">
                 Trailers & Leasing
               </h1>
             </div>
             <br />
 
-            <div id="ancrtrl" className="text-white leading-8 ">
+            <div id="ancrtrl" className="text-white 2xl:leading-8 leading-6 ">
               <a href="" className="block">
                 Filling
               </a>
@@ -104,13 +101,18 @@ export default function Footer() {
             </div>
           </div>
 
-          <div id="three" className="flex-2 pr-4 w-2/12">
+          <div id="three" 
+          className="flex-2 pr-4 w-2/12 " 
+          // className="flex-2 pr-4 lg:w-2/12 w-full" 
+          >
             <div className="text-white">
-              <h1 className="text-footerheading  font-bold  ">Parts</h1>
+              <h1 className="2xl:text-footerheading text-desc font-bold  ">
+                Parts
+              </h1>
             </div>
             <br />
 
-            <div id="ancrpart" className="text-white  leading-8">
+            <div id="ancrpart" className="text-white  2xl:leading-8 leading-6">
               <div>
                 <a href="">End of Line Solutions</a>
               </div>
@@ -137,13 +139,13 @@ export default function Footer() {
 
           <div id="four" className="flex-2 w-2/12">
             <div className="text-white">
-              <h1 className="text-footerheading  font-bold  ">
+              <h1 className=" font-bold  2xl:text-footerheading text-desc">
                 Tires & Services
               </h1>
             </div>
             <br />
 
-            <div id="ancrtire" className="text-white leading-8">
+            <div id="ancrtire" className="text-white 2xl:leading-8 leading-6">
               <div>
                 <a href="">About Us</a>
               </div>
@@ -168,7 +170,7 @@ export default function Footer() {
       </div>
 
       <div id="secondmain">
-        <Navbar/>
+        <Navbar />
       </div>
     </>
   );

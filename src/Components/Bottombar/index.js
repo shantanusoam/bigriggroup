@@ -43,29 +43,49 @@ const BottomBar = ({ toggle }) => {
         {/* <Bars onClick={toggle}/> */}
         <NavMenu>
           <NavItem>
-            <NavLinks to="/" onClick={toggleHome}>
+            <NavLinks
+              to="/"
+              onClick={toggleHome}
+              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
+            >
               <a to="/">Home</a>
             </NavLinks>
           </NavItem>
 
           <NavItem>
-            <NavLinks to="/About" onClick={toggleHome}>
+            <NavLinks
+              to="/About"
+              onClick={toggleHome}
+              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
+            >
               <a to="/About">Trailer & Leasing</a>
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/About" onClick={toggleHome}> 
+            <NavLinks
+              to="/About"
+              onClick={toggleHome}
+              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
+            >
               <a to="/About">Partz</a>
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/About" onClick={toggleHome}>
+            <NavLinks
+              to="/About"
+              onClick={toggleHome}
+              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
+            >
               <a to="/About">Tires & Services</a>
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/About" onClick={toggleHome}> 
-              <a to="/About">Contact</a> 
+            <NavLinks
+              to="/About"
+              onClick={toggleHome}
+              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
+            >
+              <a to="/About">Contact</a>
             </NavLinks>
           </NavItem>
           {/* <NavItem>
@@ -83,13 +103,21 @@ const BottomBar = ({ toggle }) => {
             </NavLinks>
           </NavItem> */}
           <NavItem>
-            <NavLinks to="/Contact" onClick={toggleHome}>
-              <a to="/Contact">News & Events</a> 
+            <NavLinks
+              to="/Contact"
+              onClick={toggleHome}
+              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
+            >
+              <a to="/Contact">News & Events</a>
             </NavLinks>
           </NavItem>
           <NavItem>
-            <NavLinks to="/Contact" onClick={toggleHome}>
-              <a to="/Contact">USA</a>  
+            <NavLinks
+              to="/Contact"
+              onClick={toggleHome}
+              className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
+            >
+              <a to="/Contact">USA</a>
             </NavLinks>
           </NavItem>
           {/* <NavItem>
@@ -105,8 +133,8 @@ const BottomBar = ({ toggle }) => {
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <h3 className="text-left text-gray-200 font-bold text-1xl"> 
-            @ Copyright Big Rig Group   
+          <h3 className="2xl:text-desc text-navsmall md:text-sm lg:text-xs text-white">
+            @ Copyright Big Rig Group
           </h3>
         </NavBtn>
         {/* <MobileIcon onClick={toggle}>
