@@ -34,7 +34,14 @@ const HeroSection = () => {
     <HeroContainer id="Home">
       <Gradients></Gradients>
       <HeroBg>
-        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
+        <VideoBg
+          autoPlay
+          loop
+          muted
+          src={Video}
+          type="video/mp4"
+          className="mt-28"
+        />
       </HeroBg>
       <HeroContent>
         <ContainerMain>

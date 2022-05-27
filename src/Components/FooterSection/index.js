@@ -23,14 +23,16 @@ const FooterSection = ({ isOpen, toggle }) => {
         <div className="mt-10">
           {/* <div>
             <img src={logo} alt="" />
-          </div> */} 
+          </div> */}
           <div>
             <h1 className="pt-10 font-bold text-xl   text-white md:block hidden">
               © BigRig Group Inc, 2022 All rights reserved.
             </h1>
           </div>
         </div>
-        <FotterHName className='md:block hidden'>Get in touch with us for your service</FotterHName>   
+        <FotterHName className="md:block hidden">
+          Get in touch with us for your service
+        </FotterHName>
       </FooterLogo>
 
       <FotterNav>
@@ -48,7 +50,7 @@ const FooterSection = ({ isOpen, toggle }) => {
         <FotterContact>
           <FotterContactlist>
             <FotterContactName>Help line Number</FotterContactName>
-            <FotterContactNo>(604) 864 3100</FotterContactNo>
+            <FotterContactNo>(800) 977 0010</FotterContactNo>
             {/* //todo */}
           </FotterContactlist>
         </FotterContact>
@@ -68,8 +70,6 @@ const FooterSection = ({ isOpen, toggle }) => {
           </FotterContactlist>
         </FotterContact>
       </FotterNav>
-
-    
     </FooterContainer>
   );
 };

@@ -61,12 +61,12 @@ export default function Footer() {
                 />
               </div>
               <div className="ml-4">
-                <span className="block">Phone Number</span>
-                <span className="text-2xl font-bold">(604) 864 3100</span>
+                <span className="block">Toll Free No</span>
+                <span className="text-2xl font-bold">(800) 977 0010</span>
               </div>
             </div>
 
-            <div id="language" className="text-white flex pb-6 ml-36">
+            <div id="language" className="text-white flex pb-6 ml-36 mt-4">
               <div className="ml-4">
                 <span>English, ਪੰਜਾਬੀ, Español, Français, हिन्दी</span>
               </div>

@@ -12,7 +12,7 @@ import {
   NavItem,
   NavLinks,
 } from './NavbarElements';
- 
+
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
@@ -33,13 +33,13 @@ const Navbar = ({ toggle }) => {
   }
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
+      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row">
             <NavLogo to="/bigriggroup" onClick={toggleHome}>
               <img
                 // className="2xl:w-56 w-44  2xl:h-44 h-32  "
-                className='pt-6' 
+                className="pt-6"
                 src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
                 alt="logo"
                 width="80%"
@@ -50,11 +50,11 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavLinks
                   to="/bigriggroup"
-                  onClick={toggleHome}  
+                  onClick={toggleHome}
                   className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
                 >
                   HOME
-                </NavLinks> 
+                </NavLinks>
               </NavItem>
 
               <NavItem>
@@ -68,8 +68,8 @@ const Navbar = ({ toggle }) => {
               </NavItem>
 
               <NavItem>
-                {disabeled() === "true" ? (
-                  <NavLinks className="2xl:text-desc text-navsmall lg:text-xs"> 
+                {disabeled() === 'true' ? (
+                  <NavLinks className="2xl:text-desc text-navsmall lg:text-xs">
                     <Link to="/Products" duration={500} offset={-80}>
                       Products
                     </Link>
@@ -123,7 +123,7 @@ const Navbar = ({ toggle }) => {
 
           <NavBtn>
             <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
-              (604) 864 3100
+              (800) 977 0010
             </button>
           </NavBtn>
         </Nav>
