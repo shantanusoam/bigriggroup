@@ -123,7 +123,7 @@ const Navbar = ({ toggle }) => {
 
           <NavBtn>
             <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
-              (800) 977 0010
+              (800) 977 0010 
             </button>
           </NavBtn>
         </Nav>

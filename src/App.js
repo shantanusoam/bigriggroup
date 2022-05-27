@@ -26,7 +26,7 @@ function App() {
         <Route
           path="/partz"
           element={
-            <CommmingSoonComponentindex data="partz"></CommmingSoonComponentindex> 
+            <CommmingSoonComponentindex data="partz"></CommmingSoonComponentindex>  
           }
         />
         <Route

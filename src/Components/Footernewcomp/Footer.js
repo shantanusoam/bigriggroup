@@ -66,11 +66,7 @@ export default function Footer() {
               </div>
             </div>
 
-<<<<<<< HEAD
-            <div id="language" className="text-white flex  ml-36">
-=======
             <div id="language" className="text-white flex pb-6 ml-36 mt-4">
->>>>>>> 8f0509a5dec93c1a32662025649cf8a4d8140920
               <div className="ml-4">
                 <span>English, ਪੰਜਾਬੀ, Español, Français, हिन्दी</span>
               </div>
@@ -113,7 +109,7 @@ export default function Footer() {
           <div
             id="three"
             className="flex-2 pr-4 w-2/12 "
-            // className="flex-2 pr-4 lg:w-2/12 w-full"
+            // className="flex-2 pr-4 lg:w-2/12 w-full" 
           >
             <div className="text-white">
               <h1 className="2xl:text-footerheading text-desc font-bold  ">
