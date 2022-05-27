@@ -28,11 +28,11 @@ export const ContactFormContainer = () => {
         />
       </div> */}
       {/* <div id="secondmain"> */}
-      <img
+      {/* <img
         className="flex-1"
-        src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/redtruck.svg"
+        src="http://127.0.0.1:5500/src/assets/Images/blacknewtruck.svg"
         alt=""
-      />
+      /> */}
       {/* </div> */}
     </div>
     // </div>

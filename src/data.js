@@ -217,34 +217,34 @@ export const BigPArtzBrands = [
 
 export const BigTireBrands = [
   {
-    id: '0',
-    logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtirelogo.png',
-    name: 'Kaltire',
+    id: "0",
+    logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/tirered.svg", 
+    name: "Kaltire",
 
     Brands: [
       {
-        id: '1',
+        id: "1",
         imageurl:
-          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png',
-        heading: 'BKT-logo',
+          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png",
+        heading: "BKT-logo",
       },
       {
-        id: '2',
+        id: "2",
         imageurl:
-          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/CT_Horiz-Logo.png',
-        heading: 'CT_Horiz',
+          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/CT_Horiz-Logo.png",
+        heading: "CT_Horiz",
       },
       {
-        id: '3',
+        id: "3",
         imageurl:
-          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/Prometeon-logo.png',
-        heading: 'Prometeon',
+          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/Prometeon-logo.png",
+        heading: "Prometeon",
       },
       {
-        id: '4',
+        id: "4",
         imageurl:
-          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/TBCB-Logo.png',
-        heading: 'TBCB',
+          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/TBCB-Logo.png",
+        heading: "TBCB",
       },
     ],
   },
