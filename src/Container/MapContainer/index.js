@@ -56,10 +56,10 @@ export const MapConatiner = () => {
             ></motion.img>
             <div>
               <h4 className="mt-6 text-1xl text-white font-bold md:text-subheading ">
-                Abbotsford
+                Calagry
               </h4>
               <div className="mt-6 text-white font-desc text-descnew">
-                1225 Riverside Rd, BC V2S 7P1
+                9115 52 St.SE,AB T2C 2R4
               </div>
             </div>
           </div>
@@ -80,7 +80,7 @@ export const MapConatiner = () => {
             ></motion.img>
             <div>
               <div className="mt-2 text-white font-desc text-descnew">
-                Quebec
+                Toronto
                 
               </div>
               

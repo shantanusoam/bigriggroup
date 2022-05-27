@@ -45,10 +45,11 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <ContainerMain>
-          <HeroP>One-stop-shop for all your trucking needs.</HeroP>
+          <HeroP>Transforming The Trucking Dynamics </HeroP>
 
           <Samosa>
-            We Provide Expert Services and aim to have a long term with you
+          
+            Shop Dry Vans, Reefers, Trucks , Parts, and more.
           </Samosa>
         </ContainerMain>
 
