@@ -24,13 +24,17 @@ z-index: 1;
 
 `;
 export const ContainerMain = Styled.div`
+postion: relative;
 display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 text-align:center;
 h1{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    @media (min-width: 1024px) {
+        font-size: 0rem;
+    }
     font-weight: normal;
     color: #fff;
     letter-spacing: 0.3rem;
@@ -123,7 +127,7 @@ align-items: center;
 
 
 div{
-    width: 60%;
+    width: 90%;
    
    
    
@@ -135,7 +139,7 @@ div{
     @media screen and (min-width: 1024px) {
 
   
-    
+    font-size: 1.5rem;
     
     }
     @media screen and (max-width: 480px) {
@@ -203,7 +207,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 3.5rem;
 padding-bottom: 1rem;
-line-height: 89.69%;
+
 text-align:center;
 margin-top:20%;
 

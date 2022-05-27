@@ -116,3 +116,12 @@ body {
     width: 80%;
   }
 }
+
+/* arrow  */
+
+.hero-svg:hover {
+  fill: #10d6f5;
+  animation: all;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}

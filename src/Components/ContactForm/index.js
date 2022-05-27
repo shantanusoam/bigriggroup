@@ -37,9 +37,9 @@ const Contactform = () => {
   };
 
   return (
-    <div id="shadow" className="p-8 rounded-3xl shadow-2xl">
+    <div id="shadow" className="p-8 rounded-3xl shadow-2xl ">
       <form class="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
-        <div className="ml-4 mt-20">
+        <div className=" mt-20">
           <h1 className="text-Heading text-heading font-bold">Contact</h1>
           <p className="text-neautralform font-Poppins text-desc font-normal leading-7 mt-2"></p>
         </div>

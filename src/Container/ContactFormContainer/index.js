@@ -6,7 +6,7 @@ export const ContactFormContainer = () => {
   return (
     // <div id="maincontainer" className='w-70vh' >
     <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-start lg:gap-12 flex  align-center justify-center ">
-      <div className="mt-24 flex content-center justify-center  flex-1">
+      <div className="mt-24 flex content-center justify-center  flex-2 ">
         {/* <div>
           <h1 className="xl:text-5xl text-Heading font-semibold md:text-2xl link link-underline link-underline-black pb-8">
             Contact Form
@@ -17,7 +17,6 @@ export const ContactFormContainer = () => {
         </div> */}
 
         {/* <Formcomp /> */}
-
         <Contactform></Contactform>
       </div>
 
