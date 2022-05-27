@@ -7,7 +7,7 @@ export default function Roadservice() {
         id="maincontainer"
         className="flex flex-col-reverse lg:flex-row pt-12 "
       >
-        <div id="firstmain" className="bg-Darkblue">
+        <div id="firstmain" className="bg-Darkblue flex flex-col lg:flex-row">
           <div
             id="firtmaininner"
             className="xl:ml-48 lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0"
@@ -29,12 +29,11 @@ export default function Roadservice() {
               </button>
             </div>
           </div>
+          <img
+            src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/blacknewtruck.svg"
+            alt="truck"
+          />
         </div>
-
-        <img
-          src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/blacknewtruck.svg"
-          alt="truck"
-        />
       </div>
     </>
   );
