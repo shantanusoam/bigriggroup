@@ -15,13 +15,13 @@ import { BrandCompnentBrands } from '../../../data';
 const delay = 1500;
 
 export function Slideshow() {
-  const [index, setIndex] = React.useState(0); 
+  const [index, setIndex] = React.useState(0);
   const timeoutRef = React.useRef(null);
   const [hoverRef, isHovered] = useHover();
   function resetTimeout() {
     if (timeoutRef.current) {
       clearTimeout(timeoutRef.current);
-    } 
+    }
   }
 
   React.useEffect(() => {
@@ -46,7 +46,7 @@ export function Slideshow() {
     <>
       <div
         id="heading"
-        className="text-36px font-semibold text-Heading flex justify-center items-center pb-16"
+        className="text-36px font-semibold text-Heading flex justify-center items-center pb-16 mt-16 mb-10"
       >
         <h1>Our Brands</h1>
       </div>
@@ -56,7 +56,7 @@ export function Slideshow() {
         ref={hoverRef}
       >
         <div
-          className="slideshowSlider transition ease-in-out delay-150"
+          className="slideshowSlider transition ease-in-out delay-150 mb-20"
           style={{
             transform: `translate3d(${-index * 33.33333333333333333}%, 0, 0)`,
           }}
@@ -67,7 +67,7 @@ export function Slideshow() {
               key={index}
               // style={{ backgroundImage: `url(${brand.imageurl})` }}
             >
-              <img 
+              <img
                 src={brand.imageurl}
                 className="self-center slide justify-self-center justify-items-center"
               ></img>
