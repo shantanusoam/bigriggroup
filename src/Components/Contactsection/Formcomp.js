@@ -1,23 +1,19 @@
-import React from 'react'
-import { useState } from "react";
-
+import React from 'react';
+import { useState } from 'react';
 
 export default function Formcomp() {
-    const [name,setName] = useState("")
-    const [email,setEmail] = useState("")
-    const [phone,setPhone] = useState("")
-    const [message,setMessage] = useState("")
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
 
   return (
     <>
-      <div id="shadow" className='p-4 rounded-md shadow-lg'>
+      <div id="shadow" className="p-4 rounded-lg shadow-lg">
         <form id="firstmain" className="p-2">
-          <div className="ml-4">
+          <div className="ml-4 mt-20">
             <h1 className="text-Heading text-heading font-bold">Contact</h1>
-            <p className="text-neautralform font-Poppins text-desc font-normal leading-7 mt-2">
-              We are ready to work on a project of any complexity, <br />
-              whether it's commercial or residential.
-            </p>
+            <p className="text-neautralform font-Poppins text-desc font-normal leading-7 mt-2"></p>
           </div>
           <div id="inameemail" className="mt-4">
             <input
@@ -83,4 +79,3 @@ export default function Formcomp() {
     </>
   );
 }
-
