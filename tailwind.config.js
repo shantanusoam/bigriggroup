@@ -17,12 +17,13 @@ module.exports = {
       fontSize: {
         heading: '3rem',
         subheading: '2rem',
-        desc: '1.5rem',
+        desc: '1.3rem',
         navsmall: '14px',
         navsmallne: '10px;',
         descnew: '19px',
         footerheading: '34px',
         '36px': '36px',
+        // '8px':'10px' 
       },
       fontWeight: {
         heading: '600',

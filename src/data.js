@@ -218,7 +218,7 @@ export const BigPArtzBrands = [
 export const BigTireBrands = [
   {
     id: '0',
-    logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtirelogo.png',
+    logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtirelogo.png', 
     name: 'Kaltire',
 
     Brands: [

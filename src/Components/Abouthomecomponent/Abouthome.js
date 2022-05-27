@@ -22,7 +22,7 @@ export default function Abouthome() {
                 <h1 className="text-5xl text-Heading   p-8 font-semibold flex justify-center items-center">
                   {aboutdata.headingmain}
                 </h1>
-                <p className="text-2xl text-Description   pt-2 md:px-44 px-0 leading-6 flex justify-center items-center 2xl:mx-80 lg:mx-20  mx-6">
+                <p className="text-2xl text-Description   pt-2 md:px-44 px-0   flex justify-center items-center 2xl:mx-80 lg:mx-6  mx-6">
                   {aboutdata.desc}
                   {/* <br /> <br />
                   {aboutdata.descOne} */}
