@@ -1,6 +1,5 @@
 import React from 'react';
 import Contactform from '../../Components/ContactForm/';
-import Formcomp from '../../Components/Contactsection/Formcomp';
 
 export const ContactFormContainer = () => {
   return (
@@ -28,7 +27,7 @@ export const ContactFormContainer = () => {
       </div> */}
       <div id="secondmain">
         <img
-          className="flex-1"
+          className="flex-1 w-full" 
           src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg"
           alt=""
         />
