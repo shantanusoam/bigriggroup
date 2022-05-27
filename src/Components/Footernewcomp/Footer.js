@@ -13,7 +13,7 @@ export default function Footer() {
       >
         <div
           id="container"
-          className="flex flex-row pt-16 lg:flex justify-between"
+          className="flex flex-row 2xl:pt-16 lg:pt-4 lg:flex justify-between"
         >
           <div
             id="one"
@@ -34,7 +34,7 @@ export default function Footer() {
               <img
                 src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigfooterlogo.png"
                 alt="logo"
-                width="200"
+                className="2xl:h-28 lg:h-24 md:h-20 h-10"
                 href="mailto:umarkhurshid3@gmail.com"
               />
             </div>

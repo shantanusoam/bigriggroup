@@ -132,7 +132,7 @@ function Map() {
       <g id="Text-BC">
         <rect
           id="bc-2"
-          width="185.39"
+          width="215.39"
           height="28.82"
           x="119.92"
           y="530.71"
@@ -147,7 +147,7 @@ function Map() {
       <g id="Text-alberta">
         <rect
           id="alberta-2"
-          width="185.39"
+          width="195.39"
           height="28.82"
           x="222.94"
           y="564.95"
