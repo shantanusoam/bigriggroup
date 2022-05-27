@@ -31,7 +31,7 @@ export default function Business() {
             <h1 className="text-5xl text-Heading">{mydata.heading}</h1>
           </div>
 
-          <div id="secondmain" className={`flex w-full`}>
+          <div id="secondmain" className={`flex w-full lg:flex-row flex-col`}>
             <div class="container">
               <div class="gallery-wrap w-screen">
                 {mydata.thebox.map((element) => (
