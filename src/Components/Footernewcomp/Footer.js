@@ -32,7 +32,7 @@ export default function Footer() {
           >
             <div id="logo" className="ml-36">
               <img
-                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRig%20Group%20Logo_TM%201.svg"
+                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRig%20Group%20Logo_TM%201.svg" 
                 alt="logo"
                 href="mailto:umarkhurshid3@gmail.com"
               />
