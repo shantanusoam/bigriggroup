@@ -8,7 +8,7 @@ export default function Footer() {
         id="maincontainer"
         className="bg-Lightblue "
         style={{
-          height: '50vh',
+          height: "50vh",
         }}
       >
         <div
@@ -20,19 +20,19 @@ export default function Footer() {
             className="flex-1 w-1/2 lg:block  hidden"
             style={{
               backgroundImage:
-                'url(' +
-                'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/backmapfooter.svg' +
-                ')',
-              backgroundPosition: 'center',
-              backgroundSize: 'contain',
-              backgroundRepeat: 'no-repeat',
-              width: 'full',
-              marginRight: '5rem',
+                "url(" +
+                "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/backmapfooter.svg" +
+                ")",
+              backgroundPosition: "center",
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat",
+              width: "full",
+              marginRight: "5rem",
             }}
           >
             <div id="logo" className="ml-36">
               <img
-                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRig%20Group%20Logo_TM%201.svg"
+                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigfooterlogo.png"
                 alt="logo"
                 href="mailto:umarkhurshid3@gmail.com"
               />
