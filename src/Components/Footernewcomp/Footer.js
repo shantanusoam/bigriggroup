@@ -1,5 +1,5 @@
-import React from "react";
-import Navbar from "../../Components/Navbar"; 
+import React from 'react';
+import Navbar from '../../Components/Navbar';
 
 export default function Footer() {
   return (
@@ -8,7 +8,7 @@ export default function Footer() {
         id="maincontainer"
         className="bg-Lightblue "
         style={{
-          height: "50vh",
+          height: '50vh',
         }}
       >
         <div
@@ -20,20 +20,21 @@ export default function Footer() {
             className="flex-1 w-1/2 lg:block  hidden"
             style={{
               backgroundImage:
-                "url(" +
-                "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/backmapfooter.svg" +
-                ")",
-              backgroundPosition: "center",
-              backgroundSize: "contain",
-              backgroundRepeat: "no-repeat",
-              width: "full",
-              marginRight: "5rem",
+                'url(' +
+                'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/backmapfooter.svg' +
+                ')',
+              backgroundPosition: 'center',
+              backgroundSize: 'contain',
+              backgroundRepeat: 'no-repeat',
+              width: 'full',
+              marginRight: '5rem',
             }}
           >
             <div id="logo" className="ml-36">
               <img
                 src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRig%20Group%20Logo_TM%201.svg"
-                alt=""
+                width="200"
+                height="420"
                 href="mailto:umarkhurshid3@gmail.com"
               />
             </div>
@@ -67,9 +68,7 @@ export default function Footer() {
 
             <div id="language" className="text-white flex mt-12 ml-36">
               <div className="ml-4">
-                <span>
-                  English, ਪੰਜਾਬੀ, Español, Français, हिन्दी
-                </span>
+                <span>English, ਪੰਜਾਬੀ, Español, Français, हिन्दी</span>
               </div>
             </div>
           </div>
