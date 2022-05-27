@@ -15,7 +15,7 @@ export default function Roadservice() {
             <h1 className="text-white text-heading font-heading lg:text-2xl 2xl:pl-0 pl-6">
               24/7 Road Service
             </h1>
-            <p className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2">
+            <p className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 lg:w-full w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2">
               Kal Tires has 9 distribution centers, 4 service centers and
               nationwide 24/7 emergency road service. Exclusive with major tire
               manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama,
