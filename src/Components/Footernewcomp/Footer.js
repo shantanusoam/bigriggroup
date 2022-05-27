@@ -33,8 +33,7 @@ export default function Footer() {
             <div id="logo" className="ml-36">
               <img
                 src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRig%20Group%20Logo_TM%201.svg"
-                width="200"
-                height="420"
+                alt="logo"
                 href="mailto:umarkhurshid3@gmail.com"
               />
             </div>
@@ -66,7 +65,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div id="language" className="text-white flex mt-12 ml-36">
+            <div id="language" className="text-white flex pb-6 ml-36">
               <div className="ml-4">
                 <span>English, ਪੰਜਾਬੀ, Español, Français, हिन्दी</span>
               </div>
