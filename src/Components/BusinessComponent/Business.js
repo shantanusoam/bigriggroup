@@ -20,7 +20,7 @@ export default function Business() {
             <h1 className="text-5xl text-Heading">{mydata.heading}</h1>
           </div>
 
-          <div id="secondmain" className={`flex overflow-y-hidden`}>
+          <div id="secondmain" className={`flex `}>
             {mydata.thebox.map((element) => (
               <motion.div
                 ref={hoverRef}
