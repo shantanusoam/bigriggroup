@@ -9,7 +9,7 @@ export default function Formcomp() {
 
   return (
     <>
-      <div id="shadow" className="p-4 rounded-lg shadow-lg">
+      <div id="shadow" className="p-4 rounded-3xl shadow-2xl">
         <form id="firstmain" className="p-2">
           <div className="ml-4 mt-20">
             <h1 className="text-Heading text-heading font-bold">Contact</h1>
@@ -21,7 +21,7 @@ export default function Formcomp() {
               onChange={(e) => setName(e.target.value)}
               type="text"
               placeholder="&nbsp; Your Name"
-              className="border-2 border-inputborder mx-4 my-2 w-72 h-11 rounded"
+              className="border-2 border-inputborder mx-4 my-2  h-11 rounded"
               required
             />
             <input
@@ -29,7 +29,7 @@ export default function Formcomp() {
               onChange={(e) => setEmail(e.target.value)}
               type="email"
               placeholder="&nbsp; Email"
-              className="border-2 border-inputborder mx-4 my-2 w-72 h-11 rounded"
+              className="border-2 border-inputborder mx-4 my-2 h-11 rounded"
               required
             />
           </div>
@@ -39,7 +39,7 @@ export default function Formcomp() {
               type="text"
               list="cars"
               placeholder=" &nbsp; Reason for contacting"
-              className="border-2 border-inputborder mx-4 my-2 w-72 h-11 rounded"
+              className="border-2 border-inputborder mx-4 my-2  h-11 rounded"
               required
             />
             <datalist id="cars">
@@ -52,7 +52,7 @@ export default function Formcomp() {
               onChange={(e) => setPhone(e.target.value)}
               type="phone"
               placeholder=" &nbsp; Phone"
-              className="border-2 border-inputborder mx-4 w-72 h-11 rounded"
+              className="border-2 border-inputborder mx-4 h-11 rounded"
             />
           </div>
 
@@ -70,7 +70,7 @@ export default function Formcomp() {
           </div>
 
           <div className="ml-4">
-            <button className="text-white bg-Lightblue rounded p-4 w-44 mt-8">
+            <button className="text-white bg-Lightblue rounded p-4  mt-8">
               CONTACT US
             </button>
           </div>

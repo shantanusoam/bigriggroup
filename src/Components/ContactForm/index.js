@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import axios from 'axios';
 const Contactform = () => {
   const [name, setName] = useState('');
@@ -37,97 +37,105 @@ const Contactform = () => {
   };
 
   return (
-    <form class="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
-      <div class="flex flex-wrap -mx-3 mb-6">
-        <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-          <label
-            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="grid-first-name"
-          >
-            Name
-          </label>
-          <input
-            onChange={(e) => setName(e.target.value)}
-            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
-            id="grid-first-name"
-            type="text"
-            placeholder="Jane"
-            value={name}
-            required
-          />
-          <p class="text-red-500 text-xs italic">Please fill out this field.</p>
+    <div id="shadow" className="p-8 rounded-3xl shadow-2xl">
+      <form class="w-full max-w-lg" onSubmit={(e) => handleSubmit(e)}>
+        <div className="ml-4 mt-20">
+          <h1 className="text-Heading text-heading font-bold">Contact</h1>
+          <p className="text-neautralform font-Poppins text-desc font-normal leading-7 mt-2"></p>
         </div>
-        <div class="w-full md:w-1/2 px-3">
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-first-name"
+            >
+              Name
+            </label>
+            <input
+              onChange={(e) => setName(e.target.value)}
+              class="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              id="grid-first-name"
+              type="text"
+              placeholder="Jane"
+              value={name}
+              required
+            />
+            <p class="text-red-500 text-xs italic">
+              Please fill out this field.
+            </p>
+          </div>
+          <div class="w-full md:w-1/2 px-3">
+            <div class="w-full px-3">
+              <label
+                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="grid-password"
+              >
+                E-mail
+              </label>
+              <input
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+                class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="email"
+                type="email"
+                required
+              />
+              <p class="text-gray-600 text-xs italic">
+                Some tips - as long as needed
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             <label
               class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               for="grid-password"
             >
-              E-mail
+              why you want to contact us
             </label>
             <input
-              onChange={(e) => setEmail(e.target.value)}
-              value={email}
-              class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="email"
+              required
             />
             <p class="text-gray-600 text-xs italic">
               Some tips - as long as needed
             </p>
           </div>
         </div>
-      </div>
-      <div class="flex flex-wrap -mx-3 mb-6">
-        <div class="w-full px-3">
-          <label
-            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="grid-password"
-          >
-            why you want to contact us
-          </label>
-          <input
-            class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-            id="email"
-            type="email"
-          />
-          <p class="text-gray-600 text-xs italic">
-            Some tips - as long as needed
-          </p>
+        <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full px-3">
+            <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-password"
+            >
+              Message
+            </label>
+            <textarea
+              onChange={(e) => setMessage(e.target.value)}
+              value={message}
+              class=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+              id="message"
+            ></textarea>
+            <p class="text-gray-600 text-xs italic">
+              Re-size can be disabled by set by resize-none / resize-y /
+              resize-x / resize
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="flex flex-wrap -mx-3 mb-6">
-        <div class="w-full px-3">
-          <label
-            class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
-            for="grid-password"
-          >
-            Message
-          </label>
-          <textarea
-            onChange={(e) => setMessage(e.target.value)}
-            value={message}
-            class=" no-resize appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
-            id="message"
-          ></textarea>
-          <p class="text-gray-600 text-xs italic">
-            Re-size can be disabled by set by resize-none / resize-y / resize-x
-            / resize
-          </p>
+        <div class="md:flex md:items-center">
+          <div>
+            <button className="text-white bg-Lightblue rounded p-4  mt-8">
+              {buttonText}
+            </button>
+          </div>
+
+          <div class="md:w-2/3"></div>
         </div>
-      </div>
-      <div class="md:flex md:items-center">
-        <div class="md:w-1/3">
-          <button
-            class="shadow bg-teal-400 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
-            type="submit"
-          >
-            {buttonText}
-          </button>
-        </div>
-        <div class="md:w-2/3"></div>
-      </div>
-    </form>
+      </form>
+    </div>
   );
 };
 
