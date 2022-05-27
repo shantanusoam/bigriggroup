@@ -63,7 +63,7 @@ export function Slideshow() {
         >
           {BrandCompnentBrands.map((brand, index) => (
             <div
-              className="slide  w-1/4 bg-fit bg-no-repeat bg-center grayscale hover:grayscale-0 hover:scale- transition-all flex items-center content-center justify-center " 
+              className="slide  w-1/3 bg-fit bg-no-repeat bg-center grayscale hover:grayscale-0 hover:scale- transition-all flex items-center content-center justify-center " 
               key={index}
               // style={{ backgroundImage: `url(${brand.imageurl})` }}
             >

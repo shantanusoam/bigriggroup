@@ -29,7 +29,7 @@ export const ContactFormContainer = () => {
       <div id="secondmain">
         <img
           className="flex-1"
-          src="http://127.0.0.1:5500/src/assets/Images/rednewtruck.svg"    
+          src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg"
           alt=""
         />
       </div>
