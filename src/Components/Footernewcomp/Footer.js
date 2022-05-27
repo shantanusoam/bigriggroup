@@ -18,7 +18,7 @@ export default function Footer() {
             style={{
               backgroundImage:
                 "url(" +
-                "http://127.0.0.1:5500/src/assets/Images/backmapfooter.svg" +
+                "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/backmapfooter.svg" +
                 ")",
               backgroundPosition: "center",
               backgroundSize: "contain",
