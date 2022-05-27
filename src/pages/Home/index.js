@@ -21,11 +21,12 @@ function Home() {
       <Abouthome />
       <GroupWebsitesSection />
       <Roadservice />
+      <Slideshow></Slideshow>
       {/* <BrandComponent></BrandComponent> */}
       {/* <ServicesSection /> */}
-      <ContactFormContainer></ContactFormContainer>
-      <Slideshow></Slideshow>
       <MapConatiner></MapConatiner>
+      <ContactFormContainer></ContactFormContainer>
+
       {/* <Contact /> */}
       {/* <ContactFormContainer></ContactFormContainer> */}
     </>

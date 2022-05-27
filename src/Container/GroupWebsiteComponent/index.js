@@ -79,12 +79,12 @@ function GroupWebsiteComponent() {
                     <section className="centered-container">
                       <a className="link link--arrowed mt-6" href="#">
                         <div className="flex flex-row align-center justify-center">
-                          <h2 className="text-2xl text-Lightblue font-semibold md:text-subheading text-center pr-4">
+                          <h2 className="text-lg text-Lightblue font-semibold md:text-md text-center pr-4">
                             Coming soon
                           </h2>
 
                           <svg
-                            className="arrow-icon mt-1"
+                            className="arrow-icon"
                             xmlns="http://www.w3.org/2000/svg"
                             width="32"
                             height="32"

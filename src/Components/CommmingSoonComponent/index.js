@@ -20,7 +20,7 @@ export const CommmingSoonComponentindex = (data) => {
               <img src={item.logo} className="w-2/6"></img>
             </div>
           ))}
-          <div className="flex flex-row align-center justify-center text-5xl text-Heading font-bold md:text-5xl pb-8">
+          <div className="flex flex-row align-center justify-center text-2xl text-Heading font-bold md:text-2xl pb-8">
             Coming soon!
           </div>
           <div className="flex flex-row align-center justify-center mt-2 text-Description font-desc text-desc text-center">

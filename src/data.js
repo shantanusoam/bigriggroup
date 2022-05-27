@@ -218,7 +218,7 @@ export const BigPArtzBrands = [
 export const BigTireBrands = [
   {
     id: '0',
-    logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtirelogo.png', 
+    logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigtirelogo.png',
     name: 'Kaltire',
 
     Brands: [
@@ -280,7 +280,7 @@ export const Businessdata = [
     heading: 'Our Business Verticals',
     thebox: [
       {
-        id: '0',
+        id: '1',
         logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/busnesection/businesstrllogo.png',
         heading: 'GET ON THE ROAD WITH POWERFUL ENGINE',
         desc: 'Contact Us for the best trucks and trailers',
@@ -289,7 +289,7 @@ export const Businessdata = [
         btn: 'Trailer & Leasing',
       },
       {
-        id: '10',
+        id: '2',
         logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/busnesection/businesspartzlogo.png',
         heading: 'LAST LONG WITH THE BEST PARTS ON THE MARKET',
         desc: 'We have the best brands to get your truck on the road',
@@ -298,7 +298,7 @@ export const Businessdata = [
         btn: 'Parts & services',
       },
       {
-        id: '20',
+        id: '3',
         logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/busnesection/businesstirelogo.png',
         heading: 'LOOKING FOR TIRES IS NOT A PROBLEM NOW',
         desc: 'Contact Us for the best trucks and trailers',
