@@ -69,7 +69,7 @@ const Navbar = ({ toggle }) => {
 
               <NavItem>
                 {disabeled() === "true" ? (
-                  <NavLinks className="2xl:text-desc text-navsmall lg:text-xs">
+                  <NavLinks className="2xl:text-desc text-navsmall lg:text-xs"> 
                     <Link to="/Products" duration={500} offset={-80}>
                       Products
                     </Link>
