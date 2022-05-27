@@ -26,13 +26,13 @@ export const ContactFormContainer = () => {
           width="300"
         />
       </div> */}
-      {/* <div id="secondmain"> */}
-      <img
-        className="flex-1"
-        src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/redtruck.svg"
-        alt=""
-      />
-      {/* </div> */}
+      <div id="secondmain">
+        <img
+          className="flex-1"
+          src="http://127.0.0.1:5500/src/assets/Images/rednewtruck.svg"
+          alt=""
+        />
+      </div>
     </div>
     // </div>
   );
