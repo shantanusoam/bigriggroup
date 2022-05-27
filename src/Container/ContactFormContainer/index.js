@@ -9,7 +9,7 @@ export const ContactFormContainer = () => {
       <div className="mt-24 flex content-center justify-center  flex-4 w-11/12">
         {/* <div>
           <h1 className="xl:text-5xl text-Heading font-semibold md:text-2xl link link-underline link-underline-black pb-8">
-            Contact Form
+            Contact Formsdfd
           </h1>
           <p className="mt-2 text-Description font-desc text-desc ">
             we are ready to work on a project f any complexity
@@ -29,7 +29,7 @@ export const ContactFormContainer = () => {
       <div id="secondmain">
         <img
           className="flex-1"
-          src="http://127.0.0.1:5500/src/assets/Images/rednewtruck.svg"
+          src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg"
           alt=""
         />
       </div>

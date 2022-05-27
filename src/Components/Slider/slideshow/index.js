@@ -56,14 +56,14 @@ export function Slideshow() {
         ref={hoverRef}
       >
         <div
-          className="slideshowSlider ml-40 transition ease-in-out delay-150 mb-20"
+          className="slideshowSlider 2xl:ml-40 lg:ml-32 transition ease-in-out delay-150 mb-20"
           style={{
             transform: `translate3d(${-index * 33.33333333333333333}%, 0, 0)`,
           }}
         >
           {BrandCompnentBrands.map((brand, index) => (
             <div
-              className="slide  w-1/3  bg-fit bg-no-repeat bg-center grayscale hover:grayscale-0 hover:scale- transition-all flex items-center content-center justify-center "
+              className="slide  w-1/3  bg-fit bg-no-repeat bg-center grayscale hover:grayscale-0 hover:scale-125 transition-all flex items-center content-center justify-center p-8"
               key={index}
               // style={{ backgroundImage: `url(${brand.imageurl})` }}
             >
