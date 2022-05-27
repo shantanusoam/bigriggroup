@@ -12,7 +12,7 @@ export const ServiceComponentdata = [
       },
       {
         id: 2,
-        Logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/b14fcada80e930a65933829f228e72d2de3bc620/src/assets/Images/icons/partz-icon.svg ',
+        Logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/b14fcada80e930a65933829f228e72d2de3bc620/src/assets/Images/icons/partz-icon.svg',
         Heading: 'Partz',
         desc: 'Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort',
       },
