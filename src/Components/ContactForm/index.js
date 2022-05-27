@@ -53,16 +53,16 @@ const Contactform = () => {
             </label>
             <input
               onChange={(e) => setName(e.target.value)}
-              class="appearance-none block w-full bg-white text-gray-700 border border-red-500 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+              class="appearance-none block w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
               placeholder="Jane"
               value={name}
               required
             />
-            <p class="text-red-500 text-xs italic">
+            {/* <p class="text-red-500 text-xs italic">
               Please fill out this field.
-            </p>
+            </p> */}
           </div>
           <div class="w-full md:w-1/2 px-3">
             <div class="w-full px-3">

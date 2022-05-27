@@ -12,7 +12,7 @@ import {
   NavItem,
   NavLinks,
 } from './NavbarElements';
- 
+
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
   }
   return (
     <>
-      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
+      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row">
             <NavLogo to="/bigriggroup" onClick={toggleHome}>
@@ -50,11 +50,11 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavLinks
                   to="/bigriggroup"
-                  onClick={toggleHome}  
+                  onClick={toggleHome}
                   className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
                 >
                   HOME
-                </NavLinks> 
+                </NavLinks>
               </NavItem>
 
               <NavItem>
@@ -68,8 +68,8 @@ const Navbar = ({ toggle }) => {
               </NavItem>
 
               <NavItem>
-                {disabeled() === "true" ? (
-                  <NavLinks className="2xl:text-desc text-navsmall lg:text-xs"> 
+                {disabeled() === 'true' ? (
+                  <NavLinks className="2xl:text-desc text-navsmall lg:text-xs">
                     <Link to="/Products" duration={500} offset={-80}>
                       Products
                     </Link>

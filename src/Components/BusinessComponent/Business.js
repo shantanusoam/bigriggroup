@@ -28,12 +28,12 @@ export default function Business() {
             id="firstmain"
             className="flex justify-center items-center font-semibold"
           >
-            <h1 className="text-5xl text-Heading">{mydata.heading}</h1>
+            <h1 className="text-5xl text-Heading mb-8">{mydata.heading}</h1>
           </div>
 
           <div id="secondmain" className={`flex w-full lg:flex-row flex-col`}>
-            <div class="container flex w-full">
-              <div class="gallery-wrap flex lg:flex-row flex-col w-full">
+            <div class=" flex w-full">
+              <div class="gallery-wrap flex lg:flex-row w-fill">
                 {mydata.thebox.map((element) => (
                   <motion.div
                     ref={hoverRef}

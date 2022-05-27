@@ -3,13 +3,16 @@ import React from 'react';
 export default function Roadservice() {
   return (
     <>
-      <div id="maincontainer" className="flex flex-col-reverse xl:flex-row pt-12 ">
+      <div
+        id="maincontainer"
+        className="flex flex-col-reverse lg:flex-row pt-12 "
+      >
         <div id="firstmain" className="bg-Darkblue">
           <div
             id="firtmaininner"
-            className="xl:ml-48 lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0"
+            className="2xl:ml-48 xl:ml-32 md:ml-5  lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0"
           >
-            <h1 className="text-white text-heading font-heading lg:text-2xl 2xl:pl-0 pl-6">  
+            <h1 className="text-white text-heading font-heading lg:text-2xl 2xl:pl-0 pl-6">
               24/7 Road Service
             </h1>
             <p className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2 lg:w-full">

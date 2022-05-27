@@ -13,7 +13,7 @@ export default function Footer() {
       >
         <div
           id="container"
-          className="flex flex-row pt-16 lg:flex justify-between" 
+          className="flex flex-row 2xl:pt-16 lg:pt-4 lg:flex justify-between"
         >
           <div
             id="one"
@@ -34,7 +34,7 @@ export default function Footer() {
               <img
                 src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/bigrigfooterlogo.png"
                 alt="logo"
-                width="200"
+                className="2xl:h-28 lg:h-24 md:h-20 h-10"
                 href="mailto:umarkhurshid3@gmail.com"
               />
             </div>
@@ -61,12 +61,16 @@ export default function Footer() {
                 />
               </div>
               <div className="ml-4">
-                <span className="block">Phone Number</span>
-                <span className="text-2xl font-bold">(604) 864 3100</span>
+                <span className="block">Toll Free No</span>
+                <span className="text-2xl font-bold">(800) 977 0010</span>
               </div>
             </div>
 
+<<<<<<< HEAD
             <div id="language" className="text-white flex  ml-36">
+=======
+            <div id="language" className="text-white flex pb-6 ml-36 mt-4">
+>>>>>>> 8f0509a5dec93c1a32662025649cf8a4d8140920
               <div className="ml-4">
                 <span>English, ਪੰਜਾਬੀ, Español, Français, हिन्दी</span>
               </div>
