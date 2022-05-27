@@ -6,14 +6,14 @@ export default function Footer() {
     <>
       <div
         id="maincontainer"
-        className="bg-Lightblue "
+        className="bg-Lightblue" 
         style={{
           height: '50vh',
         }}
       >
         <div
           id="container"
-          className="flex flex-row pt-16 lg:flex justify-between"
+          className="flex flex-row pt-16 lg:flex justify-between" 
         >
           <div
             id="one"
@@ -66,7 +66,7 @@ export default function Footer() {
               </div>
             </div>
 
-            <div id="language" className="text-white flex pb-6 ml-36">
+            <div id="language" className="text-white flex  ml-36">
               <div className="ml-4">
                 <span>English, ਪੰਜਾਬੀ, Español, Français, हिन्दी</span>
               </div>
@@ -79,7 +79,7 @@ export default function Footer() {
                 Trailers & Leasing
               </h1>
             </div>
-            <br />
+            <br /> 
 
             <div id="ancrtrl" className="text-white 2xl:leading-8 leading-6 ">
               <a href="" className="block">

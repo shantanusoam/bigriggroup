@@ -11,7 +11,7 @@ import Footer from './Components/Footernewcomp/Footer';
 import BottomBar from './Components/Bottombar';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false); 
 
   const toggle = () => {
     setIsOpen(!isOpen);

@@ -21,7 +21,7 @@ const Navbar = ({ toggle }) => {
     } else {
       setScrollNav(false);
     }
-  };
+  }; 
   // useEffect(() => {
   //   window.addEventListener('scroll', changeNav);
   // }, []);
@@ -40,7 +40,7 @@ const Navbar = ({ toggle }) => {
               <img
                 // className="2xl:w-56 w-44  2xl:h-44 h-32  "
                 className='pt-6' 
-                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
+                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg" 
                 alt="logo"
                 width="80%"
               />
@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="/Contact"
                   onClick={toggleHome}
-                  className="2xl:text-desc text-navsmall lg:text-xs"
+                  className="2xl:text-desc text-navsmall lg:text-xs" 
                 >
                   CONTACT
                 </NavLinks>
