@@ -12,7 +12,7 @@ import {
   NavItem,
   NavLinks,
 } from './NavbarElements';
-
+ 
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {
@@ -38,7 +38,8 @@ const Navbar = ({ toggle }) => {
           <div className="flex flex-row">
             <NavLogo to="/bigriggroup" onClick={toggleHome}>
               <img
-                className="2xl:w-56 w-44  2xl:h-44 h-32 "
+                // className="2xl:w-56 w-44  2xl:h-44 h-32  "
+                className='pt-6' 
                 src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
                 alt="logo"
                 width="80%"
@@ -49,11 +50,11 @@ const Navbar = ({ toggle }) => {
               <NavItem>
                 <NavLinks
                   to="/bigriggroup"
-                  onClick={toggleHome}
+                  onClick={toggleHome}  
                   className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
                 >
                   HOME
-                </NavLinks>
+                </NavLinks> 
               </NavItem>
 
               <NavItem>
