@@ -10,7 +10,7 @@ export default function Roadservice() {
         <div id="firstmain" className="bg-Darkblue">
           <div
             id="firtmaininner"
-            className="xl:ml-48 lg:ml-10 mb-10 mt-10 2xl:pt-12 pt-0"
+            className="xl:ml-48 lg:ml-10 mb-10 mt-10 "
           >
             <h1 className="text-white text-heading font-heading lg:text-2xl 2xl:pl-0 pl-6">
               24/7 Road Service
