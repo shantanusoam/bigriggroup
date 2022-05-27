@@ -25,9 +25,9 @@ export const ContactFormContainer = () => {
           width="300"
         />
       </div> */}
-      <div id="secondmain">
+      <div id="secondmain" className="flex-1 ">
         <img
-          className="flex-1 "
+          className="w-full h-full"
           src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg"
           alt=""
         />
