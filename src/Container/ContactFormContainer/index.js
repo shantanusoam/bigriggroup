@@ -28,8 +28,8 @@ export const ContactFormContainer = () => {
       </div> */}
       {/* <div id="secondmain"> */}
       <img
-        className=""
-        src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/redtruck.svg"
+        className="w-full lg:w-1/2 h-full"
+        src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/redtruck.svg" 
         alt=""
       />
       {/* </div> */}

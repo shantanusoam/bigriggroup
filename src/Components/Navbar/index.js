@@ -33,7 +33,7 @@ const Navbar = ({ toggle }) => {
   }
   return (
     <>
-      <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
+      <IconContext.Provider value={{ color: "#fff", size: "1em" }}>
         <Nav scrollNav={scrollNav}>
           <div className="flex flex-row">
             <NavLogo to="/bigriggroup" onClick={toggleHome}>
@@ -50,7 +50,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="/bigriggroup"
                   onClick={toggleHome}
-                  className="2xl:text-desc text-navsmall"
+                  className="2xl:text-desc text-navsmall md:text-sm lg:text-xs"
                 >
                   HOME
                 </NavLinks>
@@ -60,15 +60,15 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="/trailers"
                   onClick={toggleHome}
-                  className="2xl:text-desc text-navsmall"
+                  className="2xl:text-desc text-navsmall lg:text-xs"
                 >
                   TRAILER & LEASING
                 </NavLinks>
               </NavItem>
 
               <NavItem>
-                {disabeled() === 'true' ? (
-                  <NavLinks className="2xl:text-desc text-navsmall">
+                {disabeled() === "true" ? (
+                  <NavLinks className="2xl:text-desc text-navsmall lg:text-xs">
                     <Link to="/Products" duration={500} offset={-80}>
                       Products
                     </Link>
@@ -77,7 +77,7 @@ const Navbar = ({ toggle }) => {
                   <NavLinks
                     to="/tires"
                     onClick={toggleHome}
-                    className="2xl:text-desc text-navsmall"
+                    className="2xl:text-desc text-navsmall lg:text-xs"
                   >
                     TIRES & SERVICES
                   </NavLinks>
@@ -88,7 +88,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="/partz"
                   onClick={toggleHome}
-                  className="2xl:text-desc text-navsmall"
+                  className="2xl:text-desc text-navsmall lg:text-xs"
                 >
                   PARTZ
                 </NavLinks>
@@ -98,7 +98,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="/Contact"
                   onClick={toggleHome}
-                  className="2xl:text-desc text-navsmall"
+                  className="2xl:text-desc text-navsmall lg:text-xs"
                 >
                   CONTACT
                 </NavLinks>
@@ -108,7 +108,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="/Contact"
                   onClick={toggleHome}
-                  className="2xl:text-desc text-navsmall "
+                  className="2xl:text-desc text-navsmall lg:text-xs"
                 >
                   NEWS & EVENTS
                 </NavLinks>
