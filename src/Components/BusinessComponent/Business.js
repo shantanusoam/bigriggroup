@@ -32,14 +32,13 @@ export default function Business() {
           </div>
 
           <div id="secondmain" className={`flex w-full lg:flex-row flex-col`}>
-            <div class="container">
-              <div class="gallery-wrap w-screen">
+            <div class="container flex w-full">
+              <div class="gallery-wrap flex lg:flex-row flex-col w-full">
                 {mydata.thebox.map((element) => (
                   <motion.div
                     ref={hoverRef}
                     className={`demo item item-${element.id}`}
                     whileHover={{
-                      scale: 1.1,
                       transition: {
                         duration: 0.5,
                         ease: 'easeInOut',
@@ -55,7 +54,7 @@ export default function Business() {
                       //   !isHovered ? 'w-30rem relative' : '80rem'
                       // }`}
                     >
-                      <div
+                      {/* <div
                         id="backgroundd"
                         className="h-65vh  mx-2 mt-8 "
                         style={{
@@ -94,7 +93,7 @@ export default function Business() {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <div id="btn">
                         <button className="bg-Lightblue w-50rem h-14 ml-4">
                           {element.btn}
