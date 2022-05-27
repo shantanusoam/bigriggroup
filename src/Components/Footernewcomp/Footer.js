@@ -11,10 +11,13 @@ export default function Footer() {
           height: "50vh",
         }}
       >
-        <div id="container" className="flex flex-row pt-16">
+        <div id="container" 
+        className="flex flex-row pt-16 lg:flex justify-between" 
+        
+        >
           <div
             id="one"
-            className="flex-1 w-1/2"
+            className="flex-1 w-1/2 lg:block  hidden"
             style={{
               backgroundImage:
                 "url(" +
@@ -63,7 +66,9 @@ export default function Footer() {
             </div>
           </div>
 
-          <div id="two" className="flex-2 pr-4 w-2/12">
+          <div id="two"
+           className="flex-2 pr-4 w-2/12 lg:pl-0 pl-4" 
+           >
             <div className="text-white ">
               <h1 className="2xl:text-footerheading text-desc font-bold w-4/5  2xl:leading-10 leading-6">
                 Trailers & Leasing
@@ -96,7 +101,10 @@ export default function Footer() {
             </div>
           </div>
 
-          <div id="three" className="flex-2 pr-4 w-2/12">
+          <div id="three" 
+          className="flex-2 pr-4 w-2/12 " 
+          // className="flex-2 pr-4 lg:w-2/12 w-full" 
+          >
             <div className="text-white">
               <h1 className="2xl:text-footerheading text-desc font-bold  ">
                 Parts
