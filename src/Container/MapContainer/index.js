@@ -3,7 +3,7 @@ import Map from '../../assets/Map';
 import { motion } from 'framer-motion';
 import { useHover } from '../../Hooks/Hover';
 export const MapConatiner = () => {
-  const [hoverRef, isHovered] = useHover();
+  const [hoverRef, isHovered] = useHover(); 
   return (
     <div className="bg-Lightblue flex flex-col justify-between lg:flex-row">
       <div className="flex-1">
@@ -76,19 +76,64 @@ export const MapConatiner = () => {
               //  className="overlay_circle"
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/2845566198fed37254513e33cdae98a495757082/src/assets/Map/marker.svg"
               width="70"
-              className="pr-8"
+              className="pr-8 pt-4" 
             ></motion.img>
             <div>
-              <div className="mt-6 text-white font-desc text-descnew">
+              <div className="mt-2 text-white font-desc text-descnew">
                 Quebec
+                
               </div>
-              <div className="mt-6 text-white font-desc text-descnew">
-                Toronto
+              
+            </div>
+          </div>
+          <div className="flex flex-row items-center content-start mt-2 ">
+            <motion.img
+              whileInView={{ scale: [0.5, 1] }}
+              transition={{ duration: 0.2, ease: 'easeInOut' }}
+              alt="profile_circle"
+              //  className="overlay_circle"
+              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/2845566198fed37254513e33cdae98a495757082/src/assets/Map/marker.svg"
+              width="70"
+              className="pr-8 pt-4"
+            ></motion.img>
+            <div>
+              <div className="mt-2 text-white font-desc text-descnew">
+                Surrey
+                
               </div>
+              
+            </div>
+          </div>
+          <div className="flex flex-row items-center content-start mt-2 ">
+            <motion.img
+              whileInView={{ scale: [0.5, 1] }}
+              transition={{ duration: 0.2, ease: 'easeInOut' }}
+              alt="profile_circle"
+              //  className="overlay_circle"
+              src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/2845566198fed37254513e33cdae98a495757082/src/assets/Map/marker.svg"
+              width="70"
+              className="pr-8 pt-4"
+            ></motion.img>
+            <div>
+              <div className="mt-2 text-white font-desc text-descnew">
+                Edmonton
+                
+              </div>
+              
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};
+};  
+
+{/* <div className="mt-6 text-white font-desc text-descnew">
+                Toronto
+              </div>
+              <div className="mt-6 text-white font-desc text-descnew">
+                Surrey
+              </div>
+              <div className="mt-6 text-white font-desc text-descnew"> 
+                Edmonton
+              </div> */}
