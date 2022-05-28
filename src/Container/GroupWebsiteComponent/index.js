@@ -54,14 +54,14 @@ function GroupWebsiteComponent() {
                       className="pr-8"
                     ></motion.img>
 
-                    <div className="font-display max-w-sm text-2xl font-bold leading-tight">
+                    <div className="font-display  text-2xl font-bold leading-tight">
                       <h2 className="xl:text-5xl self-start text-Heading font-bold md:text-2xl link link-underline link-underline-black pb-8 mb-4">
                         {data.heading}
                       </h2>
                     </div>
                   </div>
                   {data.desc.map((data) => (
-                    <div className="2xl:w-3/4 mt-4" key={data.id}>
+                    <div className="2xl:w-3/4 mt-4 mb-2" key={data.id}>
                       <h2 className="mt-6 text-2xl text-Heading font-bold md:text-subheading ">
                         {data.head}
                       </h2>
@@ -77,7 +77,7 @@ function GroupWebsiteComponent() {
                   ))}
                   {data.comingsoon ? (
                     <section className="centered-container">
-                      <a className="link link--arrowed mt-6" href="#">
+                      <a className="link link--arrowed " href="#">
                         <div className="flex flex-row align-center justify-center">
                           <h2 className="text-lg text-Lightblue font-semibold md:text-md text-center pr-4">
                             Coming soon
@@ -114,7 +114,7 @@ function GroupWebsiteComponent() {
                     </section>
                   ) : (
                     <div>
-                      <button className="text-white bg-yellow-bg  font-semibold  mt-8 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
+                      <button className="text-white bg-yellow-bg  font-semibold  mt-8 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
                         Inventory
                       </button>
                     </div>

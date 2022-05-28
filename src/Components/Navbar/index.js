@@ -21,7 +21,7 @@ const Navbar = ({ toggle }) => {
     } else {
       setScrollNav(false);
     }
-  }; 
+  };
   // useEffect(() => {
   //   window.addEventListener('scroll', changeNav);
   // }, []);
@@ -39,8 +39,8 @@ const Navbar = ({ toggle }) => {
             <NavLogo to="/bigriggroup" onClick={toggleHome}>
               <img
                 // className="2xl:w-56 w-44  2xl:h-44 h-32  "
-                className='pt-6' 
-                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg" 
+                className="pt-6"
+                src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/navlogo.svg"
                 alt="logo"
                 width="80%"
               />
@@ -99,7 +99,7 @@ const Navbar = ({ toggle }) => {
                 <NavLinks
                   to="/Contact"
                   onClick={toggleHome}
-                  className="2xl:text-desc text-navsmall lg:text-xs" 
+                  className="2xl:text-desc text-navsmall lg:text-xs"
                 >
                   CONTACT
                 </NavLinks>
@@ -122,8 +122,8 @@ const Navbar = ({ toggle }) => {
           </div>
 
           <NavBtn>
-            <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow hover:shadow-yellow-shadowhover  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
-              (800) 977 0010 
+            <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
+              (800) 977 0010
             </button>
           </NavBtn>
         </Nav>

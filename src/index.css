@@ -20,7 +20,7 @@ body {
   background-image: linear-gradient(transparent, transparent),
     linear-gradient(#fff, #fff);
 
-  background-size: 5rem 0.4rem;
+  background-size: 10% 0.2rem;
   background-position: 0 100%;
   background-repeat: no-repeat;
   transition: background-size 0.5s ease-in-out;
@@ -33,7 +33,7 @@ body {
 }
 
 .link-underline:hover {
-  background-size: 100% 0.4rem;
+  background-size: 100% 0.2rem;
   background-position: 0 100%;
 }
 /* .hoverLine h1 div {
