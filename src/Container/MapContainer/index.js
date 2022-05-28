@@ -3,7 +3,7 @@ import Map from '../../assets/Map';
 import { motion } from 'framer-motion';
 import { useHover } from '../../Hooks/Hover';
 export const MapConatiner = () => {
-  const [hoverRef, isHovered] = useHover(); 
+  const [hoverRef, isHovered] = useHover();
   return (
     <div className="bg-Lightblue flex flex-col justify-between lg:flex-row">
       <div className="flex-1">
@@ -63,7 +63,7 @@ export const MapConatiner = () => {
               </div>
             </div>
           </div>
-          <div className="mt-8">
+          <div className="mt-4">
             <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
               Upcoming Locations
             </h3>
@@ -76,14 +76,12 @@ export const MapConatiner = () => {
               //  className="overlay_circle"
               src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/2845566198fed37254513e33cdae98a495757082/src/assets/Map/marker.svg"
               width="70"
-              className="pr-8 pt-4" 
+              className="pr-8 pt-4"
             ></motion.img>
             <div>
               <div className="mt-2 text-white font-desc text-descnew">
                 Toronto
-                
               </div>
-              
             </div>
           </div>
           <div className="flex flex-row items-center content-start mt-2 ">
@@ -99,9 +97,7 @@ export const MapConatiner = () => {
             <div>
               <div className="mt-2 text-white font-desc text-descnew">
                 Surrey
-                
               </div>
-              
             </div>
           </div>
           <div className="flex flex-row items-center content-start mt-2 ">
@@ -117,18 +113,17 @@ export const MapConatiner = () => {
             <div>
               <div className="mt-2 text-white font-desc text-descnew">
                 Edmonton
-                
               </div>
-              
             </div>
           </div>
         </div>
       </div>
     </div>
   );
-};  
+};
 
-{/* <div className="mt-6 text-white font-desc text-descnew">
+{
+  /* <div className="mt-6 text-white font-desc text-descnew">
                 Toronto
               </div>
               <div className="mt-6 text-white font-desc text-descnew">
@@ -136,4 +131,5 @@ export const MapConatiner = () => {
               </div>
               <div className="mt-6 text-white font-desc text-descnew"> 
                 Edmonton
-              </div> */}
+              </div> */
+}
