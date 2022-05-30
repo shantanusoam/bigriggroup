@@ -61,15 +61,18 @@ function GroupWebsiteComponent() {
                     </div>
                   </div>
                   {data.desc.map((data) => (
-                    <div className="2xl:w-3/4 mt-4 mb-2" key={data.id}>
-                      <h2 className="mt-6 text-2xl text-Heading font-bold md:text-subheading ">
+                    <div
+                      className="2xl:w-3/4 2xl:mt-4 lg:mt-2  mb-2"
+                      key={data.id}
+                    >
+                      <h2 className="2xl:mt-6  lg:mt-4 text-2xl text-Heading font-bold md:text-subheading ">
                         {data.head}
                       </h2>
-                      <p className="mt-2 text-Description font-desc text-descnew ">
+                      <p className="mt-2  text-Description font-desc text-descnew ">
                         {data.desc1}
                       </p>
                       {data.desc2 ? (
-                        <p className="mt-12 text-Description font-desc text-descnew ">
+                        <p className="2xl:mt-12 lg:mt-4 text-Description font-desc text-descnew ">
                           {data.desc1}
                         </p>
                       ) : null}
@@ -114,7 +117,7 @@ function GroupWebsiteComponent() {
                     </section>
                   ) : (
                     <div>
-                      <button className="text-white bg-yellow-bg  font-semibold  mt-8 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
+                      <button className="text-white bg-yellow-bg  font-semibold  2xl:mt-8 mt-2 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
                         Inventory
                       </button>
                     </div>

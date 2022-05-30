@@ -35,7 +35,7 @@ const Navbar = ({ toggle }) => {
     <>
       <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
         <Nav scrollNav={scrollNav}>
-          <div className="flex flex-row">
+          <div className="flex flex-row ml-18">
             <NavLogo to="/bigriggroup" onClick={toggleHome}>
               <img
                 // className="2xl:w-56 w-44  2xl:h-44 h-32  "
@@ -115,7 +115,7 @@ const Navbar = ({ toggle }) => {
                 </NavLinks>
               </NavItem>
 
-              <MobileIcon onClick={toggle}>
+              <MobileIcon onClick={toggle} className="">
                 <FaBars color="#111" />
               </MobileIcon>
             </NavMenu>

@@ -24,12 +24,12 @@ export default function Abouthome() {
               <div id="backimage">
                 <div id="firstmain">
                   <div className="flex justify-center items-center ">
-                    <h1 className="text-5xl text-Heading  w-fit mt-24 mb-6 text-center   p-2 font-bold  link link-underline link-underline-black">
+                    <h1 className="text-5xl text-Heading  w-fit 2xl:mt-24 xl:mt-16 lg:mt-12 mb-6 text-center   p-2 font-bold  link link-underline link-underline-black">
                       {aboutdata.headingmain}
                     </h1>
                   </div>
                   <div className="flex justify-center items-center">
-                    <p className="text-2xl lg:text-Description  lg:w-2/4 w-fit tracking-wide font-semibold leading-10  flex justify-center items-center   ">
+                    <p className="text-2xl lg:text-Description  2xl:w-2/4 xl:w-3/5 lg:w-4/5 w-fit tracking-wide font-semibold leading-10  flex justify-center items-center   ">
                       {aboutdata.desc}
                       {/* <br /> <br />
                   {aboutdata.descOne} */}
@@ -40,7 +40,7 @@ export default function Abouthome() {
                     id="btn"
                     className="flex justify-center itesm-center mt-16"
                   >
-                    <button className="  text-white bg-Lightblue  font-bold  rounded-md shadow-sm hover:shadow-md shadow-blue-shadow hover:shadow-blue-shadowhover  p-4 lg:w-1/6 md:mb-6  2xl:text-2xl lg:text-md ">
+                    <button className="  text-white bg-Lightblue  font-bold  rounded-md shadow-sm hover:shadow-md shadow-blue-shadow hover:shadow-blue-shadowhover  p-5 lg:4/5 lg:w-1/6 md:mb-6  2xl:text-2xl lg:text-md ">
                       See more
                     </button>
                   </div>
