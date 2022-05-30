@@ -24,12 +24,12 @@ export default function Abouthome() {
               <div id="backimage">
                 <div id="firstmain">
                   <div className="flex justify-center items-center ">
-                    <h1 className="text-5xl text-Heading  w-fit 2xl:mt-24 xl:mt-16 lg:mt-12 mb-6 text-center   p-2 font-bold  link link-underline link-underline-black">
+                    <h1 className="text-5xl text-Heading  w-fit 2xl:mt-18 xl:mt-16 lg:mt-12 mb-6 text-center   p-2 font-bold  link link-underline link-underline-black">
                       {aboutdata.headingmain}
                     </h1>
                   </div>
                   <div className="flex justify-center items-center">
-                    <p className="text-2xl lg:text-Description  2xl:w-2/4 xl:w-3/5 lg:w-4/5 w-fit tracking-wide font-semibold leading-10  flex justify-center items-center   ">
+                    <p className="text-2xl lg:text-Description  2xl:w-3/5 xl:w-3/5 lg:w-4/5 w-fit tracking-wide font-semibold leading-10  flex justify-center items-center text-justify  ">
                       {aboutdata.desc}
                       {/* <br /> <br />
                   {aboutdata.descOne} */}

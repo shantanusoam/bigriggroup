@@ -55,17 +55,14 @@ function GroupWebsiteComponent() {
                     ></motion.img>
 
                     <div className="font-display  text-2xl font-bold leading-tight">
-                      <h2 className="xl:text-5xl self-start text-Heading font-bold md:text-2xl link link-underline link-underline-black pb-8 mb-4">
+                      <h2 className="xl:text-5xl self-start text-Heading font-bold md:text-2xl link link-underline link-underline-black 2xl:pb-8 pb-2 2xl::mb-4 mb-2">
                         {data.heading}
                       </h2>
                     </div>
                   </div>
                   {data.desc.map((data) => (
-                    <div
-                      className="2xl:w-3/4 2xl:mt-4 lg:mt-2  mb-2"
-                      key={data.id}
-                    >
-                      <h2 className="2xl:mt-6  lg:mt-4 text-2xl text-Heading font-bold md:text-subheading ">
+                    <div className="2xl:w-3/4 2xl:mt-4 lg:mt-2  " key={data.id}>
+                      <h2 className="2xl:mt-4  lg:mt-2 text-2xl text-Heading font-bold md:text-subheading ">
                         {data.head}
                       </h2>
                       <p className="mt-2  text-Description font-desc text-descnew ">
