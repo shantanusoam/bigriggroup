@@ -45,18 +45,18 @@ const Contactform = () => {
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-            <label
+            {/* <label
               class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               for="grid-first-name"
             >
               Name
-            </label>
+            </label> */}
             <input
               onChange={(e) => setName(e.target.value)}
               class="appearance-none block w-full bg-white text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
               id="grid-first-name"
               type="text"
-              placeholder="Jane"
+              placeholder="Your Name"
               value={name}
               required
             />
@@ -66,63 +66,66 @@ const Contactform = () => {
           </div>
           <div class="w-full md:w-1/2 px-3">
             <div class="w-full px-3">
-              <label
+              {/* <label
                 class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
                 for="grid-password"
               >
                 E-mail
-              </label>
+              </label> */}
               <input
                 onChange={(e) => setEmail(e.target.value)}
                 value={email}
                 class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
                 id="email"
+                placeholder="Your Email"
                 type="email"
                 required
               />
-              <p class="text-gray-600 text-xs italic">
+              {/* <p class="text-gray-600 text-xs italic">
                 Some tips - as long as needed
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
-            <label
+            {/* <label
               class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               for="grid-password"
             >
               why you want to contact us
-            </label>
+            </label> */}
             <input
               class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="email"
+              placeholder="why you want to contact us"
               required
             />
-            <p class="text-gray-600 text-xs italic">
+            {/* <p class="text-gray-600 text-xs italic">
               Some tips - as long as needed
-            </p>
+            </p> */}
           </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
-            <label
+            {/* <label
               class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
               for="grid-password"
             >
               Message
-            </label>
+            </label> */}
             <textarea
               onChange={(e) => setMessage(e.target.value)}
               value={message}
               class=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-18 resize-none"
               id="message"
+              placeholder="Message US"
             ></textarea>
-            <p class="text-gray-600 text-xs italic">
+            {/* <p class="text-gray-600 text-xs italic">
               Re-size can be disabled by set by resize-none / resize-y /
               resize-x / resize
-            </p>
+            </p> */}
           </div>
         </div>
         <div class="md:flex md:items-center">

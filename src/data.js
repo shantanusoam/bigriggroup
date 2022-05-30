@@ -263,23 +263,12 @@ export const BigTireBrands = [
 
     Brands: [
       {
-        id: '1',
-        imageurl:
-          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png',
-        heading: 'BKT-logo',
-      },
-      {
         id: '2',
         imageurl:
           'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/CT_Horiz-Logo.png',
         heading: 'CT_Horiz',
       },
-      {
-        id: '3',
-        imageurl:
-          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/Prometeon-logo.png',
-        heading: 'Prometeon',
-      },
+
       {
         id: '4',
         imageurl:
@@ -305,12 +294,7 @@ export const BigTireBrands = [
           'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/continental.png',
         heading: 'Havco',
       },
-      {
-        id: '12',
-        imageurl:
-          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/cooper.png',
-        heading: 'Havco',
-      },
+
       {
         id: '13',
         imageurl:
