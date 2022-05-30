@@ -64,6 +64,7 @@ const Contactform = () => {
               Please fill out this field.
             </p> */}
           </div>
+
           <div class="w-full md:w-1/2 px-3">
             <div class="w-full px-3">
               {/* <label
@@ -88,6 +89,53 @@ const Contactform = () => {
           </div>
         </div>
         <div class="flex flex-wrap -mx-3 mb-6">
+          <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+            {/* <label
+              class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+              for="grid-first-name"
+            >
+              Name
+            </label> */}
+            <input
+              type="text"
+              list="cars"
+              placeholder=" &nbsp; Reason for contacting"
+              className="border block w-full bg-white text-gray-700  border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+              required
+            />
+            <datalist id="cars">
+              <option>buy truck</option>
+              <option>buy trailers</option>
+            </datalist>
+            {/* <p class="text-red-500 text-xs italic">
+              Please fill out this field.
+            </p> */}
+          </div>
+
+          <div class="w-full md:w-1/2 px-3">
+            <div class="w-full px-3">
+              {/* <label
+                class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
+                for="grid-password"
+              >
+                E-mail
+              </label> */}
+              <input
+                onChange={(e) => setEmail(e.target.value)}
+                value={email}
+                class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
+                id="email"
+                placeholder="Phone Number"
+                type="Phone"
+                required
+              />
+              {/* <p class="text-gray-600 text-xs italic">
+                Some tips - as long as needed
+              </p> */}
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-wrap -mx-3 mb-6">
           <div class="w-full px-3">
             {/* <label
               class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
@@ -95,13 +143,14 @@ const Contactform = () => {
             >
               why you want to contact us
             </label> */}
-            <input
+            {/* <input
               class="appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
               id="email"
               type="email"
               placeholder="why you want to contact us"
               required
-            />
+            /> */}
+
             {/* <p class="text-gray-600 text-xs italic">
               Some tips - as long as needed
             </p> */}
