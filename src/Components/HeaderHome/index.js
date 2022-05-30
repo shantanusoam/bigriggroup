@@ -23,7 +23,6 @@ const Gradients = styled.div`
   width: 100%;
   height: 100%;
   transform: rotate(-180deg);
-  min-height: 600px;
   object-fit: cover;
   position: absolute;
   z-index: 2;
@@ -33,24 +32,14 @@ const HeroSection = () => {
   return (
     <HeroContainer id="Home">
       <Gradients></Gradients>
-      <HeroBg>
-        <VideoBg
-          autoPlay
-          loop
-          muted
-          src={Video}
-          type="video/mp4"
-          className="mt-28"
-        />
+      <HeroBg className="lg:mt-24 mt-0">
+        <VideoBg autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
         <ContainerMain>
           <HeroP>Transforming The Trucking Dynamics </HeroP>
 
-          <Samosa>
-          
-            Shop Dry Vans, Reefers, Trucks , Parts, and more.
-          </Samosa>
+          <Samosa>Shop Dry Vans, Reefers, Trucks , Parts, and more.</Samosa>
         </ContainerMain>
 
         {/* <PCENTER class="text-gray-600 p-8">

@@ -11,7 +11,7 @@ import Footer from './Components/Footernewcomp/Footer';
 import BottomBar from './Components/Bottombar';
 
 function App() {
-  const [isOpen, setIsOpen] = useState(false); 
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -20,13 +20,13 @@ function App() {
   return (
     <Router>
       <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
-      <Navbar></Navbar>
+      <Navbar toggle={toggle}></Navbar>
       <Routes>
         <Route path="/bigriggroup" element={<Home />} />
         <Route
           path="/partz"
           element={
-            <CommmingSoonComponentindex data="partz"></CommmingSoonComponentindex>  
+            <CommmingSoonComponentindex data="partz"></CommmingSoonComponentindex>
           }
         />
         <Route

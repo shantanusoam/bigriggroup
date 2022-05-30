@@ -5,12 +5,11 @@ import {
   SlidebarContainer,
   SidebarWrapper,
   SidebarMenu,
-  SidebarLink,
   SidebarLinkR,
   SideBtnWrap,
   SidebarRoute,
 } from './SlidebarElement';
-import { animateScroll as scroll, Link } from 'react-scroll';
+// import { animateScroll as scroll, Link } from 'react-scroll';
 const Sidebar = ({ isOpen, toggle }) => {
   function disabel() {
     const path = window.location.pathname;
@@ -21,38 +20,34 @@ const Sidebar = ({ isOpen, toggle }) => {
     return false;
   }
   return (
-    <SlidebarContainer isOpen={isOpen} onClick={toggle} className="ml-48">
+    <SlidebarContainer isOpen={isOpen} onClick={toggle}>
       <Icon onClick={toggle}>
         <CloseIcon />
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLinkR to="/">
-            <a to="/" onClick={toggle}>
-              Home
-            </a>
-          </SidebarLinkR>
+          <SidebarLinkR to="/bigriggroup">Home</SidebarLinkR>
 
-          <SidebarLinkR to="/">
-            <a onClick={toggle} to="/">
-              About
-            </a>
-          </SidebarLinkR>
-          {disabel() ? (
-            <SidebarLink>
-              <Link href="Product" onClick={toggle}>
-                Product
-              </Link>
-            </SidebarLink>
-          ) : null}
+          <SidebarLinkR to="/trailers">About</SidebarLinkR>
+          <SidebarLinkR to="/Products">Services</SidebarLinkR>
+          <SidebarLinkR to="/partz">Partz</SidebarLinkR>
+          <SidebarLinkR to="/tires">Tires</SidebarLinkR>
+          {/* <SidebarLinkR to="/Ecommerce">Ecommerce</SidebarLinkR>
+          <SidebarLinkR to="/Careers">Careers</SidebarLinkR>
+          <SidebarLinkR to="/Shipfreight">Shipfreight</SidebarLinkR>
+          <SidebarLinkR to="/Industries">Industries</SidebarLinkR>
+          <SidebarLinkR to="/KalPower">KalPower</SidebarLinkR> */}
         </SidebarMenu>
-        <SideBtnWrap>
-          <SidebarRoute to="/Contact">
-            {/* <addEventListener to="/Contact" duration={500} offset={-80}>
-              Contact
-            </addEventListener> */}
+        <SideBtnWrap className="mt-2">
+          <SidebarRoute>
+            <a href="/Contact">Contact Us</a>
           </SidebarRoute>
         </SideBtnWrap>
+        {/* <SideBtnWrap className="mt-2">
+          <SidebarRoute to="/WorkAtKalway">
+            <a href="/WorkAtKalway">Work At KALWAY</a>
+          </SidebarRoute>
+        </SideBtnWrap> */}
       </SidebarWrapper>
     </SlidebarContainer>
   );
