@@ -116,7 +116,7 @@ const Contactform = () => {
             <textarea
               onChange={(e) => setMessage(e.target.value)}
               value={message}
-              class=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-48 resize-none"
+              class=" no-resize appearance-none block w-full bg-white text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500 h-18 resize-none"
               id="message"
             ></textarea>
             <p class="text-gray-600 text-xs italic">
