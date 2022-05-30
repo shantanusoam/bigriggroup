@@ -157,6 +157,49 @@ export const BrandCompnentBrands = [
       'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BrandsLogo/havco-logo.png',
     heading: 'Havco',
   },
+  {
+    id: '9',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png',
+    heading: 'Havco',
+  },
+
+  {
+    id: '10',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/apollo.png',
+    heading: 'Havco',
+  },
+  {
+    id: '11',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/continental.png',
+    heading: 'Havco',
+  },
+  {
+    id: '12',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/cooper.png',
+    heading: 'Havco',
+  },
+  {
+    id: '13',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/good-year.png',
+    heading: 'Havco',
+  },
+  {
+    id: '14',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/pirelli.png',
+    heading: 'Havco',
+  },
+  {
+    id: '15',
+    imageurl:
+      'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/prinx.png',
+    heading: 'Havco',
+  },
 ];
 
 export const BigPArtzBrands = [
@@ -242,6 +285,49 @@ export const BigTireBrands = [
         imageurl:
           'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/TBCB-Logo.png',
         heading: 'TBCB',
+      },
+      {
+        id: '9',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png',
+        heading: 'Havco',
+      },
+
+      {
+        id: '10',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/apollo.png',
+        heading: 'Havco',
+      },
+      {
+        id: '11',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/continental.png',
+        heading: 'Havco',
+      },
+      {
+        id: '12',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/cooper.png',
+        heading: 'Havco',
+      },
+      {
+        id: '13',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/good-year.png',
+        heading: 'Havco',
+      },
+      {
+        id: '14',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/pirelli.png',
+        heading: 'Havco',
+      },
+      {
+        id: '15',
+        imageurl:
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/prinx.png',
+        heading: 'Havco',
       },
     ],
   },
