@@ -122,7 +122,14 @@ const Navbar = ({ toggle }) => {
           </div>
 
           <NavBtn>
-            <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
+            <button className="text-white bg-yellow-bg  font-semibold  rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-64 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md ">
+              <div>
+                <img
+                  src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/Vectorphone.svg"
+                  alt=""
+                  className="text-white mr-2"
+                />
+              </div>
               (800) 977 0010
             </button>
           </NavBtn>
