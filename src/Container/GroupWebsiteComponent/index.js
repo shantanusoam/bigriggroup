@@ -11,12 +11,15 @@ function GroupWebsiteComponent() {
         // style={{ backgroundImage: `url(${BgImage})` }}
       >
         {GroupWebsiteComponentdata.map((data) => (
-          <div className="container   w-screen  text-gray-600" key={data.id}>
+          <div
+            className="container   w-screen w-fit  text-gray-600"
+            key={data.id}
+          >
             <div
               className={
                 data.id % 2 !== 0
-                  ? 'md:flex w-screen '
-                  : 'md:flex md:flex-row-reverse w-screen flex-col-reverse'
+                  ? 'md:flex lg:w-screen w-fit'
+                  : 'md:flex md:flex-row-reverse lg:w-screen flex-col-reverse w-fit'
               }
             >
               <motion.div

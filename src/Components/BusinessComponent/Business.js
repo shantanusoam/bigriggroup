@@ -21,19 +21,21 @@ export default function Business() {
 
   return (
     <>
-      <div class="social"></div>
+      {/* <div class="social"></div> */}
       <div id="maincontainer" className="bg-businessbackground">
-        <div id="innermain" className="lg:p-12 p-2 bg-white drop-shadow-2xl">
+        <div id="innermain" className="lg:p-12 p-2 drop-shadow-2xl">
           <div
             id="firstmain"
             className="flex justify-center items-center font-semibold"
           >
-            <h1 className="text-5xl text-Heading mb-8">{mydata.heading}</h1>
+            <h1 className="text-5xl font-bold link link-underline link-underline-black text-Heading mb-6 pb-2">
+              {mydata.heading}
+            </h1>
           </div>
 
           <div id="secondmain" className={`flex w-full lg:flex-row flex-col`}>
             <div class=" flex w-full">
-              <div class="gallery-wrap flex lg:flex-row w-fill">
+              <div class="gallery-wrap flex lg:flex-row flex-col w-fill">
                 {mydata.thebox.map((element) => (
                   <motion.div
                     ref={hoverRef}

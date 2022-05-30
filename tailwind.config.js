@@ -54,7 +54,7 @@ module.exports = {
         whitenew: '#F1F1F1',
         inputborder: '#E0E3EB',
         neautralform: '#292E3D',
-        businessbackground: '#F2F2F2',
+        businessbackground: '#f2f2f2',
       },
       spacing: {
         '30rem': '33rem',
