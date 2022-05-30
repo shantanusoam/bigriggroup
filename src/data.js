@@ -8,13 +8,13 @@ export const ServiceComponentdata = [
         id: 1,
         Logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/b14fcada80e930a65933829f228e72d2de3bc620/src/assets/Images/icons/TruckAndTrailers-icon.svg',
         Heading: 'Trailers & Leasing',
-        desc: 'As a Vanguard Authorized dealer, We offer a variety of dry vans and refrigerated trailers and flatsbed and chessie',
+        desc: `BigRig Trailers & Leasing Inc is a licensed distributor for Vanguard trailers. We have a diverse inventory of dry vans, reefers, flatbeds, and used trucks. The dry vans are available in 24" and 48" logistic posts and reefers. Our reefer's inventory includes top-grade units from brands like Thermo King, Carrier, and more.`,
       },
       {
         id: 2,
         Logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/b14fcada80e930a65933829f228e72d2de3bc620/src/assets/Images/icons/partz-icon.svg',
         Heading: 'Partz',
-        desc: 'Designed To Reduce Your Cost Of Ownership, Our Trucks Improved Fuel Economy, Enhanced Safety Features And Lead The Way In Technological Advancements And Driver Comfort',
+        desc: 'BigRig Partz is the fastest-growing OE & OEM aftermarket parts supplier for commercial vehicles. The comprehensive inventory covers all makes & models from 100+ brands to cater to every demand of your commercial vehicle. In addition, we have partnered with tier 1 and tier 2 parts suppliers to deliver genuine products.  ',
       },
       {
         id: 3,
@@ -39,15 +39,12 @@ export const GroupWebsiteComponentdata = [
       {
         id: 1,
         head: `Trucks`,
-        desc1: `As a Vanguard authorized dealer, we offer a variety of dry
-        vans and refrigerated trailers and flatsbed and chessie.`,
+        desc1: `BigRig Trailers & Leasing Inc is a licensed distributor for Vanguard trailers. We have a diverse inventory of dry vans, reefers, flatbeds, and used trucks. The dry vans are available in 24" and 48" logistic posts and reefers. Our reefer's inventory includes top-grade units from brands like Thermo King, Carrier, and more.  `,
       },
       {
         id: 2,
         head: `Trailers`,
-        desc1: `Designed To Reduce Your Cost Of Ownership, Our Trucks Improved
-        Fuel Economy, Enhanced Safety Features And Lead The Way In
-        Technological Advancements And Driver Comfort.`,
+        desc1: `We have quality used trailers for sale, which vary from 2008 to 2023, with various makes from Utility, Wabash, Stoughton, and Great Dane. In addition, we have used trucks from Volvo, Peterbilt, Freightliner, and Kenworth from the year anywhere from 2015 to 2023. `,
       },
     ],
     cta: {
@@ -67,8 +64,8 @@ export const GroupWebsiteComponentdata = [
       {
         id: 1,
         head: `Heavy Duty Parts`,
-        desc1: `“New and independent” Heavy Duty Truck and Trader Parts Distributor. Creating a nationwide distribution chain by strategically placing Heavy Duty Parts Distribution Centers around the country to supply our customers needs.`,
-        desc2: `Our “Culturally Diverse” Parts Professionals around the country are able to assist and provide outstanding customer service and break through any language barrier.`,
+        desc1: `BigRig Partz is the fastest-growing OE & OEM aftermarket parts supplier for commercial vehicles. The comprehensive inventory covers all makes & models from 100+ brands to cater to every demand of your commercial vehicle. In addition, we have partnered with tier 1 and tier 2 parts suppliers to deliver genuine products.  `,
+        // desc2: `Our “Culturally Diverse” Parts Professionals around the country are able to assist and provide outstanding customer service and break through any language barrier.`,
       },
     ],
     cta: {
@@ -89,7 +86,7 @@ export const GroupWebsiteComponentdata = [
       {
         id: 1,
         head: `Commercial Tires`,
-        desc1: `Kal Tires has 9 distribution centers, 4 service centers and nationwide 24/7 emergency road service. Exclusive with major tire manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama, Double Coin, Pirelli and Hankook. We offer national account billing for Goodyear, Cooper, Michelin, Yokohama and Hankook products. `,
+        desc1: `BigRig Tires & Services is the fastest growing distributor of commercial vehicles, industrial, and agricultural tires. BKT, Apollo, Prinx Tires, Pirelli, Continental, and Cooper are notable brands offered.  `,
       },
       {
         id: 2,
@@ -217,34 +214,34 @@ export const BigPArtzBrands = [
 
 export const BigTireBrands = [
   {
-    id: "0",
-    logo: "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/tirered.svg", 
-    name: "Kaltire",
+    id: '0',
+    logo: 'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/tirered.svg',
+    name: 'Kaltire',
 
     Brands: [
       {
-        id: "1",
+        id: '1',
         imageurl:
-          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png",
-        heading: "BKT-logo",
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/BKT-logo.png',
+        heading: 'BKT-logo',
       },
       {
-        id: "2",
+        id: '2',
         imageurl:
-          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/CT_Horiz-Logo.png",
-        heading: "CT_Horiz",
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/CT_Horiz-Logo.png',
+        heading: 'CT_Horiz',
       },
       {
-        id: "3",
+        id: '3',
         imageurl:
-          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/Prometeon-logo.png",
-        heading: "Prometeon",
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/Prometeon-logo.png',
+        heading: 'Prometeon',
       },
       {
-        id: "4",
+        id: '4',
         imageurl:
-          "https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/TBCB-Logo.png",
-        heading: "TBCB",
+          'https://raw.githubusercontent.com/shantanusoam/bigriggroup/master/src/assets/Images/BigRigTireSponsers/TBCB-Logo.png',
+        heading: 'TBCB',
       },
     ],
   },
@@ -254,7 +251,7 @@ export const AboutusSec = [
   {
     id: '0',
     headingmain: 'About Us',
-    desc: '"Big Rig Trailers & Leasing is a large and continually growing trucking company that starts in California as Kal Freight Inc, with over 800 trucks and 2,000 trailers and has over 800 employees. As a dynamic modern transportation company with a strategic corporate location based in Ontario, California.',
+    desc: `Established in 2021, BigRig Group has a unique business portfolio that fulfills all trucking needs under one roof, making it one of its own kind in the industry. BigRig Group is an end-to-end transportation solution provider in Canada. We have designed distinctive business models in coherence with our customer's preferences for every type of trucking solution.`,
     aboutimg: [
       {
         id: '1',

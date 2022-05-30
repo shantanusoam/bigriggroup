@@ -18,9 +18,11 @@ export const MapConatiner = () => {
         <div className=" flex-col flex content-center justify-center lg:w-4/3 flex-1 self-start items-start m-4 lg:ml-48 mt-2 ">
           <div>
             <h3 className="xl:text-4xl self-start text-white font-bold md:text-2xl ">
-              Our Locations
+              National Footprint:
             </h3>
             <div className="mt-2 text-white font-desc text-descnew">
+              Visit our nearest yard...
+              <br></br>
               As a Vanguard authorized dealer, we offer a variety of dry vans
               and refrigerated trailers and flatsbed and chessie.
             </div>

@@ -16,12 +16,11 @@ export default function Roadservice() {
               24/7 Road Service
             </h1>
             <p className="text-white  font-desc 2xl:text-xl text-descnew 2xl:w-11/12 w-full 2xl:pl-0 pl-6 2xl:pt-4 pt-2">
-              Kal Tires has 9 distribution centers, 4 service centers and
-              nationwide 24/7 emergency road service. Exclusive with major tire
-              manufactures such as Goodyear, Cooper, BKT, Michelin, Yokohama,
-              Double Coin, Pirelli and Hankook. We offer national account
-              billing for Goodyear, Cooper, Michelin, Yokohama and Hankook
-              products.
+              We understand the value of your time. Hence to minimize delays and
+              improve downtime, we offer 24*7 roadside assistance, even in
+              remote areas. A vast vendor network spread across British Columbia
+              and an impressive team of tire specialists enable us to respond
+              efficiently and keep you always on the go.
             </p>
             <div>
               <button className="text-white bg-yellow-bg  font-semibold  mt-4 rounded-md shadow-sm hover:shadow-md shadow-yellow-shadow transition-all hover:drop-shadow-lg  flex items-center justify-center 2xl:w-80 lg:w-36 md:32 2xl:h-16 h-12 2xl:text-2xl lg:text-md md:text-md 2xl:ml-0 ml-6 2xl:p-0 p-4">
