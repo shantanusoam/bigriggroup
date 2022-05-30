@@ -4,8 +4,8 @@ import Contactform from '../../Components/ContactForm/';
 export const ContactFormContainer = () => {
   return (
     // <div id="maincontainer" className='w-70vh' >
-    <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-start lg:gap-12 flex lg:flex-row flex-col align-center justify-center ">
-      <div className="mt-24 flex content-center justify-center  flex-1 ">
+    <div className=" flex md:flex lg:w-screen w-fit    lg:flex-row flex-col align-center justify-center ">
+      <div className="lg:mt-16 lg:mb-16 h-fit flex content-center justify-center  flex-1 ">
         {/* <div>
           <h1 className="xl:text-5xl text-Heading font-semibold md:text-2xl link link-underline link-underline-black pb-8">
             Contact Formsdfd
@@ -25,12 +25,19 @@ export const ContactFormContainer = () => {
           width="300"
         />
       </div> */}
-      <div id="secondmain" className="flex-1 w-full h-full">
-        <img
+      <div className="flex-1 ">
+        <div
+          className={'h-screen w-full bg-cover bg-no-repeat bg-center'}
+          style={{
+            backgroundImage: `url(https://raw.githubusercontent.com/shantanusoam/bigriggroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg)`,
+          }}
+        >
+          {/* <img
           className="w-full"
           src="https://raw.githubusercontent.com/shantanusoam/bigriggroup/e6c3841952235a1866804c85e994f1d5c540c214/src/assets/Images/rednewtruck.svg"
           alt=""
-        />
+        /> */}
+        </div>
       </div>
     </div>
     // </div>

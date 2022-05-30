@@ -11,10 +11,7 @@ function GroupWebsiteComponent() {
         // style={{ backgroundImage: `url(${BgImage})` }}
       >
         {GroupWebsiteComponentdata.map((data) => (
-          <div
-            className="container   w-screen w-fit  text-gray-600"
-            key={data.id}
-          >
+          <div className="container   w-screen   text-gray-600" key={data.id}>
             <div
               className={
                 data.id % 2 !== 0

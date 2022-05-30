@@ -1,12 +1,12 @@
 import React from 'react';
-
+import { isMobile, browserName } from 'react-device-detect';
 function Map() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       id="Map"
-      width="919.4"
-      height="824.31"
+      width={isMobile ? '500' : '919.4'}
+      height={isMobile ? '700' : '824.31'}
     >
       <g id="Nunawat">
         <path
